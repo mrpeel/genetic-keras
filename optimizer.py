@@ -56,8 +56,8 @@ class Optimizer():
 
     @staticmethod
     def fitness(network):
-        """Return the accuracy, which is our fitness function."""
-        return network.accuracy
+        """Return the loss, which is our fitness function."""
+        return network.loss
 
     def grade(self, pop):
         """Find average fitness for a population.
@@ -66,7 +66,7 @@ class Optimizer():
             pop (list): The population of networks
 
         Returns:
-            (float): The average accuracy of the population
+            (float): The average loss of the population
 
         """
         summed = reduce(add, (self.fitness(network) for network in pop))
@@ -134,7 +134,7 @@ class Optimizer():
         graded = [(self.fitness(network), network) for network in pop]
 
         # Sort on the scores.
-        graded = [x[1] for x in sorted(graded, key=lambda x: x[0], reverse=True)]
+        graded = [x[1] for x in sorted(graded, key=lambda x: x[0], reverse=False)]
 
         # Get the number we want to keep for the next gen.
         retain_length = int(len(graded)*self.retain)

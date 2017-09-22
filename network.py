@@ -19,7 +19,7 @@ class Network():
                 activation (list): ['relu', 'elu']
                 optimizer (list): ['rmsprop', 'adam']
         """
-        self.accuracy = 0.
+        self.loss = 0.
         self.nn_param_choices = nn_param_choices
         self.network = {}  # (dic): represents MLP network parameters
 
@@ -37,17 +37,15 @@ class Network():
         """
         self.network = network
 
-    def train(self, dataset):
-        """Train the network and record the accuracy.
+    def train(self):
+        """Train the network and record the loss.
 
-        Args:
-            dataset (str): Name of dataset to use.
 
         """
-        if self.accuracy == 0.:
-            self.accuracy = train_and_score(self.network, dataset)
+        if self.loss == 0.:
+            self.loss = train_and_score(self.network)
 
     def print_network(self):
         """Print out a network."""
         logging.info(self.network)
-        logging.info("Network accuracy: %.2f%%" % (self.accuracy * 100))
+        logging.info("Network loss: %.2f%%" % (self.loss * 100))

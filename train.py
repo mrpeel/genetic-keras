@@ -5,60 +5,39 @@ Based on:
     https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py
 
 """
-from keras.datasets import mnist, cifar10
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
+from keras import backend as K
 from keras.utils.np_utils import to_categorical
-from keras.callbacks import EarlyStopping
+from keras.callbacks import EarlyStopping, ReduceLROnPlateau, CSVLogger
+import pandas as pd
+import numpy as np
 
-# Helper: Early stopping.
-early_stopper = EarlyStopping(patience=5)
+def sc_mean_absolute_percentage_error(y_true, y_pred):
+    diff = K.abs((y_true - y_pred) / K.clip(K.abs(y_true),
+                                            0.15,
+                                            None))
+    return 100. * K.mean(diff, axis=-1)
 
-def get_cifar10():
-    """Retrieve the CIFAR dataset and process the data."""
-    # Set defaults.
-    nb_classes = 10
-    batch_size = 64
-    input_shape = (3072,)
+def safe_log(input_array):
+    return_vals = input_array.copy()
+    neg_mask = return_vals < 0
+    return_vals = np.log(np.absolute(return_vals) + 1)
+    return_vals[neg_mask] *= -1.
+    return return_vals
 
-    # Get the data.
-    (x_train, y_train), (x_test, y_test) = cifar10.load_data()
-    x_train = x_train.reshape(50000, 3072)
-    x_test = x_test.reshape(10000, 3072)
-    x_train = x_train.astype('float32')
-    x_test = x_test.astype('float32')
-    x_train /= 255
-    x_test /= 255
+def safe_mape(actual_y, prediction_y):
+    """
+    Calculate mean absolute percentage error
 
-    # convert class vectors to binary class matrices
-    y_train = to_categorical(y_train, nb_classes)
-    y_test = to_categorical(y_test, nb_classes)
+    Args:
+        actual_y - numpy array containing targets with shape (n_samples, n_targets)
+        prediction_y - numpy array containing predictions with shape (n_samples, n_targets)
+    """
+    diff = np.absolute((actual_y - prediction_y) / np.clip(np.absolute(actual_y), 0.25, None))
+    return 100. * np.mean(diff)
 
-    return (nb_classes, batch_size, input_shape, x_train, x_test, y_train, y_test)
-
-def get_mnist():
-    """Retrieve the MNIST dataset and process the data."""
-    # Set defaults.
-    nb_classes = 10
-    batch_size = 128
-    input_shape = (784,)
-
-    # Get the data.
-    (x_train, y_train), (x_test, y_test) = mnist.load_data()
-    x_train = x_train.reshape(60000, 784)
-    x_test = x_test.reshape(10000, 784)
-    x_train = x_train.astype('float32')
-    x_test = x_test.astype('float32')
-    x_train /= 255
-    x_test /= 255
-
-    # convert class vectors to binary class matrices
-    y_train = to_categorical(y_train, nb_classes)
-    y_test = to_categorical(y_test, nb_classes)
-
-    return (nb_classes, batch_size, input_shape, x_train, x_test, y_train, y_test)
-
-def compile_model(network, nb_classes, input_shape):
+def compile_model(network, input_shape):
     """Compile a sequential model.
 
     Args:
@@ -73,6 +52,7 @@ def compile_model(network, nb_classes, input_shape):
     nb_neurons = network['nb_neurons']
     activation = network['activation']
     optimizer = network['optimizer']
+    dropout = network['dropout']
 
     model = Sequential()
 
@@ -85,40 +65,70 @@ def compile_model(network, nb_classes, input_shape):
         else:
             model.add(Dense(nb_neurons, activation=activation))
 
-        model.add(Dropout(0.2))  # hard-coded dropout
+        model.add(Dropout(dropout))
+
 
     # Output layer.
-    model.add(Dense(nb_classes, activation='softmax'))
+    model.add(Dense(1, activation='linear'))
 
-    model.compile(loss='categorical_crossentropy', optimizer=optimizer,
-                  metrics=['accuracy'])
+    model.compile(loss=sc_mean_absolute_percentage_error, optimizer=optimizer, metrics=['mae'])
 
     return model
 
-def train_and_score(network, dataset):
+def train_and_score(network):
     """Train the model, return test loss.
 
     Args:
         network (dict): the parameters of the network
-        dataset (str): Dataset to use for training/evaluating
 
     """
-    if dataset == 'cifar10':
-        nb_classes, batch_size, input_shape, x_train, \
-            x_test, y_train, y_test = get_cifar10()
-    elif dataset == 'mnist':
-        nb_classes, batch_size, input_shape, x_train, \
-            x_test, y_train, y_test = get_mnist()
 
-    model = compile_model(network, nb_classes, input_shape)
+    df_all_train_x = pd.read_pickle('data/df_all_train_x.pkl.gz', compression='gzip')
+    df_all_train_y = pd.read_pickle('data/df_all_train_y.pkl.gz', compression='gzip')
+    df_all_train_actuals = pd.read_pickle('data/df_all_train_actuals.pkl.gz', compression='gzip')
+    df_all_test_x = pd.read_pickle('data/df_all_test_x.pkl.gz', compression='gzip')
+    df_all_test_y = pd.read_pickle('data/df_all_test_y.pkl.gz', compression='gzip')
+    df_all_test_actuals = pd.read_pickle('data/df_all_test_actuals.pkl.gz', compression='gzip')
 
-    model.fit(x_train, y_train,
-              batch_size=batch_size,
+    train_y = df_all_train_y[0].values
+    train_actuals = df_all_train_actuals[0].values
+    train_log_y = safe_log(train_y)
+    train_x = df_all_train_x.as_matrix()
+    test_actuals = df_all_test_actuals.as_matrix()
+    test_y = df_all_test_y[0].values
+    test_log_y = safe_log(test_y)
+    test_x = df_all_test_x.as_matrix()
+
+
+    # reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, verbose=1, patience=8)
+    early_stopping = EarlyStopping(monitor='val_loss', patience=5)
+    # csv_logger = CSVLogger('./logs/actual-mape-training.log')
+
+    input_shape = (train_x.shape[1],)
+
+
+    model = compile_model(network, input_shape)
+
+    model.fit(train_x, train_actuals,
+              batch_size=network['batch_size'],
               epochs=10000,  # using early stopping, so no real limit
               verbose=0,
-              validation_data=(x_test, y_test),
-              callbacks=[early_stopper])
+              validation_data=(test_x, test_actuals),
+              # callbacks=[reduce_lr, early_stopping, csv_logger])
+              callbacks=[early_stopping])
 
-    score = model.evaluate(x_test, y_test, verbose=0)
+    predictions = model.predict(test_x)
+    score = safe_mape(test_actuals, predictions)
 
-    return score[1]  # 1 is accuracy. 0 is loss.
+    print('\rNetwork results')
+
+    for property in network:
+        print(property, ':', network[property])
+
+    if np.isnan(score):
+        score = 9999
+
+    print('Safe MAPE score:', score)
+    print('-' * 20)
+
+    return score

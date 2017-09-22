@@ -1,0 +1,96 @@
+09/21/2017 07:47:36 PM - INFO - ***Evolving 12 generations with population 25***
+09/21/2017 07:47:36 PM - INFO - ***Doing generation 1 of 12***
+09/21/2017 10:28:47 PM - INFO - Generation average: nan%
+09/21/2017 10:28:47 PM - INFO - --------------------------------------------------------------------------------
+09/21/2017 10:28:47 PM - INFO - ***Doing generation 2 of 12***
+09/21/2017 11:39:54 PM - INFO - Generation average: nan%
+09/21/2017 11:39:54 PM - INFO - --------------------------------------------------------------------------------
+09/21/2017 11:39:54 PM - INFO - ***Doing generation 3 of 12***
+09/22/2017 12:36:43 AM - INFO - Generation average: nan%
+09/22/2017 12:36:43 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 12:36:43 AM - INFO - ***Doing generation 4 of 12***
+09/22/2017 01:25:47 AM - INFO - Generation average: nan%
+09/22/2017 01:25:47 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 01:25:47 AM - INFO - ***Doing generation 5 of 12***
+09/22/2017 01:50:35 AM - INFO - Generation average: nan%
+09/22/2017 01:50:35 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 01:50:35 AM - INFO - ***Doing generation 6 of 12***
+09/22/2017 02:08:39 AM - INFO - Generation average: nan%
+09/22/2017 02:08:39 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 02:08:39 AM - INFO - ***Doing generation 7 of 12***
+09/22/2017 02:35:13 AM - INFO - Generation average: nan%
+09/22/2017 02:35:13 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 02:35:13 AM - INFO - ***Doing generation 8 of 12***
+09/22/2017 03:02:55 AM - INFO - Generation average: nan%
+09/22/2017 03:02:55 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 03:02:55 AM - INFO - ***Doing generation 9 of 12***
+09/22/2017 03:16:46 AM - INFO - Generation average: nan%
+09/22/2017 03:16:46 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 03:16:46 AM - INFO - ***Doing generation 10 of 12***
+09/22/2017 03:56:58 AM - INFO - Generation average: nan%
+09/22/2017 03:56:58 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 03:56:58 AM - INFO - ***Doing generation 11 of 12***
+09/22/2017 04:38:13 AM - INFO - Generation average: nan%
+09/22/2017 04:38:13 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 04:38:13 AM - INFO - ***Doing generation 12 of 12***
+09/22/2017 05:46:44 AM - INFO - Generation average: nan%
+09/22/2017 05:46:44 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 05:46:44 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 05:46:44 AM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'selu', 'optimizer': 'nadam', 'batch_size': 256, 'dropout': 0.2}
+09/22/2017 05:46:44 AM - INFO - Network loss: nan%
+09/22/2017 05:46:44 AM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'selu', 'optimizer': 'nadam', 'batch_size': 1024, 'dropout': 0.05}
+09/22/2017 05:46:44 AM - INFO - Network loss: 10029.30%
+09/22/2017 05:46:44 AM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'selu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.2}
+09/22/2017 05:46:44 AM - INFO - Network loss: 9548.40%
+09/22/2017 05:46:44 AM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'selu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
+09/22/2017 05:46:44 AM - INFO - Network loss: 9455.86%
+09/22/2017 05:46:44 AM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'selu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
+09/22/2017 05:46:44 AM - INFO - Network loss: 9452.43%
+09/22/2017 06:37:48 AM - INFO - ***Evolving 12 generations with population 25***
+09/22/2017 06:37:48 AM - INFO - ***Doing generation 1 of 12***
+09/22/2017 09:08:51 AM - INFO - Generation average: 94.89%
+09/22/2017 09:08:51 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 09:08:51 AM - INFO - ***Doing generation 2 of 12***
+09/22/2017 10:53:26 AM - INFO - Generation average: 94.48%
+09/22/2017 10:53:26 AM - INFO - --------------------------------------------------------------------------------
+09/22/2017 10:53:26 AM - INFO - ***Doing generation 3 of 12***
+09/22/2017 12:20:35 PM - INFO - Generation average: 94.43%
+09/22/2017 12:20:35 PM - INFO - --------------------------------------------------------------------------------
+09/22/2017 12:20:35 PM - INFO - ***Doing generation 4 of 12***
+09/22/2017 01:42:01 PM - INFO - Generation average: 94.38%
+09/22/2017 01:42:01 PM - INFO - --------------------------------------------------------------------------------
+09/22/2017 01:42:01 PM - INFO - ***Doing generation 5 of 12***
+09/22/2017 02:59:55 PM - INFO - Generation average: 1073.74%
+09/22/2017 02:59:55 PM - INFO - --------------------------------------------------------------------------------
+09/22/2017 02:59:55 PM - INFO - ***Doing generation 6 of 12***
+09/22/2017 04:38:23 PM - INFO - Generation average: 1555.81%
+09/22/2017 04:38:23 PM - INFO - --------------------------------------------------------------------------------
+09/22/2017 04:38:23 PM - INFO - ***Doing generation 7 of 12***
+09/22/2017 05:36:26 PM - INFO - Generation average: 3245.08%
+09/22/2017 05:36:26 PM - INFO - --------------------------------------------------------------------------------
+09/22/2017 05:36:26 PM - INFO - ***Doing generation 8 of 12***
+09/22/2017 07:46:38 PM - INFO - Generation average: 94.26%
+09/22/2017 07:46:38 PM - INFO - --------------------------------------------------------------------------------
+09/22/2017 07:46:38 PM - INFO - ***Doing generation 9 of 12***
+09/22/2017 09:50:06 PM - INFO - Generation average: 94.18%
+09/22/2017 09:50:06 PM - INFO - --------------------------------------------------------------------------------
+09/22/2017 09:50:06 PM - INFO - ***Doing generation 10 of 12***
+09/22/2017 11:15:56 PM - INFO - Generation average: 144.26%
+09/22/2017 11:15:56 PM - INFO - --------------------------------------------------------------------------------
+09/22/2017 11:15:56 PM - INFO - ***Doing generation 11 of 12***
+09/23/2017 01:26:51 AM - INFO - Generation average: 461.92%
+09/23/2017 01:26:51 AM - INFO - --------------------------------------------------------------------------------
+09/23/2017 01:26:51 AM - INFO - ***Doing generation 12 of 12***
+09/23/2017 03:40:19 AM - INFO - Generation average: 94.10%
+09/23/2017 03:40:19 AM - INFO - --------------------------------------------------------------------------------
+09/23/2017 03:40:19 AM - INFO - --------------------------------------------------------------------------------
+09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'elu', 'optimizer': 'adagrad', 'batch_size': 128, 'dropout': 0.05}
+09/23/2017 03:40:19 AM - INFO - Network loss: 9444.64%
+09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'elu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
+09/23/2017 03:40:19 AM - INFO - Network loss: 9442.23%
+09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 64, 'nb_layers': 3, 'activation': 'elu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
+09/23/2017 03:40:19 AM - INFO - Network loss: 9440.97%
+09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'adagrad', 'batch_size': 128, 'dropout': 0.05}
+09/23/2017 03:40:19 AM - INFO - Network loss: 9440.41%
+09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 64, 'nb_layers': 3, 'activation': 'elu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
+09/23/2017 03:40:19 AM - INFO - Network loss: 9440.39%
