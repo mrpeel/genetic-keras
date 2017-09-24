@@ -94,3 +94,17 @@
 09/23/2017 03:40:19 AM - INFO - Network loss: 9440.41%
 09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 64, 'nb_layers': 3, 'activation': 'elu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
 09/23/2017 03:40:19 AM - INFO - Network loss: 9440.39%
+09/24/2017 01:19:00 PM - INFO - ***Evolving 12 generations with population 25***
+09/24/2017 01:19:00 PM - INFO - ***Doing generation 1 of 12***
+09/24/2017 01:20:16 PM - INFO - ***Evolving 12 generations with population 25***
+09/24/2017 01:20:16 PM - INFO - ***Doing generation 1 of 12***
+09/24/2017 01:20:54 PM - INFO - ***Evolving 12 generations with population 25***
+09/24/2017 01:20:54 PM - INFO - ***Doing generation 1 of 12***
+09/24/2017 01:21:42 PM - INFO - ***Evolving 12 generations with population 25***
+09/24/2017 01:21:42 PM - INFO - ***Doing generation 1 of 12***
+09/24/2017 01:26:42 PM - INFO - ***Evolving 12 generations with population 25***
+09/24/2017 01:26:42 PM - INFO - ***Doing generation 1 of 12***
+09/24/2017 01:29:52 PM - INFO - ***Evolving 12 generations with population 25***
+09/24/2017 01:29:52 PM - INFO - ***Doing generation 1 of 12***
+09/24/2017 01:35:35 PM - INFO - ***Evolving 12 generations with population 25***
+09/24/2017 01:35:35 PM - INFO - ***Doing generation 1 of 12***

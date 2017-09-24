@@ -1,7 +1,7 @@
 """Class that represents the network to be evolved."""
 import random
 import logging
-from train import train_and_score
+from train import *
 
 class Network():
     """Represent a network and let us operate on it.
@@ -43,7 +43,9 @@ class Network():
 
         """
         if self.loss == 0.:
-            self.loss = train_and_score(self.network)
+            # self.loss = train_and_score(self.network)
+            self.loss = train_and_score_entity_embedding(self.network)
+
 
     def print_network(self):
         """Print out a network."""

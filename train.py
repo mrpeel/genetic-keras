@@ -6,7 +6,10 @@ Based on:
 
 """
 from keras.models import Sequential
-from keras.layers import Dense, Dropout
+from keras.layers import Dense, Dropout, Reshape, concatenate, Input
+from keras.layers.embeddings import Embedding
+from keras.models import Model
+
 from keras import backend as K
 from keras.utils.np_utils import to_categorical
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau, CSVLogger
@@ -132,3 +135,112 @@ def train_and_score(network):
     print('-' * 20)
 
     return score
+
+def train_and_score_entity_embedding(network):
+    # Creating the neural network
+    embeddings = []
+    inputs = []
+    __Enc = dict()
+    __K = dict()
+
+    nb_layers = network['nb_layers']
+    nb_neurons = network['nb_neurons']
+    activation = network['activation']
+    optimizer = network['optimizer']
+    dropout = network['dropout']
+    batch_size = network['batch_size']
+
+
+
+    train_x_df = pd.read_pickle('data/pp_train_x_df.pkl.gz', compression='gzip')
+    train_y_df = pd.read_pickle('data/pp_train_y_df.pkl.gz', compression='gzip')
+    test_x_df = pd.read_pickle('data/pp_test_x_df.pkl.gz', compression='gzip')
+    test_y_df = pd.read_pickle('data/df_all_test_y.pkl.gz', compression='gzip')
+
+    __Lcat = train_x_df.dtypes[train_x_df.dtypes == 'object'].index
+    # __Lnum = train_x_df.dtypes[train_x_df.dtypes != 'object'].index
+
+
+    for col in __Lcat:
+        exp_ = np.exp(-train_x_df[col].nunique() * 0.05)
+        __K[col] = np.int(5 * (1 - exp_) + 1)
+
+    for col in __Lcat:
+        d = dict()
+        levels = list(train_x_df[col].unique())
+        nan = False
+
+        if np.NaN in levels:
+            nan = True
+            levels.remove(np.NaN)
+
+        for enc, level in enumerate([np.NaN] * nan + sorted(levels)):
+            d[level] = enc
+
+        __Enc[col] = d
+
+        var = Input(shape=(1,))
+        inputs.append(var)
+
+        emb = Embedding(input_dim=len(__Enc[col]),
+                        output_dim=__K[col],
+                        input_length=1)(var)
+        emb = Reshape(target_shape=(__K[col],))(emb)
+
+        embeddings.append(emb)
+
+    if (len(__Lcat) > 1):
+        emb_layer = concatenate(embeddings)
+    else:
+        emb_layer = embeddings[0]
+
+
+
+    # Add embedding layer as input layer
+    outputs = emb_layer
+
+    # Add each dense layer
+    for i in range(nb_layers):
+
+        outputs = Dense(nb_neurons, kernel_initializer='uniform', activation=activation)(outputs)
+
+        # Add dropout for all layers after the embedding layer
+        if i > 0:
+            outputs = Dropout(dropout)(outputs)
+
+
+    # Add final linear output layer.
+    outputs = Dense(1, kernel_initializer='normal', activation='linear')(outputs)
+
+    model = Model(inputs=inputs, outputs=outputs)
+
+    # Learning the weights
+    model.compile(loss='mean_absolute_error', optimizer=optimizer)
+    # reduce_lr = ReduceLROnPlateau(monitor='loss', factor=0.2, verbose=1, patience=4)
+    early_stopping = EarlyStopping(monitor='val_loss', patience=5)
+    # csv_logger = CSVLogger('./logs/categorical-encoder.log')
+
+    train_x = [train_x_df[col].apply(lambda x: __Enc[col][x]).values for col in __Lcat]
+    test_x = [test_x_df[col].apply(lambda x: __Enc[col][x]).values for col in __Lcat]
+
+    history = model.fit(train_x, train_y_df.values,
+        validation_data=(test_x, test_y_df.values),
+        epochs=10000,
+        verbose=0,
+        batch_size=batch_size,
+        callbacks=[early_stopping],
+        )
+
+    print('\rNetwork results')
+
+    for property in network:
+        print(property, ':', network[property])
+
+    if np.isnan(history[0]['val_loss']):
+        score = 9999
+
+    print('Loss:', history[0]['val_loss'])
+    print('-' * 20)
+
+    return score
+
