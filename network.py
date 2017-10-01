@@ -43,11 +43,11 @@ class Network():
 
         """
         if self.loss == 0.:
-            # self.loss = train_and_score(self.network)
-            self.loss = train_and_score_entity_embedding(self.network)
+            self.loss = train_and_score(self.network)
+            # self.loss = train_and_score_entity_embedding(self.network)
 
 
     def print_network(self):
         """Print out a network."""
         logging.info(self.network)
-        logging.info("Network loss: %.2f%%" % (self.loss * 100))
+        logging.info("Network loss: %.3f" % (self.loss * 100))

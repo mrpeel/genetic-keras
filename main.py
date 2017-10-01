@@ -103,15 +103,19 @@ def print_networks(networks):
 
 def main():
     """Evolve a network."""
-    generations = 12  # Number of times to evole the population.
-    population = 25  # Number of networks in each generation.
+    generations = 10  # Number of times to evole the population.
+    population = 20  # Number of networks in each generation.
 
     nn_param_choices = {
         'nb_neurons': [64, 128, 256, 512, 768, 1024],
+        # 'nb_neurons': [768, 1024],
         'nb_layers': [1, 2, 3, 4, 5, 6],
+        # 'nb_layers': [4, 5, 6],
         'activation': ['relu', 'elu', 'selu'],
+        # 'activation': ['relu'],
         'optimizer': ['rmsprop', 'adam', 'adagrad',
-                      'adadelta', 'adamax', 'nadam'],
+                       'adadelta', 'adamax', 'nadam'],
+        # 'optimizer': ['adamax'],
         'batch_size': [32, 64, 128, 256, 512, 1024],
         'dropout': [0.05, 0.1, 0.15, 0.2, 0.25],
     }

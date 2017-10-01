@@ -13,8 +13,11 @@ from keras.models import Model
 from keras import backend as K
 from keras.utils.np_utils import to_categorical
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau, CSVLogger
+from sklearn.metrics import mean_absolute_error
 import pandas as pd
 import numpy as np
+
+import logging
 
 def sc_mean_absolute_percentage_error(y_true, y_pred):
     diff = K.abs((y_true - y_pred) / K.clip(K.abs(y_true),
@@ -40,7 +43,7 @@ def safe_mape(actual_y, prediction_y):
     diff = np.absolute((actual_y - prediction_y) / np.clip(np.absolute(actual_y), 0.25, None))
     return 100. * np.mean(diff)
 
-def compile_model(network, input_shape):
+def compile_model(network, input_shape, model_type):
     """Compile a sequential model.
 
     Args:
@@ -70,11 +73,17 @@ def compile_model(network, input_shape):
 
         model.add(Dropout(dropout))
 
+    if model_type == "mae":
+        model.add(Dense(30, activation=activation, name="int_layer"))
+        model.add(Dropout(dropout))
 
     # Output layer.
     model.add(Dense(1, activation='linear'))
 
-    model.compile(loss=sc_mean_absolute_percentage_error, optimizer=optimizer, metrics=['mae'])
+    if model_type == "mape":
+        model.compile(loss=sc_mean_absolute_percentage_error, optimizer=optimizer, metrics=['mae'])
+    else:
+        model.compile(loss='mae', optimizer=optimizer)
 
     return model
 
@@ -105,34 +114,43 @@ def train_and_score(network):
 
     # reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, verbose=1, patience=8)
     early_stopping = EarlyStopping(monitor='val_loss', patience=5)
-    # csv_logger = CSVLogger('./logs/actual-mape-training.log')
+    csv_logger = CSVLogger('./logs/training.log')
 
     input_shape = (train_x.shape[1],)
 
 
-    model = compile_model(network, input_shape)
+    model = compile_model(network, input_shape, "mae")
 
-    model.fit(train_x, train_actuals,
-              batch_size=network['batch_size'],
-              epochs=10000,  # using early stopping, so no real limit
-              verbose=0,
-              validation_data=(test_x, test_actuals),
-              # callbacks=[reduce_lr, early_stopping, csv_logger])
-              callbacks=[early_stopping])
-
-    predictions = model.predict(test_x)
-    score = safe_mape(test_actuals, predictions)
-
-    print('\rNetwork results')
+    print('\rNetwork')
 
     for property in network:
         print(property, ':', network[property])
+        logging.info('%s: %s' % (property, network[property]))
+
+    history = model.fit(train_x, train_y,
+                        batch_size=network['batch_size'],
+                        epochs=10000,  # using early stopping, so no real limit
+                        verbose=0,
+                        validation_data=(test_x, test_y),
+                        callbacks=[early_stopping, csv_logger])
+
+    predictions = model.predict(test_x)
+    score = mean_absolute_error(test_y, predictions)
+
+    print('\rResults')
+
+    hist_epochs = len(history.history['val_loss'])
 
     if np.isnan(score):
         score = 9999
 
-    print('Safe MAPE score:', score)
+    print('epochs:', hist_epochs)
+    print('loss:', score)
     print('-' * 20)
+
+    logging.info('epochs: %d' % hist_epochs)
+    logging.info('loss: %.2f' % score)
+    logging.info('-' * 20)
 
     return score
 
@@ -218,29 +236,42 @@ def train_and_score_entity_embedding(network):
     model.compile(loss='mean_absolute_error', optimizer=optimizer)
     # reduce_lr = ReduceLROnPlateau(monitor='loss', factor=0.2, verbose=1, patience=4)
     early_stopping = EarlyStopping(monitor='val_loss', patience=5)
-    # csv_logger = CSVLogger('./logs/categorical-encoder.log')
+    csv_logger = CSVLogger('./logs/entity_embedding.log')
 
     train_x = [train_x_df[col].apply(lambda x: __Enc[col][x]).values for col in __Lcat]
     test_x = [test_x_df[col].apply(lambda x: __Enc[col][x]).values for col in __Lcat]
 
-    history = model.fit(train_x, train_y_df.values,
-        validation_data=(test_x, test_y_df.values),
-        epochs=10000,
-        verbose=0,
-        batch_size=batch_size,
-        callbacks=[early_stopping],
-        )
-
-    print('\rNetwork results')
+    print('\rNetwork')
 
     for property in network:
         print(property, ':', network[property])
+        logging.info('%s: %s' % (property, network[property]))
 
-    if np.isnan(history[0]['val_loss']):
+
+    history = model.fit(train_x, train_y_df.values,
+        validation_data=(test_x, test_y_df.values),
+        epochs=500,
+        verbose=0,
+        batch_size=batch_size,
+        callbacks=[early_stopping, csv_logger],
+        )
+
+    print('\rResults')
+
+    hist_epochs = len(history.history['val_loss'])
+
+    score = history.history['val_loss'][hist_epochs-1]
+
+    if np.isnan(score):
         score = 9999
 
-    print('Loss:', history[0]['val_loss'])
+    print('epochs:', hist_epochs)
+    print('loss:', score)
     print('-' * 20)
+
+    logging.info('epochs: %d' % hist_epochs)
+    logging.info('loss: %.2f' % score)
+    logging.info('-' * 20)
 
     return score
 
