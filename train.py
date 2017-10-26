@@ -123,7 +123,7 @@ def train_and_score(network):
 
 
     reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, verbose=1, patience=8)
-    early_stopping = EarlyStopping(monitor='val_loss', patience=36)
+    early_stopping = EarlyStopping(monitor='val_loss', patience=10)
     csv_logger = CSVLogger('./logs/training.log')
     checkpointer = ModelCheckpoint(filepath='weights.hdf5', verbose=0, save_best_only=True)
 
@@ -143,7 +143,7 @@ def train_and_score(network):
                         epochs=10000,  # using early stopping, so no real limit
                         verbose=0,
                         validation_data=(test_x, test_y),
-                        callbacks=[early_stopping, csv_logger, reduce_lr, checkpointer])
+                        callbacks=[early_stopping, csv_logger, checkpointer])
 
     model.load_weights('weights.hdf5')
     predictions = model.predict(test_x)
