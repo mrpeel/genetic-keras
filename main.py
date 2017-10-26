@@ -7,7 +7,7 @@ import numpy as np
 # Setup logging.
 logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%m/%d/%Y %I:%M:%S %p',
+    datefmt='%d/%m/%Y %I:%M:%S %p',
     level=logging.DEBUG,
     filename='log.txt'
 )
@@ -69,14 +69,14 @@ def generate(generations, population, nn_param_choices):
         np_loss = get_np_losses(networks)
 
         # Print out the average loss each generation.
-        logging.info("Generation average: %.2f%%" % (np.mean(np_loss)))
-        logging.info("Generation maximum: %.2f%%" % (np.amax(np_loss)))
-        logging.info("Generation minimum: %.2f%%" % (np.amin(np_loss)))
+        logging.info("Generation average: %.3f" % (np.mean(np_loss)))
+        logging.info("Generation maximum: %.3f" % (np.max(np_loss)))
+        logging.info("Generation minimum: %.3f" % (np.min(np_loss)))
         logging.info('-'*80)
 
-        print("\rGeneration average: %.2f%%" % (np.mean(np_loss)))
-        print("Generation maximum: %.2f%%" % (np.amax(np_loss)))
-        print("Generation minimum: %.2f%%" % (np.amin(np_loss)))
+        print("\rGeneration average: %.3f" % (np.mean(np_loss)))
+        print("Generation maximum: %.3f" % (np.max(np_loss)))
+        print("Generation minimum: %.3f" % (np.min(np_loss)))
         print('-'*80)
 
         # Evolve, except on the last iteration.
@@ -104,20 +104,22 @@ def print_networks(networks):
 def main():
     """Evolve a network."""
     generations = 10  # Number of times to evole the population.
-    population = 20  # Number of networks in each generation.
+    population = 30  # Number of networks in each generation.
 
     nn_param_choices = {
         'nb_neurons': [64, 128, 256, 512, 768, 1024],
-        # 'nb_neurons': [768, 1024],
+        # 'nb_neurons': [8, 16, 32, 64],
+        # 'nb_layers': [1, 2, 3, 4, 5, 6, 7, 8],
         'nb_layers': [1, 2, 3, 4, 5, 6],
-        # 'nb_layers': [4, 5, 6],
         'activation': ['relu', 'elu', 'selu'],
-        # 'activation': ['relu'],
-        'optimizer': ['rmsprop', 'adam', 'adagrad',
-                       'adadelta', 'adamax', 'nadam'],
-        # 'optimizer': ['adamax'],
+        # 'activation': ['relu', 'selu'],
+         'optimizer': ['rmsprop', 'adam', 'adagrad',
+                        'adadelta', 'adamax', 'nadam'],
+        # 'optimizer': ['adagrad', 'adadelta', 'adamax'],
+        # 'batch_size': [32, 64, 128, 256, 512, 1024],
         'batch_size': [32, 64, 128, 256, 512, 1024],
-        'dropout': [0.05, 0.1, 0.15, 0.2, 0.25],
+        # 'dropout': [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5],
+        'dropout': [0.5],
     }
 
     logging.info("***Evolving %d generations with population %d***" %
