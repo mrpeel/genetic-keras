@@ -19,11 +19,24 @@ import numpy as np
 
 import logging
 
-def sc_mean_absolute_percentage_error(y_true, y_pred):
+def k_mean_absolute_percentage_error(y_true, y_pred):
     diff = K.abs((y_true - y_pred) / K.clip(K.abs(y_true),
                                             1.,
                                             None))
     return 100. * K.mean(diff, axis=-1)
+
+def k_mae_mape(y_true, y_pred):
+    diff = K.abs((y_true - y_pred) / K.clip(K.abs(y_true),
+                                            1.,
+                                            None))
+    mape = 100. * K.mean(diff, axis=-1)
+    mae = K.mean(K.abs(y_true - y_pred), axis=-1)
+    return mape * mae
+
+def mae_mape(actual_y, prediction_y):
+    mape = safe_mape(actual_y, prediction_y)
+    mae = mean_absolute_error(actual_y, prediction_y)
+    return mape * mae
 
 def safe_log(input_array):
     return_vals = input_array.copy()
@@ -92,9 +105,11 @@ def compile_model(network, input_shape, model_type):
     model.add(Dense(1, activation='linear'))
 
     if model_type == "mape":
-        model.compile(loss=sc_mean_absolute_percentage_error, optimizer=optimizer, metrics=['mae'])
+        model.compile(loss=k_mean_absolute_percentage_error, optimizer=optimizer, metrics=['mae'])
+    elif model_type == "mae_mape":
+        model.compile(loss=k_mae_mape, optimizer=optimizer, metrics=['mae', k_mean_absolute_percentage_error])
     else:
-        model.compile(loss='mae', optimizer=optimizer, metrics=[sc_mean_absolute_percentage_error])
+        model.compile(loss='mae', optimizer=optimizer, metrics=[k_mean_absolute_percentage_error])
 
     return model
 
@@ -130,7 +145,7 @@ def train_and_score(network):
     input_shape = (train_x.shape[1],)
 
 
-    model = compile_model(network, input_shape, "mape")
+    model = compile_model(network, input_shape, "mae_mape")
 
     print('\rNetwork')
 
@@ -138,19 +153,20 @@ def train_and_score(network):
         print(property, ':', network[property])
         logging.info('%s: %s' % (property, network[property]))
 
-    history = model.fit(train_x, train_y,
+    history = model.fit(train_x, train_actuals,
                         batch_size=network['batch_size'],
                         epochs=10000,  # using early stopping, so no real limit
                         verbose=0,
-                        validation_data=(test_x, test_y),
+                        validation_data=(test_x, test_actuals),
                         callbacks=[early_stopping, csv_logger, checkpointer])
 
     model.load_weights('weights.hdf5')
     predictions = model.predict(test_x)
-    mae = mean_absolute_error(test_y, predictions)
-    mape = safe_mape(test_y, predictions)
+    mae = mean_absolute_error(test_actuals, predictions)
+    mape = safe_mape(test_actuals, predictions)
+    maeape = mae_mape(test_actuals, predictions)
 
-    score = mape
+    score = maeape
 
     print('\rResults')
 
@@ -160,11 +176,13 @@ def train_and_score(network):
         score = 9999
 
     print('epochs:', hist_epochs)
+    print('mae_mape:', maeape)
     print('mape:', mape)
     print('mae:', mae)
     print('-' * 20)
 
     logging.info('epochs: %d' % hist_epochs)
+    logging.info('mae_mape: %.4f' % maeape)
     logging.info('mape: %.4f' % mape)
     logging.info('mae: %.4f' % mae)
     logging.info('-' * 20)
@@ -193,8 +211,8 @@ def train_and_score_bagging(network):
     test_y = test_actuals[0].values
     test_log_y = safe_log(test_y)
 
-    reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, verbose=1, patience=8)
-    early_stopping = EarlyStopping(monitor='val_loss', patience=10)
+    reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.2, verbose=1, patience=3)
+    early_stopping = EarlyStopping(monitor='val_loss', patience=15)
     csv_logger = CSVLogger('./logs/training.log')
     checkpointer = ModelCheckpoint(filepath='weights.hdf5', verbose=0, save_best_only=True)
 
@@ -216,7 +234,7 @@ def train_and_score_bagging(network):
                         verbose=0,
                         # validation_data=(test_x, test_y),
                         validation_data=(test_x, test_log_y),
-                        callbacks=[early_stopping, csv_logger, checkpointer])
+                        callbacks=[early_stopping, csv_logger, reduce_lr, checkpointer])
 
 
     print('\rResults')

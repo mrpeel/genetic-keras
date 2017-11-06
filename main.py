@@ -62,6 +62,12 @@ def generate(generations, population, nn_param_choices):
         print("\r***Doing generation %d of %d***" %
                      (i + 1, generations))
 
+
+        counter = 0
+        for network in networks:
+            network.network['number'] = counter
+            counter += 1
+
         # Train and get loss for networks.
         train_networks(networks)
 
@@ -85,7 +91,7 @@ def generate(generations, population, nn_param_choices):
             networks = optimizer.evolve(networks)
 
     # Sort our final population.
-    networks = sorted(networks, key=lambda x: x.loss, reverse=True)
+    networks = sorted(networks, key=lambda x: x.loss, reverse=False)
 
     # Print out the top 5 networks.
     print_networks(networks[:5])
@@ -104,22 +110,22 @@ def print_networks(networks):
 def main():
     """Evolve a network."""
     generations = 10  # Number of times to evole the population.
-    population = 30  # Number of networks in each generation.
+    population = 20  # Number of networks in each generation.
 
     nn_param_choices = {
-        'nb_neurons': [64, 128, 256, 512, 768, 1024],
-        # 'nb_neurons': [8, 16, 32, 64],
-        # 'nb_layers': [1, 2, 3, 4, 5, 6, 7, 8],
-        'nb_layers': [1, 2, 3, 4, 5, 6],
+         'nb_neurons': [64, 128, 256, 512, 768, 1024],
+         # 'nb_neurons': [8, 16, 32, 64],
+         'nb_layers': [1, 2, 3, 4, 5, 6, 7, 8],
+        # 'nb_layers': [1, 2, 3, 4, 5, 6],
         'activation': ['relu', 'elu', 'selu'],
         # 'activation': ['relu', 'selu'],
-         'optimizer': ['rmsprop', 'adam', 'adagrad',
-                        'adadelta', 'adamax', 'nadam'],
-        # 'optimizer': ['adagrad', 'adadelta', 'adamax'],
-        # 'batch_size': [32, 64, 128, 256, 512, 1024],
+        #  'optimizer': ['rmsprop', 'adam', 'adagrad',
+        #                 'adadelta', 'adamax', 'nadam'],
+        'optimizer': ['adagrad', 'adadelta', 'adamax'],
         'batch_size': [32, 64, 128, 256, 512, 1024],
-        # 'dropout': [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5],
-        'dropout': [0.5],
+        # 'batch_size': [32, 64, 128, 256, 512],
+         'dropout': [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5],
+        # 'dropout': [0.5, 0.55, 0.6, 0.65, 0.7, 0.75],
     }
 
     logging.info("***Evolving %d generations with population %d***" %

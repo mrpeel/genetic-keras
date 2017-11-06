@@ -47,7 +47,6 @@ class Optimizer():
         for val in range(0, count):
             # Create a random network.
             network = Network(self.nn_param_choices)
-            network.network['number'] = val
             network.create_random()
 
             # Add the network to our population.
