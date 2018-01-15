@@ -46,6 +46,8 @@ class Network():
              self.loss = train_and_score(self.network)
             # self.loss = train_and_score_entity_embedding(self.network)
             # self.loss = train_and_score_bagging(self.network)
+            # self.loss = train_and_score_shallow_bagging(self.network)
+             # self.loss = train_and_score_classification(self.network)
 
 
     def print_network(self):

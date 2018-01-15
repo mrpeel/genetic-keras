@@ -110,22 +110,52 @@ def print_networks(networks):
 def main():
     """Evolve a network."""
     generations = 10  # Number of times to evole the population.
-    population = 20  # Number of networks in each generation.
+    population = 30  # Number of networks in each generation.
 
     nn_param_choices = {
-         'nb_neurons': [64, 128, 256, 512, 768, 1024],
-         # 'nb_neurons': [8, 16, 32, 64],
-         'nb_layers': [1, 2, 3, 4, 5, 6, 7, 8],
-        # 'nb_layers': [1, 2, 3, 4, 5, 6],
-        'activation': ['relu', 'elu', 'selu'],
-        # 'activation': ['relu', 'selu'],
-        #  'optimizer': ['rmsprop', 'adam', 'adagrad',
-        #                 'adadelta', 'adamax', 'nadam'],
-        'optimizer': ['adagrad', 'adadelta', 'adamax'],
-        'batch_size': [32, 64, 128, 256, 512, 1024],
+         # 'nb_neurons': [64, 128, 256, 512, 768, 1024],
+         # 'nb_layers': [1, 2, 3, 4, 5, 6, 7, 8],
+        'activation': ['relu', 'PReLU', 'ELU', 'ThresholdedReLU', 'selu'],
+        # 'optimizer': ['RMSprop', 'Adam', 'Adagrad', 'SGD', 'Adadelta', 'Adamax', 'Nadam'],
+        'optimizer': ['Adam', 'Adagrad','Adadelta', 'Adamax', 'Nadam' ],
+        'batch_size': [512, 1024],
         # 'batch_size': [32, 64, 128, 256, 512],
-         'dropout': [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5],
-        # 'dropout': [0.5, 0.55, 0.6, 0.65, 0.7, 0.75],
+        'dropout': [0, 0.1, 0.2, 0.3, 0.4, 0.5],
+        # 'dropout': [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8],
+        # 'model_type': ['mae'],
+        'model_type': ['mae', 'mape', 'mae_mape'],
+        'result': ['mae'],
+        # 'epochs':[1, 2, 5, 10000],
+        'int_layer': [30],
+        'log_y': [True, False],
+        # 'kernel_initializer': ['uniform', 'lecun_uniform', 'normal', 'he_normal', 'he_uniform'],
+        'kernel_initializer': ['uniform', 'lecun_uniform', 'normal', 'zero', 'glorot_normal', 'glorot_uniform', 'he_normal', 'he_uniform'],
+        # 'activation': ['tanh',  'softmax', 'softplus', 'softsign', 'relu', 'selu', 'sigmoid', 'hard_sigmoid', 'linear', 'LeakyReLU', 'PReLU', 'ELU', 'ThresholdedReLU'],
+        'hidden_layers': [
+            # [1],
+            # [1, 0.1],
+            # [1, 1, 1],
+            # [1, 0.5, 0.1],
+            [2],
+            [5],
+            [1, 1, 1, 1, 1],
+            [1, 0.5, 0.25, 0.1, 0.05],
+            [5, 5, 5, 5, 5],
+            [5, 4, 3, 2, 1],
+            [4, 4, 4, 4],
+            [5, 5, 5, 5],
+            [6, 6, 6, 6],
+            [7, 7, 7, 7],
+            [4, 3, 2, 1],
+            [3, 3, 3],
+            [4, 4, 4],
+            [5, 5, 5],
+            [6, 6, 6],
+            [7, 7, 7],
+            [3, 2, 1],
+            [1, 1, 1, 1],
+            [1, 1]
+        ],
     }
 
     logging.info("***Evolving %d generations with population %d***" %

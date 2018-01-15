@@ -1,110 +1,2406 @@
-09/21/2017 07:47:36 PM - INFO - ***Evolving 12 generations with population 25***
-09/21/2017 07:47:36 PM - INFO - ***Doing generation 1 of 12***
-09/21/2017 10:28:47 PM - INFO - Generation average: nan%
-09/21/2017 10:28:47 PM - INFO - --------------------------------------------------------------------------------
-09/21/2017 10:28:47 PM - INFO - ***Doing generation 2 of 12***
-09/21/2017 11:39:54 PM - INFO - Generation average: nan%
-09/21/2017 11:39:54 PM - INFO - --------------------------------------------------------------------------------
-09/21/2017 11:39:54 PM - INFO - ***Doing generation 3 of 12***
-09/22/2017 12:36:43 AM - INFO - Generation average: nan%
-09/22/2017 12:36:43 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 12:36:43 AM - INFO - ***Doing generation 4 of 12***
-09/22/2017 01:25:47 AM - INFO - Generation average: nan%
-09/22/2017 01:25:47 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 01:25:47 AM - INFO - ***Doing generation 5 of 12***
-09/22/2017 01:50:35 AM - INFO - Generation average: nan%
-09/22/2017 01:50:35 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 01:50:35 AM - INFO - ***Doing generation 6 of 12***
-09/22/2017 02:08:39 AM - INFO - Generation average: nan%
-09/22/2017 02:08:39 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 02:08:39 AM - INFO - ***Doing generation 7 of 12***
-09/22/2017 02:35:13 AM - INFO - Generation average: nan%
-09/22/2017 02:35:13 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 02:35:13 AM - INFO - ***Doing generation 8 of 12***
-09/22/2017 03:02:55 AM - INFO - Generation average: nan%
-09/22/2017 03:02:55 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 03:02:55 AM - INFO - ***Doing generation 9 of 12***
-09/22/2017 03:16:46 AM - INFO - Generation average: nan%
-09/22/2017 03:16:46 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 03:16:46 AM - INFO - ***Doing generation 10 of 12***
-09/22/2017 03:56:58 AM - INFO - Generation average: nan%
-09/22/2017 03:56:58 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 03:56:58 AM - INFO - ***Doing generation 11 of 12***
-09/22/2017 04:38:13 AM - INFO - Generation average: nan%
-09/22/2017 04:38:13 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 04:38:13 AM - INFO - ***Doing generation 12 of 12***
-09/22/2017 05:46:44 AM - INFO - Generation average: nan%
-09/22/2017 05:46:44 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 05:46:44 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 05:46:44 AM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'selu', 'optimizer': 'nadam', 'batch_size': 256, 'dropout': 0.2}
-09/22/2017 05:46:44 AM - INFO - Network loss: nan%
-09/22/2017 05:46:44 AM - INFO - {'nb_neurons': 256, 'nb_layers': 5, 'activation': 'selu', 'optimizer': 'nadam', 'batch_size': 1024, 'dropout': 0.05}
-09/22/2017 05:46:44 AM - INFO - Network loss: 10029.30%
-09/22/2017 05:46:44 AM - INFO - {'nb_neurons': 512, 'nb_layers': 5, 'activation': 'selu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.2}
-09/22/2017 05:46:44 AM - INFO - Network loss: 9548.40%
-09/22/2017 05:46:44 AM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'selu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
-09/22/2017 05:46:44 AM - INFO - Network loss: 9455.86%
-09/22/2017 05:46:44 AM - INFO - {'nb_neurons': 256, 'nb_layers': 3, 'activation': 'selu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
-09/22/2017 05:46:44 AM - INFO - Network loss: 9452.43%
-09/22/2017 06:37:48 AM - INFO - ***Evolving 12 generations with population 25***
-09/22/2017 06:37:48 AM - INFO - ***Doing generation 1 of 12***
-09/22/2017 09:08:51 AM - INFO - Generation average: 94.89%
-09/22/2017 09:08:51 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 09:08:51 AM - INFO - ***Doing generation 2 of 12***
-09/22/2017 10:53:26 AM - INFO - Generation average: 94.48%
-09/22/2017 10:53:26 AM - INFO - --------------------------------------------------------------------------------
-09/22/2017 10:53:26 AM - INFO - ***Doing generation 3 of 12***
-09/22/2017 12:20:35 PM - INFO - Generation average: 94.43%
-09/22/2017 12:20:35 PM - INFO - --------------------------------------------------------------------------------
-09/22/2017 12:20:35 PM - INFO - ***Doing generation 4 of 12***
-09/22/2017 01:42:01 PM - INFO - Generation average: 94.38%
-09/22/2017 01:42:01 PM - INFO - --------------------------------------------------------------------------------
-09/22/2017 01:42:01 PM - INFO - ***Doing generation 5 of 12***
-09/22/2017 02:59:55 PM - INFO - Generation average: 1073.74%
-09/22/2017 02:59:55 PM - INFO - --------------------------------------------------------------------------------
-09/22/2017 02:59:55 PM - INFO - ***Doing generation 6 of 12***
-09/22/2017 04:38:23 PM - INFO - Generation average: 1555.81%
-09/22/2017 04:38:23 PM - INFO - --------------------------------------------------------------------------------
-09/22/2017 04:38:23 PM - INFO - ***Doing generation 7 of 12***
-09/22/2017 05:36:26 PM - INFO - Generation average: 3245.08%
-09/22/2017 05:36:26 PM - INFO - --------------------------------------------------------------------------------
-09/22/2017 05:36:26 PM - INFO - ***Doing generation 8 of 12***
-09/22/2017 07:46:38 PM - INFO - Generation average: 94.26%
-09/22/2017 07:46:38 PM - INFO - --------------------------------------------------------------------------------
-09/22/2017 07:46:38 PM - INFO - ***Doing generation 9 of 12***
-09/22/2017 09:50:06 PM - INFO - Generation average: 94.18%
-09/22/2017 09:50:06 PM - INFO - --------------------------------------------------------------------------------
-09/22/2017 09:50:06 PM - INFO - ***Doing generation 10 of 12***
-09/22/2017 11:15:56 PM - INFO - Generation average: 144.26%
-09/22/2017 11:15:56 PM - INFO - --------------------------------------------------------------------------------
-09/22/2017 11:15:56 PM - INFO - ***Doing generation 11 of 12***
-09/23/2017 01:26:51 AM - INFO - Generation average: 461.92%
-09/23/2017 01:26:51 AM - INFO - --------------------------------------------------------------------------------
-09/23/2017 01:26:51 AM - INFO - ***Doing generation 12 of 12***
-09/23/2017 03:40:19 AM - INFO - Generation average: 94.10%
-09/23/2017 03:40:19 AM - INFO - --------------------------------------------------------------------------------
-09/23/2017 03:40:19 AM - INFO - --------------------------------------------------------------------------------
-09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'elu', 'optimizer': 'adagrad', 'batch_size': 128, 'dropout': 0.05}
-09/23/2017 03:40:19 AM - INFO - Network loss: 9444.64%
-09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'elu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
-09/23/2017 03:40:19 AM - INFO - Network loss: 9442.23%
-09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 64, 'nb_layers': 3, 'activation': 'elu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
-09/23/2017 03:40:19 AM - INFO - Network loss: 9440.97%
-09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 512, 'nb_layers': 3, 'activation': 'relu', 'optimizer': 'adagrad', 'batch_size': 128, 'dropout': 0.05}
-09/23/2017 03:40:19 AM - INFO - Network loss: 9440.41%
-09/23/2017 03:40:19 AM - INFO - {'nb_neurons': 64, 'nb_layers': 3, 'activation': 'elu', 'optimizer': 'adagrad', 'batch_size': 256, 'dropout': 0.05}
-09/23/2017 03:40:19 AM - INFO - Network loss: 9440.39%
-09/24/2017 01:19:00 PM - INFO - ***Evolving 12 generations with population 25***
-09/24/2017 01:19:00 PM - INFO - ***Doing generation 1 of 12***
-09/24/2017 01:20:16 PM - INFO - ***Evolving 12 generations with population 25***
-09/24/2017 01:20:16 PM - INFO - ***Doing generation 1 of 12***
-09/24/2017 01:20:54 PM - INFO - ***Evolving 12 generations with population 25***
-09/24/2017 01:20:54 PM - INFO - ***Doing generation 1 of 12***
-09/24/2017 01:21:42 PM - INFO - ***Evolving 12 generations with population 25***
-09/24/2017 01:21:42 PM - INFO - ***Doing generation 1 of 12***
-09/24/2017 01:26:42 PM - INFO - ***Evolving 12 generations with population 25***
-09/24/2017 01:26:42 PM - INFO - ***Doing generation 1 of 12***
-09/24/2017 01:29:52 PM - INFO - ***Evolving 12 generations with population 25***
-09/24/2017 01:29:52 PM - INFO - ***Doing generation 1 of 12***
-09/24/2017 01:35:35 PM - INFO - ***Evolving 12 generations with population 25***
-09/24/2017 01:35:35 PM - INFO - ***Doing generation 1 of 12***
+13/01/2018 02:11:33 PM - INFO - ***Evolving 10 generations with population 30***
+13/01/2018 02:11:33 PM - INFO - ***Doing generation 1 of 10***
+13/01/2018 02:11:37 PM - INFO - activation: relu
+13/01/2018 02:11:37 PM - INFO - optimizer: Adam
+13/01/2018 02:11:37 PM - INFO - batch_size: 1024
+13/01/2018 02:11:37 PM - INFO - dropout: 0.1
+13/01/2018 02:11:37 PM - INFO - model_type: mae_mape
+13/01/2018 02:11:37 PM - INFO - result: mae
+13/01/2018 02:11:37 PM - INFO - int_layer: 30
+13/01/2018 02:11:37 PM - INFO - log_y: False
+13/01/2018 02:11:37 PM - INFO - kernel_initializer: glorot_normal
+13/01/2018 02:11:37 PM - INFO - hidden_layers: [3, 3, 3]
+13/01/2018 02:11:37 PM - INFO - number: 0
+13/01/2018 02:23:40 PM - INFO - epochs: 133.0
+13/01/2018 02:23:40 PM - INFO - mae_mape: 1135.1153
+13/01/2018 02:23:40 PM - INFO - mape: 81.2071
+13/01/2018 02:23:40 PM - INFO - mae: 13.9780
+13/01/2018 02:23:40 PM - INFO - --------------------
+13/01/2018 02:23:40 PM - INFO - result: 13.9780
+13/01/2018 02:23:40 PM - INFO - --------------------
+13/01/2018 02:23:43 PM - INFO - activation: relu
+13/01/2018 02:23:43 PM - INFO - optimizer: Adamax
+13/01/2018 02:23:43 PM - INFO - batch_size: 512
+13/01/2018 02:23:43 PM - INFO - dropout: 0.1
+13/01/2018 02:23:43 PM - INFO - model_type: mape
+13/01/2018 02:23:43 PM - INFO - result: mae
+13/01/2018 02:23:43 PM - INFO - int_layer: 30
+13/01/2018 02:23:43 PM - INFO - log_y: False
+13/01/2018 02:23:43 PM - INFO - kernel_initializer: glorot_normal
+13/01/2018 02:23:43 PM - INFO - hidden_layers: [5, 4, 3, 2, 1]
+13/01/2018 02:23:43 PM - INFO - number: 1
+13/01/2018 02:35:45 PM - INFO - epochs: 38.0
+13/01/2018 02:35:45 PM - INFO - mae_mape: 1860.9067
+13/01/2018 02:35:45 PM - INFO - mape: 94.2059
+13/01/2018 02:35:45 PM - INFO - mae: 19.7536
+13/01/2018 02:35:45 PM - INFO - --------------------
+13/01/2018 02:35:45 PM - INFO - result: 19.7536
+13/01/2018 02:35:45 PM - INFO - --------------------
+13/01/2018 02:35:49 PM - INFO - activation: PReLU
+13/01/2018 02:35:49 PM - INFO - optimizer: Adadelta
+13/01/2018 02:35:49 PM - INFO - batch_size: 512
+13/01/2018 02:35:49 PM - INFO - dropout: 0.4
+13/01/2018 02:35:49 PM - INFO - model_type: mape
+13/01/2018 02:35:49 PM - INFO - result: mae
+13/01/2018 02:35:49 PM - INFO - int_layer: 30
+13/01/2018 02:35:49 PM - INFO - log_y: True
+13/01/2018 02:35:49 PM - INFO - kernel_initializer: normal
+13/01/2018 02:35:49 PM - INFO - hidden_layers: [6, 6, 6, 6]
+13/01/2018 02:35:49 PM - INFO - number: 2
+13/01/2018 04:49:00 PM - INFO - epochs: 131.0
+13/01/2018 04:49:00 PM - INFO - mae_mape: 1695.8480
+13/01/2018 04:49:00 PM - INFO - mape: 90.4378
+13/01/2018 04:49:00 PM - INFO - mae: 18.7515
+13/01/2018 04:49:00 PM - INFO - --------------------
+13/01/2018 04:49:00 PM - INFO - result: 18.7515
+13/01/2018 04:49:00 PM - INFO - --------------------
+13/01/2018 04:49:06 PM - INFO - activation: PReLU
+13/01/2018 04:49:06 PM - INFO - optimizer: Nadam
+13/01/2018 04:49:06 PM - INFO - batch_size: 1024
+13/01/2018 04:49:06 PM - INFO - dropout: 0.3
+13/01/2018 04:49:06 PM - INFO - model_type: mae_mape
+13/01/2018 04:49:06 PM - INFO - result: mae
+13/01/2018 04:49:06 PM - INFO - int_layer: 30
+13/01/2018 04:49:06 PM - INFO - log_y: False
+13/01/2018 04:49:06 PM - INFO - kernel_initializer: zero
+13/01/2018 04:49:06 PM - INFO - hidden_layers: [7, 7, 7, 7]
+13/01/2018 04:49:06 PM - INFO - number: 3
+13/01/2018 05:05:11 PM - INFO - epochs: 13.0
+13/01/2018 05:05:11 PM - INFO - mae_mape: 1879.0720
+13/01/2018 05:05:11 PM - INFO - mape: 95.1223
+13/01/2018 05:05:11 PM - INFO - mae: 19.7543
+13/01/2018 05:05:11 PM - INFO - --------------------
+13/01/2018 05:05:11 PM - INFO - result: 19.7543
+13/01/2018 05:05:11 PM - INFO - --------------------
+13/01/2018 05:05:16 PM - INFO - activation: ThresholdedReLU
+13/01/2018 05:05:16 PM - INFO - optimizer: Adagrad
+13/01/2018 05:05:16 PM - INFO - batch_size: 512
+13/01/2018 05:05:16 PM - INFO - dropout: 0.5
+13/01/2018 05:05:16 PM - INFO - model_type: mape
+13/01/2018 05:05:16 PM - INFO - result: mae
+13/01/2018 05:05:16 PM - INFO - int_layer: 30
+13/01/2018 05:05:16 PM - INFO - log_y: False
+13/01/2018 05:05:16 PM - INFO - kernel_initializer: normal
+13/01/2018 05:05:16 PM - INFO - hidden_layers: [7, 7, 7]
+13/01/2018 05:05:16 PM - INFO - number: 4
+13/01/2018 05:25:08 PM - INFO - epochs: 35.0
+13/01/2018 05:25:08 PM - INFO - mae_mape: 1860.9067
+13/01/2018 05:25:08 PM - INFO - mape: 94.2059
+13/01/2018 05:25:08 PM - INFO - mae: 19.7536
+13/01/2018 05:25:08 PM - INFO - --------------------
+13/01/2018 05:25:08 PM - INFO - result: 19.7536
+13/01/2018 05:25:08 PM - INFO - --------------------
+13/01/2018 05:25:13 PM - INFO - activation: selu
+13/01/2018 05:25:13 PM - INFO - optimizer: Adagrad
+13/01/2018 05:25:13 PM - INFO - batch_size: 512
+13/01/2018 05:25:13 PM - INFO - dropout: 0.5
+13/01/2018 05:25:13 PM - INFO - model_type: mae_mape
+13/01/2018 05:25:13 PM - INFO - result: mae
+13/01/2018 05:25:13 PM - INFO - int_layer: 30
+13/01/2018 05:25:13 PM - INFO - log_y: False
+13/01/2018 05:25:13 PM - INFO - kernel_initializer: he_normal
+13/01/2018 05:25:13 PM - INFO - hidden_layers: [7, 7, 7, 7]
+13/01/2018 05:25:13 PM - INFO - number: 5
+13/01/2018 07:22:56 PM - INFO - epochs: 101.0
+13/01/2018 07:22:56 PM - INFO - mae_mape: 1820.2416
+13/01/2018 07:22:56 PM - INFO - mape: 97.3774
+13/01/2018 07:22:56 PM - INFO - mae: 18.6926
+13/01/2018 07:22:56 PM - INFO - --------------------
+13/01/2018 07:22:56 PM - INFO - result: 18.6926
+13/01/2018 07:22:56 PM - INFO - --------------------
+13/01/2018 07:23:02 PM - INFO - activation: ELU
+13/01/2018 07:23:02 PM - INFO - optimizer: Adadelta
+13/01/2018 07:23:02 PM - INFO - batch_size: 512
+13/01/2018 07:23:02 PM - INFO - dropout: 0.5
+13/01/2018 07:23:02 PM - INFO - model_type: mae_mape
+13/01/2018 07:23:02 PM - INFO - result: mae
+13/01/2018 07:23:02 PM - INFO - int_layer: 30
+13/01/2018 07:23:02 PM - INFO - log_y: False
+13/01/2018 07:23:02 PM - INFO - kernel_initializer: he_normal
+13/01/2018 07:23:02 PM - INFO - hidden_layers: [5, 5, 5, 5]
+13/01/2018 07:23:02 PM - INFO - number: 6
+13/01/2018 08:22:03 PM - INFO - epochs: 92.0
+13/01/2018 08:22:03 PM - INFO - mae_mape: 1776.0658
+13/01/2018 08:22:03 PM - INFO - mape: 96.2784
+13/01/2018 08:22:03 PM - INFO - mae: 18.4472
+13/01/2018 08:22:03 PM - INFO - --------------------
+13/01/2018 08:22:03 PM - INFO - result: 18.4472
+13/01/2018 08:22:03 PM - INFO - --------------------
+13/01/2018 08:22:08 PM - INFO - activation: ELU
+13/01/2018 08:22:08 PM - INFO - optimizer: Adagrad
+13/01/2018 08:22:08 PM - INFO - batch_size: 1024
+13/01/2018 08:22:08 PM - INFO - dropout: 0.3
+13/01/2018 08:22:08 PM - INFO - model_type: mae
+13/01/2018 08:22:08 PM - INFO - result: mae
+13/01/2018 08:22:08 PM - INFO - int_layer: 30
+13/01/2018 08:22:08 PM - INFO - log_y: False
+13/01/2018 08:22:08 PM - INFO - kernel_initializer: glorot_normal
+13/01/2018 08:22:08 PM - INFO - hidden_layers: [4, 4, 4]
+13/01/2018 08:22:08 PM - INFO - number: 7
+13/01/2018 08:46:33 PM - INFO - epochs: 176.0
+13/01/2018 08:46:33 PM - INFO - mae_mape: 2327.6443
+13/01/2018 08:46:33 PM - INFO - mape: 134.4087
+13/01/2018 08:46:33 PM - INFO - mae: 17.3177
+13/01/2018 08:46:33 PM - INFO - --------------------
+13/01/2018 08:46:33 PM - INFO - result: 17.3177
+13/01/2018 08:46:33 PM - INFO - --------------------
+13/01/2018 08:46:36 PM - INFO - activation: relu
+13/01/2018 08:46:36 PM - INFO - optimizer: Adagrad
+13/01/2018 08:46:36 PM - INFO - batch_size: 1024
+13/01/2018 08:46:36 PM - INFO - dropout: 0.1
+13/01/2018 08:46:36 PM - INFO - model_type: mape
+13/01/2018 08:46:36 PM - INFO - result: mae
+13/01/2018 08:46:36 PM - INFO - int_layer: 30
+13/01/2018 08:46:36 PM - INFO - log_y: True
+13/01/2018 08:46:36 PM - INFO - kernel_initializer: uniform
+13/01/2018 08:46:36 PM - INFO - hidden_layers: [6, 6, 6]
+13/01/2018 08:46:36 PM - INFO - number: 8
+13/01/2018 09:55:15 PM - INFO - epochs: 290.0
+13/01/2018 09:55:15 PM - INFO - mae_mape: 1661.9653
+13/01/2018 09:55:15 PM - INFO - mape: 89.2667
+13/01/2018 09:55:15 PM - INFO - mae: 18.6180
+13/01/2018 09:55:15 PM - INFO - --------------------
+13/01/2018 09:55:15 PM - INFO - result: 18.6180
+13/01/2018 09:55:15 PM - INFO - --------------------
+13/01/2018 09:55:19 PM - INFO - activation: ThresholdedReLU
+13/01/2018 09:55:19 PM - INFO - optimizer: Nadam
+13/01/2018 09:55:19 PM - INFO - batch_size: 1024
+13/01/2018 09:55:19 PM - INFO - dropout: 0.2
+13/01/2018 09:55:19 PM - INFO - model_type: mae
+13/01/2018 09:55:19 PM - INFO - result: mae
+13/01/2018 09:55:19 PM - INFO - int_layer: 30
+13/01/2018 09:55:19 PM - INFO - log_y: True
+13/01/2018 09:55:19 PM - INFO - kernel_initializer: he_uniform
+13/01/2018 09:55:19 PM - INFO - hidden_layers: [7, 7, 7, 7]
+13/01/2018 09:55:19 PM - INFO - number: 9
+13/01/2018 10:09:02 PM - INFO - epochs: 23.0
+13/01/2018 10:09:02 PM - INFO - mae_mape: 1919.3991
+13/01/2018 10:09:02 PM - INFO - mape: 98.5937
+13/01/2018 10:09:02 PM - INFO - mae: 19.4678
+13/01/2018 10:09:02 PM - INFO - --------------------
+13/01/2018 10:09:02 PM - INFO - result: 19.4678
+13/01/2018 10:09:02 PM - INFO - --------------------
+13/01/2018 10:09:05 PM - INFO - activation: ThresholdedReLU
+13/01/2018 10:09:05 PM - INFO - optimizer: Adagrad
+13/01/2018 10:09:05 PM - INFO - batch_size: 1024
+13/01/2018 10:09:05 PM - INFO - dropout: 0
+13/01/2018 10:09:05 PM - INFO - model_type: mae
+13/01/2018 10:09:05 PM - INFO - result: mae
+13/01/2018 10:09:05 PM - INFO - int_layer: 30
+13/01/2018 10:09:05 PM - INFO - log_y: True
+13/01/2018 10:09:05 PM - INFO - kernel_initializer: zero
+13/01/2018 10:09:05 PM - INFO - hidden_layers: [7, 7, 7, 7]
+13/01/2018 10:09:05 PM - INFO - number: 10
+13/01/2018 10:20:53 PM - INFO - epochs: 24.0
+13/01/2018 10:20:53 PM - INFO - mae_mape: 1860.9071
+13/01/2018 10:20:53 PM - INFO - mape: 94.2059
+13/01/2018 10:20:53 PM - INFO - mae: 19.7536
+13/01/2018 10:20:53 PM - INFO - --------------------
+13/01/2018 10:20:53 PM - INFO - result: 19.7536
+13/01/2018 10:20:53 PM - INFO - --------------------
+13/01/2018 10:20:57 PM - INFO - activation: selu
+13/01/2018 10:20:57 PM - INFO - optimizer: Nadam
+13/01/2018 10:20:57 PM - INFO - batch_size: 1024
+13/01/2018 10:20:57 PM - INFO - dropout: 0.4
+13/01/2018 10:20:57 PM - INFO - model_type: mae_mape
+13/01/2018 10:20:57 PM - INFO - result: mae
+13/01/2018 10:20:57 PM - INFO - int_layer: 30
+13/01/2018 10:20:57 PM - INFO - log_y: False
+13/01/2018 10:20:57 PM - INFO - kernel_initializer: glorot_normal
+13/01/2018 10:20:57 PM - INFO - hidden_layers: [6, 6, 6]
+13/01/2018 10:20:57 PM - INFO - number: 11
+13/01/2018 10:53:14 PM - INFO - epochs: 107.0
+13/01/2018 10:53:14 PM - INFO - mae_mape: 1572.0586
+13/01/2018 10:53:14 PM - INFO - mape: 90.4328
+13/01/2018 10:53:14 PM - INFO - mae: 17.3837
+13/01/2018 10:53:14 PM - INFO - --------------------
+13/01/2018 10:53:14 PM - INFO - result: 17.3837
+13/01/2018 10:53:14 PM - INFO - --------------------
+13/01/2018 10:53:18 PM - INFO - activation: selu
+13/01/2018 10:53:18 PM - INFO - optimizer: Adamax
+13/01/2018 10:53:18 PM - INFO - batch_size: 512
+13/01/2018 10:53:18 PM - INFO - dropout: 0
+13/01/2018 10:53:18 PM - INFO - model_type: mape
+13/01/2018 10:53:18 PM - INFO - result: mae
+13/01/2018 10:53:18 PM - INFO - int_layer: 30
+13/01/2018 10:53:18 PM - INFO - log_y: True
+13/01/2018 10:53:18 PM - INFO - kernel_initializer: he_normal
+13/01/2018 10:53:18 PM - INFO - hidden_layers: [1, 1, 1, 1]
+13/01/2018 10:53:18 PM - INFO - number: 12
+13/01/2018 11:02:01 PM - INFO - epochs: 164.0
+13/01/2018 11:02:01 PM - INFO - mae_mape: 1671.8522
+13/01/2018 11:02:01 PM - INFO - mape: 89.9398
+13/01/2018 11:02:01 PM - INFO - mae: 18.5886
+13/01/2018 11:02:01 PM - INFO - --------------------
+13/01/2018 11:02:01 PM - INFO - result: 18.5886
+13/01/2018 11:02:01 PM - INFO - --------------------
+13/01/2018 11:02:05 PM - INFO - activation: relu
+13/01/2018 11:02:05 PM - INFO - optimizer: Adamax
+13/01/2018 11:02:05 PM - INFO - batch_size: 1024
+13/01/2018 11:02:05 PM - INFO - dropout: 0.4
+13/01/2018 11:02:05 PM - INFO - model_type: mae_mape
+13/01/2018 11:02:05 PM - INFO - result: mae
+13/01/2018 11:02:05 PM - INFO - int_layer: 30
+13/01/2018 11:02:05 PM - INFO - log_y: True
+13/01/2018 11:02:05 PM - INFO - kernel_initializer: he_uniform
+13/01/2018 11:02:05 PM - INFO - hidden_layers: [4, 4, 4]
+13/01/2018 11:02:05 PM - INFO - number: 13
+13/01/2018 11:26:01 PM - INFO - epochs: 179.0
+13/01/2018 11:26:01 PM - INFO - mae_mape: 1704.1717
+13/01/2018 11:26:01 PM - INFO - mape: 90.3662
+13/01/2018 11:26:01 PM - INFO - mae: 18.8585
+13/01/2018 11:26:01 PM - INFO - --------------------
+13/01/2018 11:26:01 PM - INFO - result: 18.8585
+13/01/2018 11:26:01 PM - INFO - --------------------
+13/01/2018 11:26:05 PM - INFO - activation: PReLU
+13/01/2018 11:26:05 PM - INFO - optimizer: Adam
+13/01/2018 11:26:05 PM - INFO - batch_size: 1024
+13/01/2018 11:26:05 PM - INFO - dropout: 0.2
+13/01/2018 11:26:05 PM - INFO - model_type: mae
+13/01/2018 11:26:05 PM - INFO - result: mae
+13/01/2018 11:26:05 PM - INFO - int_layer: 30
+13/01/2018 11:26:05 PM - INFO - log_y: False
+13/01/2018 11:26:05 PM - INFO - kernel_initializer: lecun_uniform
+13/01/2018 11:26:05 PM - INFO - hidden_layers: [5]
+13/01/2018 11:26:05 PM - INFO - number: 14
+13/01/2018 11:37:15 PM - INFO - epochs: 155.0
+13/01/2018 11:37:15 PM - INFO - mae_mape: 1761.0553
+13/01/2018 11:37:15 PM - INFO - mape: 123.7795
+13/01/2018 11:37:15 PM - INFO - mae: 14.2274
+13/01/2018 11:37:15 PM - INFO - --------------------
+13/01/2018 11:37:15 PM - INFO - result: 14.2274
+13/01/2018 11:37:15 PM - INFO - --------------------
+13/01/2018 11:37:19 PM - INFO - activation: PReLU
+13/01/2018 11:37:19 PM - INFO - optimizer: Adamax
+13/01/2018 11:37:19 PM - INFO - batch_size: 1024
+13/01/2018 11:37:19 PM - INFO - dropout: 0
+13/01/2018 11:37:19 PM - INFO - model_type: mae
+13/01/2018 11:37:19 PM - INFO - result: mae
+13/01/2018 11:37:19 PM - INFO - int_layer: 30
+13/01/2018 11:37:19 PM - INFO - log_y: False
+13/01/2018 11:37:19 PM - INFO - kernel_initializer: zero
+13/01/2018 11:37:19 PM - INFO - hidden_layers: [4, 4, 4]
+13/01/2018 11:37:19 PM - INFO - number: 15
+13/01/2018 11:40:41 PM - INFO - epochs: 22.0
+13/01/2018 11:40:41 PM - INFO - mae_mape: 1860.9106
+13/01/2018 11:40:41 PM - INFO - mape: 94.2061
+13/01/2018 11:40:41 PM - INFO - mae: 19.7536
+13/01/2018 11:40:41 PM - INFO - --------------------
+13/01/2018 11:40:41 PM - INFO - result: 19.7536
+13/01/2018 11:40:41 PM - INFO - --------------------
+13/01/2018 11:40:45 PM - INFO - activation: relu
+13/01/2018 11:40:45 PM - INFO - optimizer: Adamax
+13/01/2018 11:40:45 PM - INFO - batch_size: 512
+13/01/2018 11:40:45 PM - INFO - dropout: 0.2
+13/01/2018 11:40:45 PM - INFO - model_type: mae
+13/01/2018 11:40:45 PM - INFO - result: mae
+13/01/2018 11:40:45 PM - INFO - int_layer: 30
+13/01/2018 11:40:45 PM - INFO - log_y: False
+13/01/2018 11:40:45 PM - INFO - kernel_initializer: he_uniform
+13/01/2018 11:40:45 PM - INFO - hidden_layers: [1, 1]
+13/01/2018 11:40:45 PM - INFO - number: 16
+13/01/2018 11:44:57 PM - INFO - epochs: 148.0
+13/01/2018 11:44:57 PM - INFO - mae_mape: 2143.2354
+13/01/2018 11:44:57 PM - INFO - mape: 132.9486
+13/01/2018 11:44:57 PM - INFO - mae: 16.1208
+13/01/2018 11:44:57 PM - INFO - --------------------
+13/01/2018 11:44:57 PM - INFO - result: 16.1208
+13/01/2018 11:44:57 PM - INFO - --------------------
+13/01/2018 11:45:01 PM - INFO - activation: ELU
+13/01/2018 11:45:01 PM - INFO - optimizer: Adadelta
+13/01/2018 11:45:01 PM - INFO - batch_size: 1024
+13/01/2018 11:45:01 PM - INFO - dropout: 0.3
+13/01/2018 11:45:01 PM - INFO - model_type: mae_mape
+13/01/2018 11:45:01 PM - INFO - result: mae
+13/01/2018 11:45:01 PM - INFO - int_layer: 30
+13/01/2018 11:45:01 PM - INFO - log_y: False
+13/01/2018 11:45:01 PM - INFO - kernel_initializer: he_uniform
+13/01/2018 11:45:01 PM - INFO - hidden_layers: [1, 1]
+13/01/2018 11:45:01 PM - INFO - number: 17
+13/01/2018 11:47:57 PM - INFO - epochs: 143.0
+13/01/2018 11:47:57 PM - INFO - mae_mape: 1866.0206
+13/01/2018 11:47:57 PM - INFO - mape: 98.7041
+13/01/2018 11:47:57 PM - INFO - mae: 18.9052
+13/01/2018 11:47:57 PM - INFO - --------------------
+13/01/2018 11:47:57 PM - INFO - result: 18.9052
+13/01/2018 11:47:57 PM - INFO - --------------------
+13/01/2018 11:48:01 PM - INFO - activation: selu
+13/01/2018 11:48:01 PM - INFO - optimizer: Adam
+13/01/2018 11:48:01 PM - INFO - batch_size: 512
+13/01/2018 11:48:01 PM - INFO - dropout: 0.3
+13/01/2018 11:48:01 PM - INFO - model_type: mae
+13/01/2018 11:48:01 PM - INFO - result: mae
+13/01/2018 11:48:01 PM - INFO - int_layer: 30
+13/01/2018 11:48:01 PM - INFO - log_y: True
+13/01/2018 11:48:01 PM - INFO - kernel_initializer: lecun_uniform
+13/01/2018 11:48:01 PM - INFO - hidden_layers: [6, 6, 6, 6]
+13/01/2018 11:48:01 PM - INFO - number: 18
+14/01/2018 12:53:57 AM - INFO - epochs: 122.0
+14/01/2018 12:53:57 AM - INFO - mae_mape: 1628.7647
+14/01/2018 12:53:57 AM - INFO - mape: 89.5943
+14/01/2018 12:53:57 AM - INFO - mae: 18.1793
+14/01/2018 12:53:57 AM - INFO - --------------------
+14/01/2018 12:53:57 AM - INFO - result: 18.1793
+14/01/2018 12:53:57 AM - INFO - --------------------
+14/01/2018 12:54:01 AM - INFO - activation: ThresholdedReLU
+14/01/2018 12:54:01 AM - INFO - optimizer: Adam
+14/01/2018 12:54:01 AM - INFO - batch_size: 1024
+14/01/2018 12:54:01 AM - INFO - dropout: 0.4
+14/01/2018 12:54:01 AM - INFO - model_type: mae
+14/01/2018 12:54:01 AM - INFO - result: mae
+14/01/2018 12:54:01 AM - INFO - int_layer: 30
+14/01/2018 12:54:01 AM - INFO - log_y: False
+14/01/2018 12:54:01 AM - INFO - kernel_initializer: glorot_uniform
+14/01/2018 12:54:01 AM - INFO - hidden_layers: [1, 1]
+14/01/2018 12:54:01 AM - INFO - number: 19
+14/01/2018 12:55:05 AM - INFO - epochs: 50.0
+14/01/2018 12:55:05 AM - INFO - mae_mape: 2043.0100
+14/01/2018 12:55:05 AM - INFO - mape: 110.1797
+14/01/2018 12:55:05 AM - INFO - mae: 18.5425
+14/01/2018 12:55:05 AM - INFO - --------------------
+14/01/2018 12:55:05 AM - INFO - result: 18.5425
+14/01/2018 12:55:05 AM - INFO - --------------------
+14/01/2018 12:55:09 AM - INFO - activation: PReLU
+14/01/2018 12:55:09 AM - INFO - optimizer: Adam
+14/01/2018 12:55:09 AM - INFO - batch_size: 1024
+14/01/2018 12:55:09 AM - INFO - dropout: 0.1
+14/01/2018 12:55:09 AM - INFO - model_type: mae_mape
+14/01/2018 12:55:09 AM - INFO - result: mae
+14/01/2018 12:55:09 AM - INFO - int_layer: 30
+14/01/2018 12:55:09 AM - INFO - log_y: True
+14/01/2018 12:55:09 AM - INFO - kernel_initializer: he_normal
+14/01/2018 12:55:09 AM - INFO - hidden_layers: [4, 4, 4]
+14/01/2018 12:55:09 AM - INFO - number: 20
+14/01/2018 01:28:12 AM - INFO - epochs: 184.0
+14/01/2018 01:28:12 AM - INFO - mae_mape: 1531.0392
+14/01/2018 01:28:12 AM - INFO - mape: 84.8440
+14/01/2018 01:28:12 AM - INFO - mae: 18.0453
+14/01/2018 01:28:12 AM - INFO - --------------------
+14/01/2018 01:28:12 AM - INFO - result: 18.0453
+14/01/2018 01:28:12 AM - INFO - --------------------
+14/01/2018 01:28:16 AM - INFO - activation: relu
+14/01/2018 01:28:16 AM - INFO - optimizer: Adadelta
+14/01/2018 01:28:16 AM - INFO - batch_size: 512
+14/01/2018 01:28:16 AM - INFO - dropout: 0
+14/01/2018 01:28:16 AM - INFO - model_type: mape
+14/01/2018 01:28:16 AM - INFO - result: mae
+14/01/2018 01:28:16 AM - INFO - int_layer: 30
+14/01/2018 01:28:16 AM - INFO - log_y: False
+14/01/2018 01:28:16 AM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 01:28:16 AM - INFO - hidden_layers: [5, 5, 5, 5]
+14/01/2018 01:28:16 AM - INFO - number: 21
+14/01/2018 01:53:46 AM - INFO - epochs: 84.0
+14/01/2018 01:53:46 AM - INFO - mae_mape: 1526.9940
+14/01/2018 01:53:46 AM - INFO - mape: 85.4771
+14/01/2018 01:53:46 AM - INFO - mae: 17.8644
+14/01/2018 01:53:46 AM - INFO - --------------------
+14/01/2018 01:53:46 AM - INFO - result: 17.8644
+14/01/2018 01:53:46 AM - INFO - --------------------
+14/01/2018 01:53:50 AM - INFO - activation: PReLU
+14/01/2018 01:53:50 AM - INFO - optimizer: Adam
+14/01/2018 01:53:50 AM - INFO - batch_size: 512
+14/01/2018 01:53:50 AM - INFO - dropout: 0
+14/01/2018 01:53:50 AM - INFO - model_type: mae
+14/01/2018 01:53:50 AM - INFO - result: mae
+14/01/2018 01:53:50 AM - INFO - int_layer: 30
+14/01/2018 01:53:50 AM - INFO - log_y: True
+14/01/2018 01:53:50 AM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 01:53:50 AM - INFO - hidden_layers: [4, 4, 4, 4]
+14/01/2018 01:53:50 AM - INFO - number: 22
+14/01/2018 02:26:33 AM - INFO - epochs: 121.0
+14/01/2018 02:26:33 AM - INFO - mae_mape: 1492.0645
+14/01/2018 02:26:33 AM - INFO - mape: 84.3592
+14/01/2018 02:26:33 AM - INFO - mae: 17.6870
+14/01/2018 02:26:33 AM - INFO - --------------------
+14/01/2018 02:26:33 AM - INFO - result: 17.6870
+14/01/2018 02:26:33 AM - INFO - --------------------
+14/01/2018 02:26:37 AM - INFO - activation: relu
+14/01/2018 02:26:37 AM - INFO - optimizer: Nadam
+14/01/2018 02:26:37 AM - INFO - batch_size: 1024
+14/01/2018 02:26:37 AM - INFO - dropout: 0.1
+14/01/2018 02:26:37 AM - INFO - model_type: mape
+14/01/2018 02:26:37 AM - INFO - result: mae
+14/01/2018 02:26:37 AM - INFO - int_layer: 30
+14/01/2018 02:26:37 AM - INFO - log_y: False
+14/01/2018 02:26:37 AM - INFO - kernel_initializer: glorot_normal
+14/01/2018 02:26:37 AM - INFO - hidden_layers: [2]
+14/01/2018 02:26:37 AM - INFO - number: 23
+14/01/2018 02:30:33 AM - INFO - epochs: 145.0
+14/01/2018 02:30:33 AM - INFO - mae_mape: 1749.0837
+14/01/2018 02:30:33 AM - INFO - mape: 91.1584
+14/01/2018 02:30:33 AM - INFO - mae: 19.1873
+14/01/2018 02:30:33 AM - INFO - --------------------
+14/01/2018 02:30:33 AM - INFO - result: 19.1873
+14/01/2018 02:30:33 AM - INFO - --------------------
+14/01/2018 02:30:37 AM - INFO - activation: ThresholdedReLU
+14/01/2018 02:30:37 AM - INFO - optimizer: Adamax
+14/01/2018 02:30:37 AM - INFO - batch_size: 1024
+14/01/2018 02:30:37 AM - INFO - dropout: 0.3
+14/01/2018 02:30:37 AM - INFO - model_type: mae_mape
+14/01/2018 02:30:37 AM - INFO - result: mae
+14/01/2018 02:30:37 AM - INFO - int_layer: 30
+14/01/2018 02:30:37 AM - INFO - log_y: False
+14/01/2018 02:30:37 AM - INFO - kernel_initializer: uniform
+14/01/2018 02:30:37 AM - INFO - hidden_layers: [6, 6, 6, 6]
+14/01/2018 02:30:37 AM - INFO - number: 24
+14/01/2018 02:38:47 AM - INFO - epochs: 18.0
+14/01/2018 02:38:47 AM - INFO - mae_mape: 1878.9313
+14/01/2018 02:38:47 AM - INFO - mape: 95.1152
+14/01/2018 02:38:47 AM - INFO - mae: 19.7543
+14/01/2018 02:38:47 AM - INFO - --------------------
+14/01/2018 02:38:47 AM - INFO - result: 19.7543
+14/01/2018 02:38:47 AM - INFO - --------------------
+14/01/2018 02:38:51 AM - INFO - activation: ThresholdedReLU
+14/01/2018 02:38:51 AM - INFO - optimizer: Nadam
+14/01/2018 02:38:51 AM - INFO - batch_size: 512
+14/01/2018 02:38:51 AM - INFO - dropout: 0.3
+14/01/2018 02:38:51 AM - INFO - model_type: mape
+14/01/2018 02:38:51 AM - INFO - result: mae
+14/01/2018 02:38:51 AM - INFO - int_layer: 30
+14/01/2018 02:38:51 AM - INFO - log_y: False
+14/01/2018 02:38:51 AM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 02:38:51 AM - INFO - hidden_layers: [1, 1, 1, 1]
+14/01/2018 02:38:51 AM - INFO - number: 25
+14/01/2018 02:40:25 AM - INFO - epochs: 27.0
+14/01/2018 02:40:25 AM - INFO - mae_mape: 1860.9067
+14/01/2018 02:40:25 AM - INFO - mape: 94.2059
+14/01/2018 02:40:25 AM - INFO - mae: 19.7536
+14/01/2018 02:40:25 AM - INFO - --------------------
+14/01/2018 02:40:25 AM - INFO - result: 19.7536
+14/01/2018 02:40:25 AM - INFO - --------------------
+14/01/2018 02:40:29 AM - INFO - activation: ELU
+14/01/2018 02:40:29 AM - INFO - optimizer: Adamax
+14/01/2018 02:40:29 AM - INFO - batch_size: 512
+14/01/2018 02:40:29 AM - INFO - dropout: 0.5
+14/01/2018 02:40:29 AM - INFO - model_type: mae_mape
+14/01/2018 02:40:29 AM - INFO - result: mae
+14/01/2018 02:40:29 AM - INFO - int_layer: 30
+14/01/2018 02:40:29 AM - INFO - log_y: True
+14/01/2018 02:40:29 AM - INFO - kernel_initializer: zero
+14/01/2018 02:40:29 AM - INFO - hidden_layers: [5, 4, 3, 2, 1]
+14/01/2018 02:40:29 AM - INFO - number: 26
+14/01/2018 02:45:19 AM - INFO - epochs: 16.0
+14/01/2018 02:45:19 AM - INFO - mae_mape: 1868.2666
+14/01/2018 02:45:19 AM - INFO - mape: 94.5775
+14/01/2018 02:45:19 AM - INFO - mae: 19.7538
+14/01/2018 02:45:19 AM - INFO - --------------------
+14/01/2018 02:45:19 AM - INFO - result: 19.7538
+14/01/2018 02:45:19 AM - INFO - --------------------
+14/01/2018 02:45:23 AM - INFO - activation: ThresholdedReLU
+14/01/2018 02:45:23 AM - INFO - optimizer: Nadam
+14/01/2018 02:45:23 AM - INFO - batch_size: 512
+14/01/2018 02:45:23 AM - INFO - dropout: 0.5
+14/01/2018 02:45:23 AM - INFO - model_type: mae
+14/01/2018 02:45:23 AM - INFO - result: mae
+14/01/2018 02:45:23 AM - INFO - int_layer: 30
+14/01/2018 02:45:23 AM - INFO - log_y: True
+14/01/2018 02:45:23 AM - INFO - kernel_initializer: normal
+14/01/2018 02:45:23 AM - INFO - hidden_layers: [1, 1]
+14/01/2018 02:45:23 AM - INFO - number: 27
+14/01/2018 02:46:24 AM - INFO - epochs: 29.0
+14/01/2018 02:46:24 AM - INFO - mae_mape: 1860.9072
+14/01/2018 02:46:24 AM - INFO - mape: 94.2059
+14/01/2018 02:46:24 AM - INFO - mae: 19.7536
+14/01/2018 02:46:24 AM - INFO - --------------------
+14/01/2018 02:46:24 AM - INFO - result: 19.7536
+14/01/2018 02:46:24 AM - INFO - --------------------
+14/01/2018 02:46:28 AM - INFO - activation: ThresholdedReLU
+14/01/2018 02:46:28 AM - INFO - optimizer: Nadam
+14/01/2018 02:46:28 AM - INFO - batch_size: 1024
+14/01/2018 02:46:28 AM - INFO - dropout: 0.2
+14/01/2018 02:46:28 AM - INFO - model_type: mae
+14/01/2018 02:46:28 AM - INFO - result: mae
+14/01/2018 02:46:28 AM - INFO - int_layer: 30
+14/01/2018 02:46:28 AM - INFO - log_y: False
+14/01/2018 02:46:28 AM - INFO - kernel_initializer: he_uniform
+14/01/2018 02:46:28 AM - INFO - hidden_layers: [2]
+14/01/2018 02:46:28 AM - INFO - number: 28
+14/01/2018 02:48:25 AM - INFO - epochs: 67.0
+14/01/2018 02:48:25 AM - INFO - mae_mape: 2238.2133
+14/01/2018 02:48:25 AM - INFO - mape: 128.6192
+14/01/2018 02:48:25 AM - INFO - mae: 17.4019
+14/01/2018 02:48:25 AM - INFO - --------------------
+14/01/2018 02:48:25 AM - INFO - result: 17.4019
+14/01/2018 02:48:25 AM - INFO - --------------------
+14/01/2018 02:48:29 AM - INFO - activation: PReLU
+14/01/2018 02:48:29 AM - INFO - optimizer: Nadam
+14/01/2018 02:48:29 AM - INFO - batch_size: 1024
+14/01/2018 02:48:29 AM - INFO - dropout: 0.5
+14/01/2018 02:48:29 AM - INFO - model_type: mae_mape
+14/01/2018 02:48:29 AM - INFO - result: mae
+14/01/2018 02:48:29 AM - INFO - int_layer: 30
+14/01/2018 02:48:29 AM - INFO - log_y: True
+14/01/2018 02:48:29 AM - INFO - kernel_initializer: glorot_normal
+14/01/2018 02:48:29 AM - INFO - hidden_layers: [5, 5, 5]
+14/01/2018 02:48:29 AM - INFO - number: 29
+14/01/2018 03:08:49 AM - INFO - epochs: 83.0
+14/01/2018 03:08:49 AM - INFO - mae_mape: 1783.0848
+14/01/2018 03:08:49 AM - INFO - mape: 92.9191
+14/01/2018 03:08:49 AM - INFO - mae: 19.1897
+14/01/2018 03:08:49 AM - INFO - --------------------
+14/01/2018 03:08:49 AM - INFO - result: 19.1897
+14/01/2018 03:08:49 AM - INFO - --------------------
+14/01/2018 03:08:49 AM - INFO - Generation average: 18.441
+14/01/2018 03:08:49 AM - INFO - Generation maximum: 19.754
+14/01/2018 03:08:49 AM - INFO - Generation minimum: 13.978
+14/01/2018 03:08:49 AM - INFO - --------------------------------------------------------------------------------
+14/01/2018 03:08:49 AM - INFO - ***Doing generation 2 of 10***
+14/01/2018 03:08:53 AM - INFO - activation: ELU
+14/01/2018 03:08:53 AM - INFO - optimizer: Adagrad
+14/01/2018 03:08:53 AM - INFO - batch_size: 1024
+14/01/2018 03:08:53 AM - INFO - dropout: 0.3
+14/01/2018 03:08:53 AM - INFO - model_type: mae
+14/01/2018 03:08:53 AM - INFO - result: mae
+14/01/2018 03:08:53 AM - INFO - int_layer: 30
+14/01/2018 03:08:53 AM - INFO - log_y: False
+14/01/2018 03:08:53 AM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 03:08:53 AM - INFO - hidden_layers: [6, 6, 6, 6]
+14/01/2018 03:08:53 AM - INFO - number: 13
+14/01/2018 04:48:30 AM - INFO - epochs: 224.0
+14/01/2018 04:48:30 AM - INFO - mae_mape: 1844.8006
+14/01/2018 04:48:30 AM - INFO - mape: 124.4900
+14/01/2018 04:48:30 AM - INFO - mae: 14.8189
+14/01/2018 04:48:30 AM - INFO - --------------------
+14/01/2018 04:48:30 AM - INFO - result: 14.8189
+14/01/2018 04:48:30 AM - INFO - --------------------
+14/01/2018 04:48:33 AM - INFO - activation: selu
+14/01/2018 04:48:33 AM - INFO - optimizer: Adagrad
+14/01/2018 04:48:33 AM - INFO - batch_size: 1024
+14/01/2018 04:48:33 AM - INFO - dropout: 0.3
+14/01/2018 04:48:33 AM - INFO - model_type: mae
+14/01/2018 04:48:33 AM - INFO - result: mae
+14/01/2018 04:48:33 AM - INFO - int_layer: 30
+14/01/2018 04:48:33 AM - INFO - log_y: True
+14/01/2018 04:48:33 AM - INFO - kernel_initializer: glorot_normal
+14/01/2018 04:48:33 AM - INFO - hidden_layers: [4, 4, 4]
+14/01/2018 04:48:33 AM - INFO - number: 14
+14/01/2018 05:07:10 AM - INFO - epochs: 119.0
+14/01/2018 05:07:10 AM - INFO - mae_mape: 1868.9865
+14/01/2018 05:07:10 AM - INFO - mape: 97.5784
+14/01/2018 05:07:10 AM - INFO - mae: 19.1537
+14/01/2018 05:07:10 AM - INFO - --------------------
+14/01/2018 05:07:10 AM - INFO - result: 19.1537
+14/01/2018 05:07:10 AM - INFO - --------------------
+14/01/2018 05:07:14 AM - INFO - activation: ELU
+14/01/2018 05:07:14 AM - INFO - optimizer: Adadelta
+14/01/2018 05:07:14 AM - INFO - batch_size: 512
+14/01/2018 05:07:14 AM - INFO - dropout: 0.4
+14/01/2018 05:07:14 AM - INFO - model_type: mape
+14/01/2018 05:07:14 AM - INFO - result: mae
+14/01/2018 05:07:14 AM - INFO - int_layer: 30
+14/01/2018 05:07:14 AM - INFO - log_y: False
+14/01/2018 05:07:14 AM - INFO - kernel_initializer: normal
+14/01/2018 05:07:14 AM - INFO - hidden_layers: [6, 6, 6, 6]
+14/01/2018 05:07:14 AM - INFO - number: 15
+14/01/2018 05:45:37 AM - INFO - epochs: 76.0
+14/01/2018 05:45:37 AM - INFO - mae_mape: 1843.1191
+14/01/2018 05:45:37 AM - INFO - mape: 93.7067
+14/01/2018 05:45:37 AM - INFO - mae: 19.6690
+14/01/2018 05:45:37 AM - INFO - --------------------
+14/01/2018 05:45:37 AM - INFO - result: 19.6690
+14/01/2018 05:45:37 AM - INFO - --------------------
+14/01/2018 05:45:41 AM - INFO - activation: ELU
+14/01/2018 05:45:41 AM - INFO - optimizer: Adadelta
+14/01/2018 05:45:41 AM - INFO - batch_size: 512
+14/01/2018 05:45:41 AM - INFO - dropout: 0.4
+14/01/2018 05:45:41 AM - INFO - model_type: mae_mape
+14/01/2018 05:45:41 AM - INFO - result: mae
+14/01/2018 05:45:41 AM - INFO - int_layer: 30
+14/01/2018 05:45:41 AM - INFO - log_y: False
+14/01/2018 05:45:41 AM - INFO - kernel_initializer: normal
+14/01/2018 05:45:41 AM - INFO - hidden_layers: [5, 5, 5, 5]
+14/01/2018 05:45:41 AM - INFO - number: 16
+14/01/2018 06:30:39 AM - INFO - epochs: 119.0
+14/01/2018 06:30:39 AM - INFO - mae_mape: 1796.0578
+14/01/2018 06:30:39 AM - INFO - mape: 97.0330
+14/01/2018 06:30:39 AM - INFO - mae: 18.5098
+14/01/2018 06:30:39 AM - INFO - --------------------
+14/01/2018 06:30:39 AM - INFO - result: 18.5098
+14/01/2018 06:30:39 AM - INFO - --------------------
+14/01/2018 06:30:43 AM - INFO - activation: PReLU
+14/01/2018 06:30:43 AM - INFO - optimizer: Adagrad
+14/01/2018 06:30:43 AM - INFO - batch_size: 1024
+14/01/2018 06:30:43 AM - INFO - dropout: 0.2
+14/01/2018 06:30:43 AM - INFO - model_type: mae
+14/01/2018 06:30:43 AM - INFO - result: mae
+14/01/2018 06:30:43 AM - INFO - int_layer: 30
+14/01/2018 06:30:43 AM - INFO - log_y: False
+14/01/2018 06:30:43 AM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 06:30:43 AM - INFO - hidden_layers: [4, 4, 4]
+14/01/2018 06:30:43 AM - INFO - number: 17
+14/01/2018 07:05:42 AM - INFO - epochs: 202.0
+14/01/2018 07:05:42 AM - INFO - mae_mape: 1672.1582
+14/01/2018 07:05:42 AM - INFO - mape: 125.6893
+14/01/2018 07:05:42 AM - INFO - mae: 13.3039
+14/01/2018 07:05:42 AM - INFO - --------------------
+14/01/2018 07:05:42 AM - INFO - result: 13.3039
+14/01/2018 07:05:42 AM - INFO - --------------------
+14/01/2018 07:05:46 AM - INFO - activation: PReLU
+14/01/2018 07:05:46 AM - INFO - optimizer: Adagrad
+14/01/2018 07:05:46 AM - INFO - batch_size: 1024
+14/01/2018 07:05:46 AM - INFO - dropout: 0.3
+14/01/2018 07:05:46 AM - INFO - model_type: mae
+14/01/2018 07:05:46 AM - INFO - result: mae
+14/01/2018 07:05:46 AM - INFO - int_layer: 30
+14/01/2018 07:05:46 AM - INFO - log_y: False
+14/01/2018 07:05:46 AM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 07:05:46 AM - INFO - hidden_layers: [5]
+14/01/2018 07:05:46 AM - INFO - number: 18
+14/01/2018 07:19:36 AM - INFO - epochs: 189.0
+14/01/2018 07:19:36 AM - INFO - mae_mape: 2225.9641
+14/01/2018 07:19:36 AM - INFO - mape: 134.9729
+14/01/2018 07:19:36 AM - INFO - mae: 16.4919
+14/01/2018 07:19:36 AM - INFO - --------------------
+14/01/2018 07:19:36 AM - INFO - result: 16.4919
+14/01/2018 07:19:36 AM - INFO - --------------------
+14/01/2018 07:19:39 AM - INFO - activation: ThresholdedReLU
+14/01/2018 07:19:39 AM - INFO - optimizer: Adam
+14/01/2018 07:19:39 AM - INFO - batch_size: 512
+14/01/2018 07:19:39 AM - INFO - dropout: 0.4
+14/01/2018 07:19:40 AM - INFO - model_type: mae
+14/01/2018 07:19:40 AM - INFO - result: mae
+14/01/2018 07:19:40 AM - INFO - int_layer: 30
+14/01/2018 07:19:40 AM - INFO - log_y: False
+14/01/2018 07:19:40 AM - INFO - kernel_initializer: glorot_uniform
+14/01/2018 07:19:40 AM - INFO - hidden_layers: [1, 1]
+14/01/2018 07:19:40 AM - INFO - number: 19
+14/01/2018 07:20:49 AM - INFO - epochs: 33.0
+14/01/2018 07:20:49 AM - INFO - mae_mape: 2012.7738
+14/01/2018 07:20:49 AM - INFO - mape: 107.8889
+14/01/2018 07:20:49 AM - INFO - mae: 18.6560
+14/01/2018 07:20:49 AM - INFO - --------------------
+14/01/2018 07:20:49 AM - INFO - result: 18.6560
+14/01/2018 07:20:49 AM - INFO - --------------------
+14/01/2018 07:20:53 AM - INFO - activation: ThresholdedReLU
+14/01/2018 07:20:53 AM - INFO - optimizer: Adam
+14/01/2018 07:20:53 AM - INFO - batch_size: 512
+14/01/2018 07:20:53 AM - INFO - dropout: 0.4
+14/01/2018 07:20:53 AM - INFO - model_type: mae
+14/01/2018 07:20:53 AM - INFO - result: mae
+14/01/2018 07:20:53 AM - INFO - int_layer: 30
+14/01/2018 07:20:53 AM - INFO - log_y: False
+14/01/2018 07:20:53 AM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 07:20:53 AM - INFO - hidden_layers: [4, 4, 4, 4]
+14/01/2018 07:20:53 AM - INFO - number: 20
+14/01/2018 07:24:15 AM - INFO - epochs: 13.0
+14/01/2018 07:24:15 AM - INFO - mae_mape: 1860.9147
+14/01/2018 07:24:15 AM - INFO - mape: 94.2063
+14/01/2018 07:24:15 AM - INFO - mae: 19.7536
+14/01/2018 07:24:15 AM - INFO - --------------------
+14/01/2018 07:24:15 AM - INFO - result: 19.7536
+14/01/2018 07:24:15 AM - INFO - --------------------
+14/01/2018 07:24:19 AM - INFO - activation: selu
+14/01/2018 07:24:19 AM - INFO - optimizer: Nadam
+14/01/2018 07:24:19 AM - INFO - batch_size: 512
+14/01/2018 07:24:19 AM - INFO - dropout: 0.4
+14/01/2018 07:24:19 AM - INFO - model_type: mae
+14/01/2018 07:24:19 AM - INFO - result: mae
+14/01/2018 07:24:19 AM - INFO - int_layer: 30
+14/01/2018 07:24:19 AM - INFO - log_y: False
+14/01/2018 07:24:19 AM - INFO - kernel_initializer: he_uniform
+14/01/2018 07:24:19 AM - INFO - hidden_layers: [1, 1]
+14/01/2018 07:24:19 AM - INFO - number: 21
+14/01/2018 07:27:27 AM - INFO - epochs: 76.0
+14/01/2018 07:27:27 AM - INFO - mae_mape: 2397.8923
+14/01/2018 07:27:27 AM - INFO - mape: 134.5668
+14/01/2018 07:27:27 AM - INFO - mae: 17.8193
+14/01/2018 07:27:27 AM - INFO - --------------------
+14/01/2018 07:27:27 AM - INFO - result: 17.8193
+14/01/2018 07:27:27 AM - INFO - --------------------
+14/01/2018 07:27:30 AM - INFO - activation: relu
+14/01/2018 07:27:30 AM - INFO - optimizer: Adamax
+14/01/2018 07:27:30 AM - INFO - batch_size: 512
+14/01/2018 07:27:30 AM - INFO - dropout: 0.4
+14/01/2018 07:27:30 AM - INFO - model_type: mae_mape
+14/01/2018 07:27:30 AM - INFO - result: mae
+14/01/2018 07:27:31 AM - INFO - int_layer: 30
+14/01/2018 07:27:31 AM - INFO - log_y: False
+14/01/2018 07:27:31 AM - INFO - kernel_initializer: he_uniform
+14/01/2018 07:27:31 AM - INFO - hidden_layers: [6, 6, 6]
+14/01/2018 07:27:31 AM - INFO - number: 22
+14/01/2018 07:58:36 AM - INFO - epochs: 118.0
+14/01/2018 07:58:36 AM - INFO - mae_mape: 1452.4722
+14/01/2018 07:58:36 AM - INFO - mape: 87.2504
+14/01/2018 07:58:36 AM - INFO - mae: 16.6472
+14/01/2018 07:58:36 AM - INFO - --------------------
+14/01/2018 07:58:36 AM - INFO - result: 16.6472
+14/01/2018 07:58:36 AM - INFO - --------------------
+14/01/2018 07:58:40 AM - INFO - activation: relu
+14/01/2018 07:58:40 AM - INFO - optimizer: Adam
+14/01/2018 07:58:40 AM - INFO - batch_size: 1024
+14/01/2018 07:58:40 AM - INFO - dropout: 0.4
+14/01/2018 07:58:40 AM - INFO - model_type: mape
+14/01/2018 07:58:40 AM - INFO - result: mae
+14/01/2018 07:58:40 AM - INFO - int_layer: 30
+14/01/2018 07:58:40 AM - INFO - log_y: True
+14/01/2018 07:58:40 AM - INFO - kernel_initializer: glorot_normal
+14/01/2018 07:58:40 AM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 07:58:40 AM - INFO - number: 23
+14/01/2018 08:09:03 AM - INFO - epochs: 110.0
+14/01/2018 08:09:03 AM - INFO - mae_mape: 1782.3863
+14/01/2018 08:09:03 AM - INFO - mape: 93.2888
+14/01/2018 08:09:03 AM - INFO - mae: 19.1061
+14/01/2018 08:09:03 AM - INFO - --------------------
+14/01/2018 08:09:03 AM - INFO - result: 19.1061
+14/01/2018 08:09:03 AM - INFO - --------------------
+14/01/2018 08:09:07 AM - INFO - activation: PReLU
+14/01/2018 08:09:07 AM - INFO - optimizer: Adadelta
+14/01/2018 08:09:07 AM - INFO - batch_size: 512
+14/01/2018 08:09:07 AM - INFO - dropout: 0.4
+14/01/2018 08:09:07 AM - INFO - model_type: mape
+14/01/2018 08:09:07 AM - INFO - result: mae
+14/01/2018 08:09:07 AM - INFO - int_layer: 30
+14/01/2018 08:09:07 AM - INFO - log_y: True
+14/01/2018 08:09:07 AM - INFO - kernel_initializer: glorot_normal
+14/01/2018 08:09:07 AM - INFO - hidden_layers: [6, 6, 6, 6]
+14/01/2018 08:09:07 AM - INFO - number: 24
+14/01/2018 09:55:40 AM - INFO - epochs: 172.0
+14/01/2018 09:55:40 AM - INFO - mae_mape: 1661.3663
+14/01/2018 09:55:40 AM - INFO - mape: 89.3428
+14/01/2018 09:55:40 AM - INFO - mae: 18.5954
+14/01/2018 09:55:40 AM - INFO - --------------------
+14/01/2018 09:55:40 AM - INFO - result: 18.5954
+14/01/2018 09:55:40 AM - INFO - --------------------
+14/01/2018 09:55:44 AM - INFO - activation: ELU
+14/01/2018 09:55:44 AM - INFO - optimizer: Nadam
+14/01/2018 09:55:44 AM - INFO - batch_size: 1024
+14/01/2018 09:55:44 AM - INFO - dropout: 0.5
+14/01/2018 09:55:44 AM - INFO - model_type: mae_mape
+14/01/2018 09:55:44 AM - INFO - result: mae
+14/01/2018 09:55:44 AM - INFO - int_layer: 30
+14/01/2018 09:55:44 AM - INFO - log_y: False
+14/01/2018 09:55:44 AM - INFO - kernel_initializer: glorot_normal
+14/01/2018 09:55:44 AM - INFO - hidden_layers: [5, 5, 5, 5]
+14/01/2018 09:55:44 AM - INFO - number: 25
+14/01/2018 10:56:02 AM - INFO - epochs: 136.0
+14/01/2018 10:56:02 AM - INFO - mae_mape: 1664.1892
+14/01/2018 10:56:02 AM - INFO - mape: 93.6985
+14/01/2018 10:56:02 AM - INFO - mae: 17.7611
+14/01/2018 10:56:02 AM - INFO - --------------------
+14/01/2018 10:56:02 AM - INFO - result: 17.7611
+14/01/2018 10:56:02 AM - INFO - --------------------
+14/01/2018 10:56:06 AM - INFO - activation: selu
+14/01/2018 10:56:06 AM - INFO - optimizer: Nadam
+14/01/2018 10:56:06 AM - INFO - batch_size: 1024
+14/01/2018 10:56:06 AM - INFO - dropout: 0.5
+14/01/2018 10:56:06 AM - INFO - model_type: mae_mape
+14/01/2018 10:56:06 AM - INFO - result: mae
+14/01/2018 10:56:06 AM - INFO - int_layer: 30
+14/01/2018 10:56:06 AM - INFO - log_y: False
+14/01/2018 10:56:06 AM - INFO - kernel_initializer: glorot_normal
+14/01/2018 10:56:06 AM - INFO - hidden_layers: [6, 6, 6]
+14/01/2018 10:56:06 AM - INFO - number: 26
+14/01/2018 11:31:51 AM - INFO - epochs: 91.0
+14/01/2018 11:31:51 AM - INFO - mae_mape: 1719.6703
+14/01/2018 11:31:51 AM - INFO - mape: 94.4565
+14/01/2018 11:31:51 AM - INFO - mae: 18.2060
+14/01/2018 11:31:51 AM - INFO - --------------------
+14/01/2018 11:31:51 AM - INFO - result: 18.2060
+14/01/2018 11:31:51 AM - INFO - --------------------
+14/01/2018 11:31:56 AM - INFO - activation: PReLU
+14/01/2018 11:31:56 AM - INFO - optimizer: Nadam
+14/01/2018 11:31:56 AM - INFO - batch_size: 1024
+14/01/2018 11:31:56 AM - INFO - dropout: 0.2
+14/01/2018 11:31:56 AM - INFO - model_type: mae
+14/01/2018 11:31:56 AM - INFO - result: mae
+14/01/2018 11:31:56 AM - INFO - int_layer: 30
+14/01/2018 11:31:56 AM - INFO - log_y: False
+14/01/2018 11:31:56 AM - INFO - kernel_initializer: he_uniform
+14/01/2018 11:31:56 AM - INFO - hidden_layers: [2]
+14/01/2018 11:31:56 AM - INFO - number: 27
+14/01/2018 11:37:25 AM - INFO - epochs: 108.0
+14/01/2018 11:37:25 AM - INFO - mae_mape: 1937.8563
+14/01/2018 11:37:25 AM - INFO - mape: 127.7278
+14/01/2018 11:37:25 AM - INFO - mae: 15.1718
+14/01/2018 11:37:25 AM - INFO - --------------------
+14/01/2018 11:37:25 AM - INFO - result: 15.1718
+14/01/2018 11:37:25 AM - INFO - --------------------
+14/01/2018 11:37:29 AM - INFO - activation: PReLU
+14/01/2018 11:37:29 AM - INFO - optimizer: Nadam
+14/01/2018 11:37:29 AM - INFO - batch_size: 1024
+14/01/2018 11:37:29 AM - INFO - dropout: 0.2
+14/01/2018 11:37:29 AM - INFO - model_type: mae
+14/01/2018 11:37:29 AM - INFO - result: mae
+14/01/2018 11:37:29 AM - INFO - int_layer: 30
+14/01/2018 11:37:29 AM - INFO - log_y: False
+14/01/2018 11:37:29 AM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 11:37:29 AM - INFO - hidden_layers: [2]
+14/01/2018 11:37:29 AM - INFO - number: 28
+14/01/2018 11:43:20 AM - INFO - epochs: 116.0
+14/01/2018 11:43:20 AM - INFO - mae_mape: 1895.6531
+14/01/2018 11:43:20 AM - INFO - mape: 126.1091
+14/01/2018 11:43:20 AM - INFO - mae: 15.0319
+14/01/2018 11:43:20 AM - INFO - --------------------
+14/01/2018 11:43:20 AM - INFO - result: 15.0319
+14/01/2018 11:43:20 AM - INFO - --------------------
+14/01/2018 11:43:24 AM - INFO - activation: ThresholdedReLU
+14/01/2018 11:43:24 AM - INFO - optimizer: Adam
+14/01/2018 11:43:24 AM - INFO - batch_size: 1024
+14/01/2018 11:43:24 AM - INFO - dropout: 0.1
+14/01/2018 11:43:24 AM - INFO - model_type: mae_mape
+14/01/2018 11:43:24 AM - INFO - result: mae
+14/01/2018 11:43:24 AM - INFO - int_layer: 30
+14/01/2018 11:43:24 AM - INFO - log_y: False
+14/01/2018 11:43:24 AM - INFO - kernel_initializer: glorot_uniform
+14/01/2018 11:43:24 AM - INFO - hidden_layers: [1, 1]
+14/01/2018 11:43:24 AM - INFO - number: 29
+14/01/2018 11:43:56 AM - INFO - epochs: 15.0
+14/01/2018 11:43:56 AM - INFO - mae_mape: 1878.7142
+14/01/2018 11:43:56 AM - INFO - mape: 95.1043
+14/01/2018 11:43:56 AM - INFO - mae: 19.7543
+14/01/2018 11:43:56 AM - INFO - --------------------
+14/01/2018 11:43:56 AM - INFO - result: 19.7543
+14/01/2018 11:43:56 AM - INFO - --------------------
+14/01/2018 11:43:56 AM - INFO - Generation average: 17.413
+14/01/2018 11:43:56 AM - INFO - Generation maximum: 19.754
+14/01/2018 11:43:56 AM - INFO - Generation minimum: 13.304
+14/01/2018 11:43:56 AM - INFO - --------------------------------------------------------------------------------
+14/01/2018 11:43:56 AM - INFO - ***Doing generation 3 of 10***
+14/01/2018 11:44:00 AM - INFO - activation: PReLU
+14/01/2018 11:44:00 AM - INFO - optimizer: Adam
+14/01/2018 11:44:00 AM - INFO - batch_size: 1024
+14/01/2018 11:44:00 AM - INFO - dropout: 0.2
+14/01/2018 11:44:00 AM - INFO - model_type: mae
+14/01/2018 11:44:00 AM - INFO - result: mae
+14/01/2018 11:44:00 AM - INFO - int_layer: 30
+14/01/2018 11:44:00 AM - INFO - log_y: False
+14/01/2018 11:44:00 AM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 11:44:00 AM - INFO - hidden_layers: [2]
+14/01/2018 11:44:00 AM - INFO - number: 14
+14/01/2018 11:48:55 AM - INFO - epochs: 97.0
+14/01/2018 11:48:55 AM - INFO - mae_mape: 2149.5093
+14/01/2018 11:48:55 AM - INFO - mape: 134.0519
+14/01/2018 11:48:55 AM - INFO - mae: 16.0349
+14/01/2018 11:48:55 AM - INFO - --------------------
+14/01/2018 11:48:55 AM - INFO - result: 16.0349
+14/01/2018 11:48:55 AM - INFO - --------------------
+14/01/2018 11:48:59 AM - INFO - activation: ThresholdedReLU
+14/01/2018 11:48:59 AM - INFO - optimizer: Adam
+14/01/2018 11:48:59 AM - INFO - batch_size: 1024
+14/01/2018 11:48:59 AM - INFO - dropout: 0.2
+14/01/2018 11:48:59 AM - INFO - model_type: mae
+14/01/2018 11:48:59 AM - INFO - result: mae
+14/01/2018 11:48:59 AM - INFO - int_layer: 30
+14/01/2018 11:48:59 AM - INFO - log_y: False
+14/01/2018 11:48:59 AM - INFO - kernel_initializer: he_uniform
+14/01/2018 11:48:59 AM - INFO - hidden_layers: [5]
+14/01/2018 11:48:59 AM - INFO - number: 15
+14/01/2018 11:57:41 AM - INFO - epochs: 126.0
+14/01/2018 11:57:41 AM - INFO - mae_mape: 2020.1039
+14/01/2018 11:57:41 AM - INFO - mape: 122.5263
+14/01/2018 11:57:41 AM - INFO - mae: 16.4871
+14/01/2018 11:57:41 AM - INFO - --------------------
+14/01/2018 11:57:41 AM - INFO - result: 16.4871
+14/01/2018 11:57:41 AM - INFO - --------------------
+14/01/2018 11:57:45 AM - INFO - activation: PReLU
+14/01/2018 11:57:45 AM - INFO - optimizer: Nadam
+14/01/2018 11:57:45 AM - INFO - batch_size: 1024
+14/01/2018 11:57:45 AM - INFO - dropout: 0.3
+14/01/2018 11:57:45 AM - INFO - model_type: mae
+14/01/2018 11:57:45 AM - INFO - result: mae
+14/01/2018 11:57:45 AM - INFO - int_layer: 30
+14/01/2018 11:57:45 AM - INFO - log_y: False
+14/01/2018 11:57:45 AM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 11:57:45 AM - INFO - hidden_layers: [5]
+14/01/2018 11:57:45 AM - INFO - number: 16
+14/01/2018 12:09:03 PM - INFO - epochs: 112.0
+14/01/2018 12:09:03 PM - INFO - mae_mape: 1799.7250
+14/01/2018 12:09:03 PM - INFO - mape: 122.8852
+14/01/2018 12:09:03 PM - INFO - mae: 14.6456
+14/01/2018 12:09:03 PM - INFO - --------------------
+14/01/2018 12:09:03 PM - INFO - result: 14.6456
+14/01/2018 12:09:03 PM - INFO - --------------------
+14/01/2018 12:09:07 PM - INFO - activation: PReLU
+14/01/2018 12:09:07 PM - INFO - optimizer: Adagrad
+14/01/2018 12:09:07 PM - INFO - batch_size: 1024
+14/01/2018 12:09:07 PM - INFO - dropout: 0.3
+14/01/2018 12:09:07 PM - INFO - model_type: mae
+14/01/2018 12:09:07 PM - INFO - result: mae
+14/01/2018 12:09:07 PM - INFO - int_layer: 30
+14/01/2018 12:09:07 PM - INFO - log_y: False
+14/01/2018 12:09:07 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 12:09:07 PM - INFO - hidden_layers: [5]
+14/01/2018 12:09:07 PM - INFO - number: 17
+14/01/2018 12:26:36 PM - INFO - epochs: 176.0
+14/01/2018 12:26:36 PM - INFO - mae_mape: 2236.3629
+14/01/2018 12:26:36 PM - INFO - mape: 135.1983
+14/01/2018 12:26:36 PM - INFO - mae: 16.5414
+14/01/2018 12:26:36 PM - INFO - --------------------
+14/01/2018 12:26:36 PM - INFO - result: 16.5414
+14/01/2018 12:26:36 PM - INFO - --------------------
+14/01/2018 12:26:40 PM - INFO - activation: relu
+14/01/2018 12:26:40 PM - INFO - optimizer: Adamax
+14/01/2018 12:26:40 PM - INFO - batch_size: 1024
+14/01/2018 12:26:40 PM - INFO - dropout: 0.3
+14/01/2018 12:26:40 PM - INFO - model_type: mae_mape
+14/01/2018 12:26:40 PM - INFO - result: mae
+14/01/2018 12:26:40 PM - INFO - int_layer: 30
+14/01/2018 12:26:40 PM - INFO - log_y: False
+14/01/2018 12:26:40 PM - INFO - kernel_initializer: he_uniform
+14/01/2018 12:26:40 PM - INFO - hidden_layers: [1, 0.5, 0.25, 0.1, 0.05]
+14/01/2018 12:26:40 PM - INFO - number: 18
+14/01/2018 12:29:21 PM - INFO - epochs: 65.0
+14/01/2018 12:29:21 PM - INFO - mae_mape: 1798.0734
+14/01/2018 12:29:21 PM - INFO - mape: 95.9455
+14/01/2018 12:29:21 PM - INFO - mae: 18.7406
+14/01/2018 12:29:21 PM - INFO - --------------------
+14/01/2018 12:29:21 PM - INFO - result: 18.7406
+14/01/2018 12:29:21 PM - INFO - --------------------
+14/01/2018 12:29:25 PM - INFO - activation: relu
+14/01/2018 12:29:25 PM - INFO - optimizer: Adagrad
+14/01/2018 12:29:25 PM - INFO - batch_size: 512
+14/01/2018 12:29:25 PM - INFO - dropout: 0.4
+14/01/2018 12:29:25 PM - INFO - model_type: mae_mape
+14/01/2018 12:29:25 PM - INFO - result: mae
+14/01/2018 12:29:25 PM - INFO - int_layer: 30
+14/01/2018 12:29:25 PM - INFO - log_y: False
+14/01/2018 12:29:25 PM - INFO - kernel_initializer: he_uniform
+14/01/2018 12:29:25 PM - INFO - hidden_layers: [1, 0.5, 0.25, 0.1, 0.05]
+14/01/2018 12:29:25 PM - INFO - number: 19
+14/01/2018 12:32:29 PM - INFO - epochs: 54.0
+14/01/2018 12:32:29 PM - INFO - mae_mape: 1835.3022
+14/01/2018 12:32:29 PM - INFO - mape: 96.2367
+14/01/2018 12:32:29 PM - INFO - mae: 19.0707
+14/01/2018 12:32:29 PM - INFO - --------------------
+14/01/2018 12:32:29 PM - INFO - result: 19.0707
+14/01/2018 12:32:29 PM - INFO - --------------------
+14/01/2018 12:32:33 PM - INFO - activation: PReLU
+14/01/2018 12:32:33 PM - INFO - optimizer: Adam
+14/01/2018 12:32:33 PM - INFO - batch_size: 1024
+14/01/2018 12:32:33 PM - INFO - dropout: 0.2
+14/01/2018 12:32:33 PM - INFO - model_type: mae
+14/01/2018 12:32:33 PM - INFO - result: mae
+14/01/2018 12:32:33 PM - INFO - int_layer: 30
+14/01/2018 12:32:33 PM - INFO - log_y: False
+14/01/2018 12:32:33 PM - INFO - kernel_initializer: he_uniform
+14/01/2018 12:32:33 PM - INFO - hidden_layers: [5]
+14/01/2018 12:32:33 PM - INFO - number: 20
+14/01/2018 12:46:03 PM - INFO - epochs: 134.0
+14/01/2018 12:46:03 PM - INFO - mae_mape: 1882.4392
+14/01/2018 12:46:03 PM - INFO - mape: 127.5577
+14/01/2018 12:46:03 PM - INFO - mae: 14.7576
+14/01/2018 12:46:03 PM - INFO - --------------------
+14/01/2018 12:46:03 PM - INFO - result: 14.7576
+14/01/2018 12:46:03 PM - INFO - --------------------
+14/01/2018 12:46:08 PM - INFO - activation: PReLU
+14/01/2018 12:46:08 PM - INFO - optimizer: Adam
+14/01/2018 12:46:08 PM - INFO - batch_size: 1024
+14/01/2018 12:46:08 PM - INFO - dropout: 0.2
+14/01/2018 12:46:08 PM - INFO - model_type: mae
+14/01/2018 12:46:08 PM - INFO - result: mae
+14/01/2018 12:46:08 PM - INFO - int_layer: 30
+14/01/2018 12:46:08 PM - INFO - log_y: False
+14/01/2018 12:46:08 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 12:46:08 PM - INFO - hidden_layers: [5]
+14/01/2018 12:46:08 PM - INFO - number: 21
+14/01/2018 12:59:45 PM - INFO - epochs: 136.0
+14/01/2018 12:59:45 PM - INFO - mae_mape: 1805.1820
+14/01/2018 12:59:45 PM - INFO - mape: 125.0776
+14/01/2018 12:59:45 PM - INFO - mae: 14.4325
+14/01/2018 12:59:45 PM - INFO - --------------------
+14/01/2018 12:59:45 PM - INFO - result: 14.4325
+14/01/2018 12:59:45 PM - INFO - --------------------
+14/01/2018 12:59:49 PM - INFO - activation: PReLU
+14/01/2018 12:59:49 PM - INFO - optimizer: Nadam
+14/01/2018 12:59:49 PM - INFO - batch_size: 1024
+14/01/2018 12:59:49 PM - INFO - dropout: 0.4
+14/01/2018 12:59:49 PM - INFO - model_type: mape
+14/01/2018 12:59:49 PM - INFO - result: mae
+14/01/2018 12:59:49 PM - INFO - int_layer: 30
+14/01/2018 12:59:49 PM - INFO - log_y: False
+14/01/2018 12:59:49 PM - INFO - kernel_initializer: normal
+14/01/2018 12:59:49 PM - INFO - hidden_layers: [2]
+14/01/2018 12:59:49 PM - INFO - number: 22
+14/01/2018 01:09:29 PM - INFO - epochs: 184.0
+14/01/2018 01:09:29 PM - INFO - mae_mape: 1805.3014
+14/01/2018 01:09:29 PM - INFO - mape: 92.5582
+14/01/2018 01:09:29 PM - INFO - mae: 19.5045
+14/01/2018 01:09:29 PM - INFO - --------------------
+14/01/2018 01:09:29 PM - INFO - result: 19.5045
+14/01/2018 01:09:29 PM - INFO - --------------------
+14/01/2018 01:09:33 PM - INFO - activation: ELU
+14/01/2018 01:09:33 PM - INFO - optimizer: Adadelta
+14/01/2018 01:09:33 PM - INFO - batch_size: 1024
+14/01/2018 01:09:33 PM - INFO - dropout: 0.4
+14/01/2018 01:09:33 PM - INFO - model_type: mape
+14/01/2018 01:09:33 PM - INFO - result: mae
+14/01/2018 01:09:33 PM - INFO - int_layer: 30
+14/01/2018 01:09:33 PM - INFO - log_y: False
+14/01/2018 01:09:33 PM - INFO - kernel_initializer: normal
+14/01/2018 01:09:33 PM - INFO - hidden_layers: [2]
+14/01/2018 01:09:33 PM - INFO - number: 23
+14/01/2018 01:12:38 PM - INFO - epochs: 77.0
+14/01/2018 01:12:38 PM - INFO - mae_mape: 1849.5658
+14/01/2018 01:12:38 PM - INFO - mape: 93.8808
+14/01/2018 01:12:38 PM - INFO - mae: 19.7012
+14/01/2018 01:12:38 PM - INFO - --------------------
+14/01/2018 01:12:38 PM - INFO - result: 19.7012
+14/01/2018 01:12:38 PM - INFO - --------------------
+14/01/2018 01:12:42 PM - INFO - activation: ThresholdedReLU
+14/01/2018 01:12:42 PM - INFO - optimizer: Nadam
+14/01/2018 01:12:42 PM - INFO - batch_size: 512
+14/01/2018 01:12:42 PM - INFO - dropout: 0.2
+14/01/2018 01:12:42 PM - INFO - model_type: mape
+14/01/2018 01:12:42 PM - INFO - result: mae
+14/01/2018 01:12:42 PM - INFO - int_layer: 30
+14/01/2018 01:12:42 PM - INFO - log_y: False
+14/01/2018 01:12:42 PM - INFO - kernel_initializer: normal
+14/01/2018 01:12:42 PM - INFO - hidden_layers: [6, 6, 6, 6]
+14/01/2018 01:12:42 PM - INFO - number: 24
+14/01/2018 01:36:08 PM - INFO - epochs: 33.0
+14/01/2018 01:36:08 PM - INFO - mae_mape: 1860.9067
+14/01/2018 01:36:08 PM - INFO - mape: 94.2059
+14/01/2018 01:36:08 PM - INFO - mae: 19.7536
+14/01/2018 01:36:08 PM - INFO - --------------------
+14/01/2018 01:36:08 PM - INFO - result: 19.7536
+14/01/2018 01:36:08 PM - INFO - --------------------
+14/01/2018 01:36:12 PM - INFO - activation: ThresholdedReLU
+14/01/2018 01:36:12 PM - INFO - optimizer: Nadam
+14/01/2018 01:36:12 PM - INFO - batch_size: 512
+14/01/2018 01:36:12 PM - INFO - dropout: 0.4
+14/01/2018 01:36:12 PM - INFO - model_type: mape
+14/01/2018 01:36:12 PM - INFO - result: mae
+14/01/2018 01:36:12 PM - INFO - int_layer: 30
+14/01/2018 01:36:12 PM - INFO - log_y: False
+14/01/2018 01:36:12 PM - INFO - kernel_initializer: normal
+14/01/2018 01:36:12 PM - INFO - hidden_layers: [2]
+14/01/2018 01:36:12 PM - INFO - number: 25
+14/01/2018 01:37:46 PM - INFO - epochs: 27.0
+14/01/2018 01:37:46 PM - INFO - mae_mape: 1860.9067
+14/01/2018 01:37:46 PM - INFO - mape: 94.2059
+14/01/2018 01:37:46 PM - INFO - mae: 19.7536
+14/01/2018 01:37:46 PM - INFO - --------------------
+14/01/2018 01:37:46 PM - INFO - result: 19.7536
+14/01/2018 01:37:46 PM - INFO - --------------------
+14/01/2018 01:37:50 PM - INFO - activation: relu
+14/01/2018 01:37:50 PM - INFO - optimizer: Adam
+14/01/2018 01:37:50 PM - INFO - batch_size: 1024
+14/01/2018 01:37:50 PM - INFO - dropout: 0.3
+14/01/2018 01:37:50 PM - INFO - model_type: mae
+14/01/2018 01:37:50 PM - INFO - result: mae
+14/01/2018 01:37:50 PM - INFO - int_layer: 30
+14/01/2018 01:37:50 PM - INFO - log_y: False
+14/01/2018 01:37:50 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 01:37:50 PM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 01:37:50 PM - INFO - number: 26
+14/01/2018 01:55:40 PM - INFO - epochs: 135.0
+14/01/2018 01:55:40 PM - INFO - mae_mape: 1710.2654
+14/01/2018 01:55:40 PM - INFO - mape: 121.8329
+14/01/2018 01:55:40 PM - INFO - mae: 14.0378
+14/01/2018 01:55:40 PM - INFO - --------------------
+14/01/2018 01:55:40 PM - INFO - result: 14.0378
+14/01/2018 01:55:40 PM - INFO - --------------------
+14/01/2018 01:55:45 PM - INFO - activation: relu
+14/01/2018 01:55:45 PM - INFO - optimizer: Adagrad
+14/01/2018 01:55:45 PM - INFO - batch_size: 1024
+14/01/2018 01:55:45 PM - INFO - dropout: 0.1
+14/01/2018 01:55:45 PM - INFO - model_type: mae
+14/01/2018 01:55:45 PM - INFO - result: mae
+14/01/2018 01:55:45 PM - INFO - int_layer: 30
+14/01/2018 01:55:45 PM - INFO - log_y: False
+14/01/2018 01:55:45 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 01:55:45 PM - INFO - hidden_layers: [1, 0.5, 0.25, 0.1, 0.05]
+14/01/2018 01:55:45 PM - INFO - number: 27
+14/01/2018 02:00:59 PM - INFO - epochs: 133.0
+14/01/2018 02:00:59 PM - INFO - mae_mape: 2231.3624
+14/01/2018 02:00:59 PM - INFO - mape: 137.4320
+14/01/2018 02:00:59 PM - INFO - mae: 16.2361
+14/01/2018 02:00:59 PM - INFO - --------------------
+14/01/2018 02:00:59 PM - INFO - result: 16.2361
+14/01/2018 02:00:59 PM - INFO - --------------------
+14/01/2018 02:01:04 PM - INFO - activation: PReLU
+14/01/2018 02:01:04 PM - INFO - optimizer: Adagrad
+14/01/2018 02:01:04 PM - INFO - batch_size: 1024
+14/01/2018 02:01:04 PM - INFO - dropout: 0.2
+14/01/2018 02:01:04 PM - INFO - model_type: mae
+14/01/2018 02:01:04 PM - INFO - result: mae
+14/01/2018 02:01:04 PM - INFO - int_layer: 30
+14/01/2018 02:01:04 PM - INFO - log_y: False
+14/01/2018 02:01:04 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 02:01:04 PM - INFO - hidden_layers: [5]
+14/01/2018 02:01:04 PM - INFO - number: 28
+14/01/2018 02:20:30 PM - INFO - epochs: 186.0
+14/01/2018 02:20:30 PM - INFO - mae_mape: 2220.4863
+14/01/2018 02:20:30 PM - INFO - mape: 136.4399
+14/01/2018 02:20:30 PM - INFO - mae: 16.2745
+14/01/2018 02:20:30 PM - INFO - --------------------
+14/01/2018 02:20:30 PM - INFO - result: 16.2745
+14/01/2018 02:20:30 PM - INFO - --------------------
+14/01/2018 02:20:34 PM - INFO - activation: PReLU
+14/01/2018 02:20:34 PM - INFO - optimizer: Adam
+14/01/2018 02:20:34 PM - INFO - batch_size: 1024
+14/01/2018 02:20:34 PM - INFO - dropout: 0.2
+14/01/2018 02:20:34 PM - INFO - model_type: mae
+14/01/2018 02:20:34 PM - INFO - result: mae
+14/01/2018 02:20:34 PM - INFO - int_layer: 30
+14/01/2018 02:20:34 PM - INFO - log_y: False
+14/01/2018 02:20:34 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 02:20:34 PM - INFO - hidden_layers: [1, 0.5, 0.25, 0.1, 0.05]
+14/01/2018 02:20:34 PM - INFO - number: 29
+14/01/2018 02:26:06 PM - INFO - epochs: 93.0
+14/01/2018 02:26:06 PM - INFO - mae_mape: 1979.8800
+14/01/2018 02:26:06 PM - INFO - mape: 125.1426
+14/01/2018 02:26:06 PM - INFO - mae: 15.8210
+14/01/2018 02:26:06 PM - INFO - --------------------
+14/01/2018 02:26:06 PM - INFO - result: 15.8210
+14/01/2018 02:26:06 PM - INFO - --------------------
+14/01/2018 02:26:06 PM - INFO - Generation average: 16.574
+14/01/2018 02:26:06 PM - INFO - Generation maximum: 19.754
+14/01/2018 02:26:06 PM - INFO - Generation minimum: 13.304
+14/01/2018 02:26:06 PM - INFO - --------------------------------------------------------------------------------
+14/01/2018 02:26:06 PM - INFO - ***Doing generation 4 of 10***
+14/01/2018 02:26:10 PM - INFO - activation: relu
+14/01/2018 02:26:10 PM - INFO - optimizer: Nadam
+14/01/2018 02:26:10 PM - INFO - batch_size: 1024
+14/01/2018 02:26:10 PM - INFO - dropout: 0.3
+14/01/2018 02:26:10 PM - INFO - model_type: mae
+14/01/2018 02:26:10 PM - INFO - result: mae
+14/01/2018 02:26:10 PM - INFO - int_layer: 30
+14/01/2018 02:26:10 PM - INFO - log_y: False
+14/01/2018 02:26:10 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 02:26:10 PM - INFO - hidden_layers: [5]
+14/01/2018 02:26:10 PM - INFO - number: 14
+14/01/2018 02:33:29 PM - INFO - epochs: 103.0
+14/01/2018 02:33:29 PM - INFO - mae_mape: 1846.3607
+14/01/2018 02:33:29 PM - INFO - mape: 123.6998
+14/01/2018 02:33:29 PM - INFO - mae: 14.9261
+14/01/2018 02:33:29 PM - INFO - --------------------
+14/01/2018 02:33:29 PM - INFO - result: 14.9261
+14/01/2018 02:33:29 PM - INFO - --------------------
+14/01/2018 02:33:33 PM - INFO - activation: PReLU
+14/01/2018 02:33:33 PM - INFO - optimizer: Adam
+14/01/2018 02:33:33 PM - INFO - batch_size: 1024
+14/01/2018 02:33:33 PM - INFO - dropout: 0.3
+14/01/2018 02:33:33 PM - INFO - model_type: mae
+14/01/2018 02:33:33 PM - INFO - result: mae
+14/01/2018 02:33:33 PM - INFO - int_layer: 30
+14/01/2018 02:33:33 PM - INFO - log_y: False
+14/01/2018 02:33:33 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 02:33:33 PM - INFO - hidden_layers: [5]
+14/01/2018 02:33:33 PM - INFO - number: 15
+14/01/2018 02:48:36 PM - INFO - epochs: 147.0
+14/01/2018 02:48:36 PM - INFO - mae_mape: 1984.8525
+14/01/2018 02:48:36 PM - INFO - mape: 128.9660
+14/01/2018 02:48:36 PM - INFO - mae: 15.3905
+14/01/2018 02:48:36 PM - INFO - --------------------
+14/01/2018 02:48:36 PM - INFO - result: 15.3905
+14/01/2018 02:48:36 PM - INFO - --------------------
+14/01/2018 02:48:41 PM - INFO - activation: selu
+14/01/2018 02:48:41 PM - INFO - optimizer: Adam
+14/01/2018 02:48:41 PM - INFO - batch_size: 1024
+14/01/2018 02:48:41 PM - INFO - dropout: 0.4
+14/01/2018 02:48:41 PM - INFO - model_type: mae
+14/01/2018 02:48:41 PM - INFO - result: mae
+14/01/2018 02:48:41 PM - INFO - int_layer: 30
+14/01/2018 02:48:41 PM - INFO - log_y: False
+14/01/2018 02:48:41 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 02:48:41 PM - INFO - hidden_layers: [6, 6, 6]
+14/01/2018 02:48:41 PM - INFO - number: 16
+14/01/2018 03:37:36 PM - INFO - epochs: 117.0
+14/01/2018 03:37:36 PM - INFO - mae_mape: 1967.5322
+14/01/2018 03:37:36 PM - INFO - mape: 123.5161
+14/01/2018 03:37:36 PM - INFO - mae: 15.9294
+14/01/2018 03:37:36 PM - INFO - --------------------
+14/01/2018 03:37:36 PM - INFO - result: 15.9294
+14/01/2018 03:37:36 PM - INFO - --------------------
+14/01/2018 03:37:40 PM - INFO - activation: PReLU
+14/01/2018 03:37:40 PM - INFO - optimizer: Adam
+14/01/2018 03:37:40 PM - INFO - batch_size: 1024
+14/01/2018 03:37:40 PM - INFO - dropout: 0.4
+14/01/2018 03:37:40 PM - INFO - model_type: mae
+14/01/2018 03:37:40 PM - INFO - result: mae
+14/01/2018 03:37:40 PM - INFO - int_layer: 30
+14/01/2018 03:37:40 PM - INFO - log_y: False
+14/01/2018 03:37:40 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 03:37:40 PM - INFO - hidden_layers: [5]
+14/01/2018 03:37:40 PM - INFO - number: 17
+14/01/2018 03:47:45 PM - INFO - epochs: 96.0
+14/01/2018 03:47:45 PM - INFO - mae_mape: 2075.7909
+14/01/2018 03:47:45 PM - INFO - mape: 130.3351
+14/01/2018 03:47:45 PM - INFO - mae: 15.9266
+14/01/2018 03:47:45 PM - INFO - --------------------
+14/01/2018 03:47:45 PM - INFO - result: 15.9266
+14/01/2018 03:47:45 PM - INFO - --------------------
+14/01/2018 03:47:49 PM - INFO - activation: selu
+14/01/2018 03:47:49 PM - INFO - optimizer: Nadam
+14/01/2018 03:47:49 PM - INFO - batch_size: 1024
+14/01/2018 03:47:49 PM - INFO - dropout: 0.4
+14/01/2018 03:47:49 PM - INFO - model_type: mae
+14/01/2018 03:47:49 PM - INFO - result: mae
+14/01/2018 03:47:49 PM - INFO - int_layer: 30
+14/01/2018 03:47:49 PM - INFO - log_y: False
+14/01/2018 03:47:49 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 03:47:49 PM - INFO - hidden_layers: [5]
+14/01/2018 03:47:49 PM - INFO - number: 18
+14/01/2018 03:53:26 PM - INFO - epochs: 58.0
+14/01/2018 03:53:26 PM - INFO - mae_mape: 2390.7700
+14/01/2018 03:53:26 PM - INFO - mape: 134.9644
+14/01/2018 03:53:26 PM - INFO - mae: 17.7141
+14/01/2018 03:53:26 PM - INFO - --------------------
+14/01/2018 03:53:26 PM - INFO - result: 17.7141
+14/01/2018 03:53:26 PM - INFO - --------------------
+14/01/2018 03:53:30 PM - INFO - activation: selu
+14/01/2018 03:53:30 PM - INFO - optimizer: Nadam
+14/01/2018 03:53:30 PM - INFO - batch_size: 1024
+14/01/2018 03:53:30 PM - INFO - dropout: 0.4
+14/01/2018 03:53:30 PM - INFO - model_type: mae_mape
+14/01/2018 03:53:30 PM - INFO - result: mae
+14/01/2018 03:53:30 PM - INFO - int_layer: 30
+14/01/2018 03:53:30 PM - INFO - log_y: False
+14/01/2018 03:53:30 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 03:53:30 PM - INFO - hidden_layers: [5]
+14/01/2018 03:53:30 PM - INFO - number: 19
+14/01/2018 04:02:14 PM - INFO - epochs: 91.0
+14/01/2018 04:02:14 PM - INFO - mae_mape: 1838.5278
+14/01/2018 04:02:14 PM - INFO - mape: 97.8186
+14/01/2018 04:02:14 PM - INFO - mae: 18.7953
+14/01/2018 04:02:14 PM - INFO - --------------------
+14/01/2018 04:02:14 PM - INFO - result: 18.7953
+14/01/2018 04:02:14 PM - INFO - --------------------
+14/01/2018 04:02:18 PM - INFO - activation: selu
+14/01/2018 04:02:18 PM - INFO - optimizer: Nadam
+14/01/2018 04:02:18 PM - INFO - batch_size: 1024
+14/01/2018 04:02:18 PM - INFO - dropout: 0.2
+14/01/2018 04:02:18 PM - INFO - model_type: mae_mape
+14/01/2018 04:02:18 PM - INFO - result: mae
+14/01/2018 04:02:18 PM - INFO - int_layer: 30
+14/01/2018 04:02:18 PM - INFO - log_y: False
+14/01/2018 04:02:18 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 04:02:18 PM - INFO - hidden_layers: [6, 6, 6]
+14/01/2018 04:02:18 PM - INFO - number: 20
+14/01/2018 04:07:46 PM - INFO - epochs: 12.0
+14/01/2018 04:07:46 PM - INFO - mae_mape: 1921.0481
+14/01/2018 04:07:46 PM - INFO - mape: 100.1529
+14/01/2018 04:07:46 PM - INFO - mae: 19.1812
+14/01/2018 04:07:46 PM - INFO - --------------------
+14/01/2018 04:07:46 PM - INFO - result: 19.1812
+14/01/2018 04:07:46 PM - INFO - --------------------
+14/01/2018 04:07:51 PM - INFO - activation: PReLU
+14/01/2018 04:07:51 PM - INFO - optimizer: Nadam
+14/01/2018 04:07:51 PM - INFO - batch_size: 1024
+14/01/2018 04:07:51 PM - INFO - dropout: 0.4
+14/01/2018 04:07:51 PM - INFO - model_type: mae_mape
+14/01/2018 04:07:51 PM - INFO - result: mae
+14/01/2018 04:07:51 PM - INFO - int_layer: 30
+14/01/2018 04:07:51 PM - INFO - log_y: False
+14/01/2018 04:07:51 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 04:07:51 PM - INFO - hidden_layers: [5]
+14/01/2018 04:07:51 PM - INFO - number: 21
+14/01/2018 04:19:45 PM - INFO - epochs: 107.0
+14/01/2018 04:19:45 PM - INFO - mae_mape: 1659.6248
+14/01/2018 04:19:45 PM - INFO - mape: 93.4283
+14/01/2018 04:19:45 PM - INFO - mae: 17.7636
+14/01/2018 04:19:45 PM - INFO - --------------------
+14/01/2018 04:19:45 PM - INFO - result: 17.7636
+14/01/2018 04:19:45 PM - INFO - --------------------
+14/01/2018 04:19:49 PM - INFO - activation: selu
+14/01/2018 04:19:49 PM - INFO - optimizer: Nadam
+14/01/2018 04:19:49 PM - INFO - batch_size: 1024
+14/01/2018 04:19:49 PM - INFO - dropout: 0.4
+14/01/2018 04:19:49 PM - INFO - model_type: mae
+14/01/2018 04:19:49 PM - INFO - result: mae
+14/01/2018 04:19:49 PM - INFO - int_layer: 30
+14/01/2018 04:19:49 PM - INFO - log_y: False
+14/01/2018 04:19:49 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 04:19:49 PM - INFO - hidden_layers: [6, 6, 6]
+14/01/2018 04:19:49 PM - INFO - number: 22
+14/01/2018 05:13:04 PM - INFO - epochs: 116.0
+14/01/2018 05:13:04 PM - INFO - mae_mape: 1703.4539
+14/01/2018 05:13:04 PM - INFO - mape: 114.0214
+14/01/2018 05:13:04 PM - INFO - mae: 14.9398
+14/01/2018 05:13:04 PM - INFO - --------------------
+14/01/2018 05:13:04 PM - INFO - result: 14.9398
+14/01/2018 05:13:04 PM - INFO - --------------------
+14/01/2018 05:13:08 PM - INFO - activation: selu
+14/01/2018 05:13:08 PM - INFO - optimizer: Adam
+14/01/2018 05:13:08 PM - INFO - batch_size: 1024
+14/01/2018 05:13:08 PM - INFO - dropout: 0.4
+14/01/2018 05:13:08 PM - INFO - model_type: mae_mape
+14/01/2018 05:13:08 PM - INFO - result: mae
+14/01/2018 05:13:08 PM - INFO - int_layer: 30
+14/01/2018 05:13:08 PM - INFO - log_y: False
+14/01/2018 05:13:08 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 05:13:08 PM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 05:13:08 PM - INFO - number: 23
+14/01/2018 05:35:39 PM - INFO - epochs: 124.0
+14/01/2018 05:35:39 PM - INFO - mae_mape: 1719.1709
+14/01/2018 05:35:39 PM - INFO - mape: 94.4864
+14/01/2018 05:35:39 PM - INFO - mae: 18.1949
+14/01/2018 05:35:39 PM - INFO - --------------------
+14/01/2018 05:35:39 PM - INFO - result: 18.1949
+14/01/2018 05:35:39 PM - INFO - --------------------
+14/01/2018 05:35:43 PM - INFO - activation: relu
+14/01/2018 05:35:43 PM - INFO - optimizer: Nadam
+14/01/2018 05:35:43 PM - INFO - batch_size: 1024
+14/01/2018 05:35:43 PM - INFO - dropout: 0.1
+14/01/2018 05:35:43 PM - INFO - model_type: mae_mape
+14/01/2018 05:35:43 PM - INFO - result: mae
+14/01/2018 05:35:43 PM - INFO - int_layer: 30
+14/01/2018 05:35:43 PM - INFO - log_y: False
+14/01/2018 05:35:43 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 05:35:43 PM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 05:35:43 PM - INFO - number: 24
+14/01/2018 05:52:45 PM - INFO - epochs: 109.0
+14/01/2018 05:52:45 PM - INFO - mae_mape: 1175.1729
+14/01/2018 05:52:45 PM - INFO - mape: 82.3484
+14/01/2018 05:52:45 PM - INFO - mae: 14.2707
+14/01/2018 05:52:45 PM - INFO - --------------------
+14/01/2018 05:52:45 PM - INFO - result: 14.2707
+14/01/2018 05:52:45 PM - INFO - --------------------
+14/01/2018 05:52:50 PM - INFO - activation: relu
+14/01/2018 05:52:50 PM - INFO - optimizer: Nadam
+14/01/2018 05:52:50 PM - INFO - batch_size: 1024
+14/01/2018 05:52:50 PM - INFO - dropout: 0.1
+14/01/2018 05:52:50 PM - INFO - model_type: mae_mape
+14/01/2018 05:52:50 PM - INFO - result: mae
+14/01/2018 05:52:50 PM - INFO - int_layer: 30
+14/01/2018 05:52:50 PM - INFO - log_y: False
+14/01/2018 05:52:50 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 05:52:50 PM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 05:52:50 PM - INFO - number: 25
+14/01/2018 06:09:18 PM - INFO - epochs: 104.0
+14/01/2018 06:09:18 PM - INFO - mae_mape: 1178.5661
+14/01/2018 06:09:18 PM - INFO - mape: 81.7186
+14/01/2018 06:09:18 PM - INFO - mae: 14.4223
+14/01/2018 06:09:18 PM - INFO - --------------------
+14/01/2018 06:09:18 PM - INFO - result: 14.4223
+14/01/2018 06:09:18 PM - INFO - --------------------
+14/01/2018 06:09:23 PM - INFO - activation: PReLU
+14/01/2018 06:09:23 PM - INFO - optimizer: Adagrad
+14/01/2018 06:09:23 PM - INFO - batch_size: 1024
+14/01/2018 06:09:23 PM - INFO - dropout: 0.2
+14/01/2018 06:09:23 PM - INFO - model_type: mae
+14/01/2018 06:09:23 PM - INFO - result: mae
+14/01/2018 06:09:23 PM - INFO - int_layer: 30
+14/01/2018 06:09:23 PM - INFO - log_y: False
+14/01/2018 06:09:23 PM - INFO - kernel_initializer: he_uniform
+14/01/2018 06:09:23 PM - INFO - hidden_layers: [5]
+14/01/2018 06:09:23 PM - INFO - number: 26
+14/01/2018 06:31:34 PM - INFO - epochs: 185.0
+14/01/2018 06:31:34 PM - INFO - mae_mape: 2216.7552
+14/01/2018 06:31:34 PM - INFO - mape: 136.0505
+14/01/2018 06:31:34 PM - INFO - mae: 16.2936
+14/01/2018 06:31:34 PM - INFO - --------------------
+14/01/2018 06:31:34 PM - INFO - result: 16.2936
+14/01/2018 06:31:34 PM - INFO - --------------------
+14/01/2018 06:31:39 PM - INFO - activation: PReLU
+14/01/2018 06:31:39 PM - INFO - optimizer: Nadam
+14/01/2018 06:31:39 PM - INFO - batch_size: 1024
+14/01/2018 06:31:39 PM - INFO - dropout: 0.2
+14/01/2018 06:31:39 PM - INFO - model_type: mae
+14/01/2018 06:31:39 PM - INFO - result: mae
+14/01/2018 06:31:39 PM - INFO - int_layer: 30
+14/01/2018 06:31:39 PM - INFO - log_y: False
+14/01/2018 06:31:39 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 06:31:39 PM - INFO - hidden_layers: [2]
+14/01/2018 06:31:39 PM - INFO - number: 27
+14/01/2018 06:37:53 PM - INFO - epochs: 100.0
+14/01/2018 06:37:53 PM - INFO - mae_mape: 1942.0384
+14/01/2018 06:37:53 PM - INFO - mape: 128.6154
+14/01/2018 06:37:53 PM - INFO - mae: 15.0996
+14/01/2018 06:37:53 PM - INFO - --------------------
+14/01/2018 06:37:53 PM - INFO - result: 15.0996
+14/01/2018 06:37:53 PM - INFO - --------------------
+14/01/2018 06:37:58 PM - INFO - activation: selu
+14/01/2018 06:37:58 PM - INFO - optimizer: Nadam
+14/01/2018 06:37:58 PM - INFO - batch_size: 1024
+14/01/2018 06:37:58 PM - INFO - dropout: 0.4
+14/01/2018 06:37:58 PM - INFO - model_type: mae_mape
+14/01/2018 06:37:58 PM - INFO - result: mae
+14/01/2018 06:37:58 PM - INFO - int_layer: 30
+14/01/2018 06:37:58 PM - INFO - log_y: False
+14/01/2018 06:37:58 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 06:37:58 PM - INFO - hidden_layers: [2]
+14/01/2018 06:37:58 PM - INFO - number: 28
+14/01/2018 06:41:36 PM - INFO - epochs: 63.0
+14/01/2018 06:41:36 PM - INFO - mae_mape: 1858.0899
+14/01/2018 06:41:36 PM - INFO - mape: 98.3007
+14/01/2018 06:41:36 PM - INFO - mae: 18.9021
+14/01/2018 06:41:36 PM - INFO - --------------------
+14/01/2018 06:41:36 PM - INFO - result: 18.9021
+14/01/2018 06:41:36 PM - INFO - --------------------
+14/01/2018 06:41:40 PM - INFO - activation: PReLU
+14/01/2018 06:41:40 PM - INFO - optimizer: Nadam
+14/01/2018 06:41:40 PM - INFO - batch_size: 1024
+14/01/2018 06:41:40 PM - INFO - dropout: 0.2
+14/01/2018 06:41:40 PM - INFO - model_type: mae
+14/01/2018 06:41:40 PM - INFO - result: mae
+14/01/2018 06:41:40 PM - INFO - int_layer: 30
+14/01/2018 06:41:40 PM - INFO - log_y: False
+14/01/2018 06:41:40 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 06:41:40 PM - INFO - hidden_layers: [2]
+14/01/2018 06:41:40 PM - INFO - number: 29
+14/01/2018 06:46:37 PM - INFO - epochs: 78.0
+14/01/2018 06:46:37 PM - INFO - mae_mape: 2101.2344
+14/01/2018 06:46:37 PM - INFO - mape: 131.1968
+14/01/2018 06:46:37 PM - INFO - mae: 16.0159
+14/01/2018 06:46:37 PM - INFO - --------------------
+14/01/2018 06:46:37 PM - INFO - result: 16.0159
+14/01/2018 06:46:37 PM - INFO - --------------------
+14/01/2018 06:46:37 PM - INFO - Generation average: 15.797
+14/01/2018 06:46:37 PM - INFO - Generation maximum: 19.181
+14/01/2018 06:46:37 PM - INFO - Generation minimum: 13.304
+14/01/2018 06:46:37 PM - INFO - --------------------------------------------------------------------------------
+14/01/2018 06:46:37 PM - INFO - ***Doing generation 5 of 10***
+14/01/2018 06:46:41 PM - INFO - activation: relu
+14/01/2018 06:46:41 PM - INFO - optimizer: Nadam
+14/01/2018 06:46:41 PM - INFO - batch_size: 1024
+14/01/2018 06:46:41 PM - INFO - dropout: 0.1
+14/01/2018 06:46:41 PM - INFO - model_type: mae
+14/01/2018 06:46:41 PM - INFO - result: mae
+14/01/2018 06:46:41 PM - INFO - int_layer: 30
+14/01/2018 06:46:41 PM - INFO - log_y: False
+14/01/2018 06:46:41 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 06:46:41 PM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 06:46:41 PM - INFO - number: 17
+14/01/2018 07:05:39 PM - INFO - epochs: 121.0
+14/01/2018 07:05:39 PM - INFO - mae_mape: 1060.2047
+14/01/2018 07:05:39 PM - INFO - mape: 109.4534
+14/01/2018 07:05:39 PM - INFO - mae: 9.6864
+14/01/2018 07:05:39 PM - INFO - --------------------
+14/01/2018 07:05:39 PM - INFO - result: 9.6864
+14/01/2018 07:05:39 PM - INFO - --------------------
+14/01/2018 07:05:43 PM - INFO - activation: relu
+14/01/2018 07:05:43 PM - INFO - optimizer: Adam
+14/01/2018 07:05:43 PM - INFO - batch_size: 1024
+14/01/2018 07:05:43 PM - INFO - dropout: 0.3
+14/01/2018 07:05:43 PM - INFO - model_type: mae_mape
+14/01/2018 07:05:43 PM - INFO - result: mae
+14/01/2018 07:05:43 PM - INFO - int_layer: 30
+14/01/2018 07:05:43 PM - INFO - log_y: False
+14/01/2018 07:05:43 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 07:05:43 PM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 07:05:43 PM - INFO - number: 18
+14/01/2018 07:22:24 PM - INFO - epochs: 108.0
+14/01/2018 07:22:24 PM - INFO - mae_mape: 1574.7455
+14/01/2018 07:22:24 PM - INFO - mape: 91.3811
+14/01/2018 07:22:24 PM - INFO - mae: 17.2327
+14/01/2018 07:22:24 PM - INFO - --------------------
+14/01/2018 07:22:24 PM - INFO - result: 17.2327
+14/01/2018 07:22:24 PM - INFO - --------------------
+14/01/2018 07:22:28 PM - INFO - activation: relu
+14/01/2018 07:22:28 PM - INFO - optimizer: Adam
+14/01/2018 07:22:28 PM - INFO - batch_size: 1024
+14/01/2018 07:22:28 PM - INFO - dropout: 0.1
+14/01/2018 07:22:28 PM - INFO - model_type: mae_mape
+14/01/2018 07:22:28 PM - INFO - result: mae
+14/01/2018 07:22:28 PM - INFO - int_layer: 30
+14/01/2018 07:22:28 PM - INFO - log_y: False
+14/01/2018 07:22:28 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 07:22:28 PM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 07:22:28 PM - INFO - number: 19
+14/01/2018 07:47:44 PM - INFO - epochs: 162.0
+14/01/2018 07:47:44 PM - INFO - mae_mape: 1085.7580
+14/01/2018 07:47:44 PM - INFO - mape: 80.2392
+14/01/2018 07:47:44 PM - INFO - mae: 13.5315
+14/01/2018 07:47:44 PM - INFO - --------------------
+14/01/2018 07:47:44 PM - INFO - result: 13.5315
+14/01/2018 07:47:44 PM - INFO - --------------------
+14/01/2018 07:47:48 PM - INFO - activation: relu
+14/01/2018 07:47:48 PM - INFO - optimizer: Adam
+14/01/2018 07:47:48 PM - INFO - batch_size: 1024
+14/01/2018 07:47:48 PM - INFO - dropout: 0.3
+14/01/2018 07:47:48 PM - INFO - model_type: mae
+14/01/2018 07:47:48 PM - INFO - result: mae
+14/01/2018 07:47:48 PM - INFO - int_layer: 30
+14/01/2018 07:47:48 PM - INFO - log_y: False
+14/01/2018 07:47:48 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 07:47:48 PM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 07:47:48 PM - INFO - number: 20
+14/01/2018 08:06:41 PM - INFO - epochs: 136.0
+14/01/2018 08:06:41 PM - INFO - mae_mape: 1623.4068
+14/01/2018 08:06:41 PM - INFO - mape: 120.0523
+14/01/2018 08:06:41 PM - INFO - mae: 13.5225
+14/01/2018 08:06:41 PM - INFO - --------------------
+14/01/2018 08:06:41 PM - INFO - result: 13.5225
+14/01/2018 08:06:41 PM - INFO - --------------------
+14/01/2018 08:06:45 PM - INFO - activation: PReLU
+14/01/2018 08:06:45 PM - INFO - optimizer: Adagrad
+14/01/2018 08:06:45 PM - INFO - batch_size: 1024
+14/01/2018 08:06:45 PM - INFO - dropout: 0.4
+14/01/2018 08:06:45 PM - INFO - model_type: mae_mape
+14/01/2018 08:06:45 PM - INFO - result: mae
+14/01/2018 08:06:45 PM - INFO - int_layer: 30
+14/01/2018 08:06:45 PM - INFO - log_y: False
+14/01/2018 08:06:45 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 08:06:45 PM - INFO - hidden_layers: [5]
+14/01/2018 08:06:45 PM - INFO - number: 21
+14/01/2018 08:15:31 PM - INFO - epochs: 109.0
+14/01/2018 08:15:31 PM - INFO - mae_mape: 1768.9452
+14/01/2018 08:15:31 PM - INFO - mape: 96.5113
+14/01/2018 08:15:31 PM - INFO - mae: 18.3289
+14/01/2018 08:15:31 PM - INFO - --------------------
+14/01/2018 08:15:31 PM - INFO - result: 18.3289
+14/01/2018 08:15:31 PM - INFO - --------------------
+14/01/2018 08:15:35 PM - INFO - activation: ELU
+14/01/2018 08:15:35 PM - INFO - optimizer: Adagrad
+14/01/2018 08:15:35 PM - INFO - batch_size: 1024
+14/01/2018 08:15:35 PM - INFO - dropout: 0.3
+14/01/2018 08:15:35 PM - INFO - model_type: mae
+14/01/2018 08:15:35 PM - INFO - result: mae
+14/01/2018 08:15:35 PM - INFO - int_layer: 30
+14/01/2018 08:15:35 PM - INFO - log_y: False
+14/01/2018 08:15:35 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 08:15:35 PM - INFO - hidden_layers: [6, 6, 6, 6]
+14/01/2018 08:15:35 PM - INFO - number: 22
+14/01/2018 10:17:14 PM - INFO - epochs: 263.0
+14/01/2018 10:17:14 PM - INFO - mae_mape: 1717.4091
+14/01/2018 10:17:14 PM - INFO - mape: 121.3814
+14/01/2018 10:17:14 PM - INFO - mae: 14.1489
+14/01/2018 10:17:14 PM - INFO - --------------------
+14/01/2018 10:17:14 PM - INFO - result: 14.1489
+14/01/2018 10:17:14 PM - INFO - --------------------
+14/01/2018 10:17:19 PM - INFO - activation: relu
+14/01/2018 10:17:19 PM - INFO - optimizer: Adam
+14/01/2018 10:17:19 PM - INFO - batch_size: 1024
+14/01/2018 10:17:19 PM - INFO - dropout: 0.3
+14/01/2018 10:17:19 PM - INFO - model_type: mae
+14/01/2018 10:17:19 PM - INFO - result: mae
+14/01/2018 10:17:19 PM - INFO - int_layer: 30
+14/01/2018 10:17:19 PM - INFO - log_y: False
+14/01/2018 10:17:19 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 10:17:19 PM - INFO - hidden_layers: [5]
+14/01/2018 10:17:19 PM - INFO - number: 23
+14/01/2018 10:24:48 PM - INFO - epochs: 139.0
+14/01/2018 10:24:48 PM - INFO - mae_mape: 2008.8726
+14/01/2018 10:24:48 PM - INFO - mape: 128.9109
+14/01/2018 10:24:48 PM - INFO - mae: 15.5834
+14/01/2018 10:24:48 PM - INFO - --------------------
+14/01/2018 10:24:48 PM - INFO - result: 15.5834
+14/01/2018 10:24:48 PM - INFO - --------------------
+14/01/2018 10:24:52 PM - INFO - activation: PReLU
+14/01/2018 10:24:52 PM - INFO - optimizer: Adam
+14/01/2018 10:24:52 PM - INFO - batch_size: 1024
+14/01/2018 10:24:52 PM - INFO - dropout: 0.3
+14/01/2018 10:24:52 PM - INFO - model_type: mae
+14/01/2018 10:24:52 PM - INFO - result: mae
+14/01/2018 10:24:52 PM - INFO - int_layer: 30
+14/01/2018 10:24:52 PM - INFO - log_y: False
+14/01/2018 10:24:52 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 10:24:52 PM - INFO - hidden_layers: [5]
+14/01/2018 10:24:52 PM - INFO - number: 24
+14/01/2018 10:32:48 PM - INFO - epochs: 101.0
+14/01/2018 10:32:48 PM - INFO - mae_mape: 1998.8072
+14/01/2018 10:32:48 PM - INFO - mape: 129.6361
+14/01/2018 10:32:48 PM - INFO - mae: 15.4186
+14/01/2018 10:32:48 PM - INFO - --------------------
+14/01/2018 10:32:48 PM - INFO - result: 15.4186
+14/01/2018 10:32:48 PM - INFO - --------------------
+14/01/2018 10:32:52 PM - INFO - activation: PReLU
+14/01/2018 10:32:52 PM - INFO - optimizer: Adam
+14/01/2018 10:32:52 PM - INFO - batch_size: 1024
+14/01/2018 10:32:52 PM - INFO - dropout: 0.2
+14/01/2018 10:32:52 PM - INFO - model_type: mae_mape
+14/01/2018 10:32:52 PM - INFO - result: mae
+14/01/2018 10:32:52 PM - INFO - int_layer: 30
+14/01/2018 10:32:52 PM - INFO - log_y: False
+14/01/2018 10:32:52 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 10:32:52 PM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 10:32:52 PM - INFO - number: 25
+14/01/2018 10:49:38 PM - INFO - epochs: 124.0
+14/01/2018 10:49:38 PM - INFO - mae_mape: 1288.0555
+14/01/2018 10:49:38 PM - INFO - mape: 84.7970
+14/01/2018 10:49:38 PM - INFO - mae: 15.1899
+14/01/2018 10:49:38 PM - INFO - --------------------
+14/01/2018 10:49:38 PM - INFO - result: 15.1899
+14/01/2018 10:49:38 PM - INFO - --------------------
+14/01/2018 10:49:42 PM - INFO - activation: PReLU
+14/01/2018 10:49:42 PM - INFO - optimizer: Nadam
+14/01/2018 10:49:42 PM - INFO - batch_size: 1024
+14/01/2018 10:49:42 PM - INFO - dropout: 0.1
+14/01/2018 10:49:42 PM - INFO - model_type: mae_mape
+14/01/2018 10:49:42 PM - INFO - result: mae
+14/01/2018 10:49:42 PM - INFO - int_layer: 30
+14/01/2018 10:49:42 PM - INFO - log_y: False
+14/01/2018 10:49:42 PM - INFO - kernel_initializer: lecun_uniform
+14/01/2018 10:49:42 PM - INFO - hidden_layers: [2]
+14/01/2018 10:49:42 PM - INFO - number: 26
+14/01/2018 10:56:00 PM - INFO - epochs: 147.0
+14/01/2018 10:56:00 PM - INFO - mae_mape: 1464.3901
+14/01/2018 10:56:00 PM - INFO - mape: 89.8568
+14/01/2018 10:56:00 PM - INFO - mae: 16.2969
+14/01/2018 10:56:00 PM - INFO - --------------------
+14/01/2018 10:56:00 PM - INFO - result: 16.2969
+14/01/2018 10:56:00 PM - INFO - --------------------
+14/01/2018 10:56:04 PM - INFO - activation: selu
+14/01/2018 10:56:04 PM - INFO - optimizer: Nadam
+14/01/2018 10:56:04 PM - INFO - batch_size: 1024
+14/01/2018 10:56:04 PM - INFO - dropout: 0.4
+14/01/2018 10:56:04 PM - INFO - model_type: mae
+14/01/2018 10:56:04 PM - INFO - result: mae
+14/01/2018 10:56:04 PM - INFO - int_layer: 30
+14/01/2018 10:56:04 PM - INFO - log_y: False
+14/01/2018 10:56:04 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 10:56:04 PM - INFO - hidden_layers: [6, 6, 6]
+14/01/2018 10:56:04 PM - INFO - number: 27
+14/01/2018 11:26:19 PM - INFO - epochs: 97.0
+14/01/2018 11:26:19 PM - INFO - mae_mape: 1808.0232
+14/01/2018 11:26:19 PM - INFO - mape: 118.3574
+14/01/2018 11:26:19 PM - INFO - mae: 15.2760
+14/01/2018 11:26:19 PM - INFO - --------------------
+14/01/2018 11:26:19 PM - INFO - result: 15.2760
+14/01/2018 11:26:19 PM - INFO - --------------------
+14/01/2018 11:26:24 PM - INFO - activation: selu
+14/01/2018 11:26:24 PM - INFO - optimizer: Nadam
+14/01/2018 11:26:24 PM - INFO - batch_size: 1024
+14/01/2018 11:26:24 PM - INFO - dropout: 0.4
+14/01/2018 11:26:24 PM - INFO - model_type: mae
+14/01/2018 11:26:24 PM - INFO - result: mae
+14/01/2018 11:26:24 PM - INFO - int_layer: 30
+14/01/2018 11:26:24 PM - INFO - log_y: False
+14/01/2018 11:26:24 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 11:26:24 PM - INFO - hidden_layers: [6, 6, 6]
+14/01/2018 11:26:24 PM - INFO - number: 28
+14/01/2018 11:53:12 PM - INFO - epochs: 86.0
+14/01/2018 11:53:12 PM - INFO - mae_mape: 1766.5793
+14/01/2018 11:53:12 PM - INFO - mape: 116.6248
+14/01/2018 11:53:12 PM - INFO - mae: 15.1475
+14/01/2018 11:53:12 PM - INFO - --------------------
+14/01/2018 11:53:12 PM - INFO - result: 15.1475
+14/01/2018 11:53:12 PM - INFO - --------------------
+14/01/2018 11:53:16 PM - INFO - activation: PReLU
+14/01/2018 11:53:16 PM - INFO - optimizer: Adam
+14/01/2018 11:53:16 PM - INFO - batch_size: 1024
+14/01/2018 11:53:16 PM - INFO - dropout: 0.2
+14/01/2018 11:53:16 PM - INFO - model_type: mae_mape
+14/01/2018 11:53:16 PM - INFO - result: mae
+14/01/2018 11:53:16 PM - INFO - int_layer: 30
+14/01/2018 11:53:16 PM - INFO - log_y: False
+14/01/2018 11:53:16 PM - INFO - kernel_initializer: glorot_normal
+14/01/2018 11:53:16 PM - INFO - hidden_layers: [3, 3, 3]
+14/01/2018 11:53:16 PM - INFO - number: 29
+15/01/2018 12:10:42 AM - INFO - epochs: 129.0
+15/01/2018 12:10:42 AM - INFO - mae_mape: 1288.4850
+15/01/2018 12:10:42 AM - INFO - mape: 84.6935
+15/01/2018 12:10:42 AM - INFO - mae: 15.2135
+15/01/2018 12:10:42 AM - INFO - --------------------
+15/01/2018 12:10:42 AM - INFO - result: 15.2135
+15/01/2018 12:10:42 AM - INFO - --------------------
+15/01/2018 12:10:42 AM - INFO - Generation average: 15.047
+15/01/2018 12:10:42 AM - INFO - Generation maximum: 18.329
+15/01/2018 12:10:42 AM - INFO - Generation minimum: 9.686
+15/01/2018 12:10:42 AM - INFO - --------------------------------------------------------------------------------
+15/01/2018 12:10:42 AM - INFO - ***Doing generation 6 of 10***
+15/01/2018 12:10:46 AM - INFO - activation: relu
+15/01/2018 12:10:46 AM - INFO - optimizer: Adam
+15/01/2018 12:10:46 AM - INFO - batch_size: 1024
+15/01/2018 12:10:46 AM - INFO - dropout: 0.1
+15/01/2018 12:10:46 AM - INFO - model_type: mae_mape
+15/01/2018 12:10:46 AM - INFO - result: mae
+15/01/2018 12:10:46 AM - INFO - int_layer: 30
+15/01/2018 12:10:46 AM - INFO - log_y: True
+15/01/2018 12:10:46 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 12:10:46 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 12:10:46 AM - INFO - number: 14
+15/01/2018 12:31:19 AM - INFO - epochs: 209.0
+15/01/2018 12:31:19 AM - INFO - mae_mape: 1578.6526
+15/01/2018 12:31:19 AM - INFO - mape: 86.4999
+15/01/2018 12:31:19 AM - INFO - mae: 18.2503
+15/01/2018 12:31:19 AM - INFO - --------------------
+15/01/2018 12:31:19 AM - INFO - result: 18.2503
+15/01/2018 12:31:19 AM - INFO - --------------------
+15/01/2018 12:31:23 AM - INFO - activation: relu
+15/01/2018 12:31:23 AM - INFO - optimizer: Nadam
+15/01/2018 12:31:23 AM - INFO - batch_size: 1024
+15/01/2018 12:31:23 AM - INFO - dropout: 0.1
+15/01/2018 12:31:23 AM - INFO - model_type: mae_mape
+15/01/2018 12:31:23 AM - INFO - result: mae
+15/01/2018 12:31:23 AM - INFO - int_layer: 30
+15/01/2018 12:31:23 AM - INFO - log_y: False
+15/01/2018 12:31:23 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 12:31:23 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 12:31:23 AM - INFO - number: 15
+15/01/2018 12:44:26 AM - INFO - epochs: 128.0
+15/01/2018 12:44:26 AM - INFO - mae_mape: 1201.0169
+15/01/2018 12:44:26 AM - INFO - mape: 82.5987
+15/01/2018 12:44:26 AM - INFO - mae: 14.5404
+15/01/2018 12:44:26 AM - INFO - --------------------
+15/01/2018 12:44:26 AM - INFO - result: 14.5404
+15/01/2018 12:44:26 AM - INFO - --------------------
+15/01/2018 12:44:30 AM - INFO - activation: relu
+15/01/2018 12:44:30 AM - INFO - optimizer: Adagrad
+15/01/2018 12:44:30 AM - INFO - batch_size: 1024
+15/01/2018 12:44:30 AM - INFO - dropout: 0.1
+15/01/2018 12:44:30 AM - INFO - model_type: mae_mape
+15/01/2018 12:44:30 AM - INFO - result: mae
+15/01/2018 12:44:30 AM - INFO - int_layer: 30
+15/01/2018 12:44:30 AM - INFO - log_y: False
+15/01/2018 12:44:30 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 12:44:30 AM - INFO - hidden_layers: [5]
+15/01/2018 12:44:30 AM - INFO - number: 16
+15/01/2018 12:57:23 AM - INFO - epochs: 240.0
+15/01/2018 12:57:23 AM - INFO - mae_mape: 1728.2001
+15/01/2018 12:57:23 AM - INFO - mape: 96.7232
+15/01/2018 12:57:23 AM - INFO - mae: 17.8675
+15/01/2018 12:57:23 AM - INFO - --------------------
+15/01/2018 12:57:23 AM - INFO - result: 17.8675
+15/01/2018 12:57:23 AM - INFO - --------------------
+15/01/2018 12:57:27 AM - INFO - activation: PReLU
+15/01/2018 12:57:27 AM - INFO - optimizer: Nadam
+15/01/2018 12:57:27 AM - INFO - batch_size: 1024
+15/01/2018 12:57:27 AM - INFO - dropout: 0.4
+15/01/2018 12:57:27 AM - INFO - model_type: mae_mape
+15/01/2018 12:57:27 AM - INFO - result: mae
+15/01/2018 12:57:27 AM - INFO - int_layer: 30
+15/01/2018 12:57:27 AM - INFO - log_y: False
+15/01/2018 12:57:27 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 12:57:27 AM - INFO - hidden_layers: [5]
+15/01/2018 12:57:27 AM - INFO - number: 17
+15/01/2018 01:06:02 AM - INFO - epochs: 107.0
+15/01/2018 01:06:02 AM - INFO - mae_mape: 1697.0109
+15/01/2018 01:06:02 AM - INFO - mape: 94.4228
+15/01/2018 01:06:02 AM - INFO - mae: 17.9725
+15/01/2018 01:06:02 AM - INFO - --------------------
+15/01/2018 01:06:02 AM - INFO - result: 17.9725
+15/01/2018 01:06:02 AM - INFO - --------------------
+15/01/2018 01:06:06 AM - INFO - activation: relu
+15/01/2018 01:06:06 AM - INFO - optimizer: Adam
+15/01/2018 01:06:06 AM - INFO - batch_size: 1024
+15/01/2018 01:06:06 AM - INFO - dropout: 0.1
+15/01/2018 01:06:06 AM - INFO - model_type: mae_mape
+15/01/2018 01:06:06 AM - INFO - result: mae
+15/01/2018 01:06:06 AM - INFO - int_layer: 30
+15/01/2018 01:06:06 AM - INFO - log_y: False
+15/01/2018 01:06:06 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 01:06:06 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 01:06:06 AM - INFO - number: 18
+15/01/2018 01:21:02 AM - INFO - epochs: 148.0
+15/01/2018 01:21:02 AM - INFO - mae_mape: 1116.0889
+15/01/2018 01:21:02 AM - INFO - mape: 80.9281
+15/01/2018 01:21:02 AM - INFO - mae: 13.7911
+15/01/2018 01:21:02 AM - INFO - --------------------
+15/01/2018 01:21:02 AM - INFO - result: 13.7911
+15/01/2018 01:21:02 AM - INFO - --------------------
+15/01/2018 01:21:06 AM - INFO - activation: relu
+15/01/2018 01:21:06 AM - INFO - optimizer: Adam
+15/01/2018 01:21:06 AM - INFO - batch_size: 1024
+15/01/2018 01:21:06 AM - INFO - dropout: 0.3
+15/01/2018 01:21:06 AM - INFO - model_type: mae
+15/01/2018 01:21:06 AM - INFO - result: mae
+15/01/2018 01:21:06 AM - INFO - int_layer: 30
+15/01/2018 01:21:06 AM - INFO - log_y: False
+15/01/2018 01:21:06 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 01:21:06 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 01:21:06 AM - INFO - number: 19
+15/01/2018 01:38:46 AM - INFO - epochs: 175.0
+15/01/2018 01:38:46 AM - INFO - mae_mape: 1560.5256
+15/01/2018 01:38:46 AM - INFO - mape: 118.5352
+15/01/2018 01:38:46 AM - INFO - mae: 13.1651
+15/01/2018 01:38:46 AM - INFO - --------------------
+15/01/2018 01:38:46 AM - INFO - result: 13.1651
+15/01/2018 01:38:46 AM - INFO - --------------------
+15/01/2018 01:38:50 AM - INFO - activation: PReLU
+15/01/2018 01:38:50 AM - INFO - optimizer: Adam
+15/01/2018 01:38:50 AM - INFO - batch_size: 1024
+15/01/2018 01:38:50 AM - INFO - dropout: 0.2
+15/01/2018 01:38:50 AM - INFO - model_type: mae
+15/01/2018 01:38:50 AM - INFO - result: mae
+15/01/2018 01:38:50 AM - INFO - int_layer: 30
+15/01/2018 01:38:50 AM - INFO - log_y: False
+15/01/2018 01:38:50 AM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 01:38:50 AM - INFO - hidden_layers: [5]
+15/01/2018 01:38:50 AM - INFO - number: 20
+15/01/2018 01:47:07 AM - INFO - epochs: 104.0
+15/01/2018 01:47:07 AM - INFO - mae_mape: 1957.0815
+15/01/2018 01:47:07 AM - INFO - mape: 129.2967
+15/01/2018 01:47:07 AM - INFO - mae: 15.1364
+15/01/2018 01:47:07 AM - INFO - --------------------
+15/01/2018 01:47:07 AM - INFO - result: 15.1364
+15/01/2018 01:47:07 AM - INFO - --------------------
+15/01/2018 01:47:11 AM - INFO - activation: PReLU
+15/01/2018 01:47:11 AM - INFO - optimizer: Adam
+15/01/2018 01:47:11 AM - INFO - batch_size: 1024
+15/01/2018 01:47:11 AM - INFO - dropout: 0.2
+15/01/2018 01:47:11 AM - INFO - model_type: mae
+15/01/2018 01:47:11 AM - INFO - result: mae
+15/01/2018 01:47:11 AM - INFO - int_layer: 30
+15/01/2018 01:47:11 AM - INFO - log_y: False
+15/01/2018 01:47:11 AM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 01:47:11 AM - INFO - hidden_layers: [5]
+15/01/2018 01:47:11 AM - INFO - number: 21
+15/01/2018 01:58:23 AM - INFO - epochs: 142.0
+15/01/2018 01:58:23 AM - INFO - mae_mape: 1769.4685
+15/01/2018 01:58:23 AM - INFO - mape: 124.5737
+15/01/2018 01:58:23 AM - INFO - mae: 14.2042
+15/01/2018 01:58:23 AM - INFO - --------------------
+15/01/2018 01:58:23 AM - INFO - result: 14.2042
+15/01/2018 01:58:23 AM - INFO - --------------------
+15/01/2018 01:58:27 AM - INFO - activation: PReLU
+15/01/2018 01:58:27 AM - INFO - optimizer: Adam
+15/01/2018 01:58:27 AM - INFO - batch_size: 1024
+15/01/2018 01:58:27 AM - INFO - dropout: 0.3
+15/01/2018 01:58:27 AM - INFO - model_type: mae
+15/01/2018 01:58:27 AM - INFO - result: mae
+15/01/2018 01:58:27 AM - INFO - int_layer: 30
+15/01/2018 01:58:27 AM - INFO - log_y: False
+15/01/2018 01:58:27 AM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 01:58:27 AM - INFO - hidden_layers: [5]
+15/01/2018 01:58:27 AM - INFO - number: 22
+15/01/2018 02:07:26 AM - INFO - epochs: 113.0
+15/01/2018 02:07:26 AM - INFO - mae_mape: 1964.3638
+15/01/2018 02:07:26 AM - INFO - mape: 129.0166
+15/01/2018 02:07:26 AM - INFO - mae: 15.2257
+15/01/2018 02:07:26 AM - INFO - --------------------
+15/01/2018 02:07:26 AM - INFO - result: 15.2257
+15/01/2018 02:07:26 AM - INFO - --------------------
+15/01/2018 02:07:30 AM - INFO - activation: PReLU
+15/01/2018 02:07:30 AM - INFO - optimizer: Nadam
+15/01/2018 02:07:30 AM - INFO - batch_size: 512
+15/01/2018 02:07:30 AM - INFO - dropout: 0.2
+15/01/2018 02:07:30 AM - INFO - model_type: mae
+15/01/2018 02:07:30 AM - INFO - result: mae
+15/01/2018 02:07:30 AM - INFO - int_layer: 30
+15/01/2018 02:07:30 AM - INFO - log_y: False
+15/01/2018 02:07:30 AM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 02:07:30 AM - INFO - hidden_layers: [5]
+15/01/2018 02:07:30 AM - INFO - number: 23
+15/01/2018 02:18:13 AM - INFO - epochs: 115.0
+15/01/2018 02:18:13 AM - INFO - mae_mape: 1734.9835
+15/01/2018 02:18:13 AM - INFO - mape: 122.5776
+15/01/2018 02:18:13 AM - INFO - mae: 14.1542
+15/01/2018 02:18:13 AM - INFO - --------------------
+15/01/2018 02:18:13 AM - INFO - result: 14.1542
+15/01/2018 02:18:13 AM - INFO - --------------------
+15/01/2018 02:18:17 AM - INFO - activation: PReLU
+15/01/2018 02:18:17 AM - INFO - optimizer: Adam
+15/01/2018 02:18:17 AM - INFO - batch_size: 1024
+15/01/2018 02:18:17 AM - INFO - dropout: 0.3
+15/01/2018 02:18:17 AM - INFO - model_type: mae
+15/01/2018 02:18:17 AM - INFO - result: mae
+15/01/2018 02:18:17 AM - INFO - int_layer: 30
+15/01/2018 02:18:17 AM - INFO - log_y: False
+15/01/2018 02:18:17 AM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 02:18:17 AM - INFO - hidden_layers: [5]
+15/01/2018 02:18:17 AM - INFO - number: 24
+15/01/2018 02:28:40 AM - INFO - epochs: 132.0
+15/01/2018 02:28:40 AM - INFO - mae_mape: 1908.1129
+15/01/2018 02:28:40 AM - INFO - mape: 126.6629
+15/01/2018 02:28:40 AM - INFO - mae: 15.0645
+15/01/2018 02:28:40 AM - INFO - --------------------
+15/01/2018 02:28:40 AM - INFO - result: 15.0645
+15/01/2018 02:28:40 AM - INFO - --------------------
+15/01/2018 02:28:44 AM - INFO - activation: PReLU
+15/01/2018 02:28:44 AM - INFO - optimizer: Adam
+15/01/2018 02:28:44 AM - INFO - batch_size: 1024
+15/01/2018 02:28:44 AM - INFO - dropout: 0.3
+15/01/2018 02:28:44 AM - INFO - model_type: mae
+15/01/2018 02:28:44 AM - INFO - result: mae
+15/01/2018 02:28:44 AM - INFO - int_layer: 30
+15/01/2018 02:28:44 AM - INFO - log_y: False
+15/01/2018 02:28:44 AM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 02:28:44 AM - INFO - hidden_layers: [6, 6, 6, 6]
+15/01/2018 02:28:44 AM - INFO - number: 25
+15/01/2018 03:50:34 AM - INFO - epochs: 143.0
+15/01/2018 03:50:34 AM - INFO - mae_mape: 987.3408
+15/01/2018 03:50:34 AM - INFO - mape: 106.8313
+15/01/2018 03:50:34 AM - INFO - mae: 9.2421
+15/01/2018 03:50:34 AM - INFO - --------------------
+15/01/2018 03:50:34 AM - INFO - result: 9.2421
+15/01/2018 03:50:34 AM - INFO - --------------------
+15/01/2018 03:50:39 AM - INFO - activation: PReLU
+15/01/2018 03:50:39 AM - INFO - optimizer: Adam
+15/01/2018 03:50:39 AM - INFO - batch_size: 1024
+15/01/2018 03:50:39 AM - INFO - dropout: 0.3
+15/01/2018 03:50:39 AM - INFO - model_type: mae
+15/01/2018 03:50:39 AM - INFO - result: mae
+15/01/2018 03:50:39 AM - INFO - int_layer: 30
+15/01/2018 03:50:39 AM - INFO - log_y: False
+15/01/2018 03:50:39 AM - INFO - kernel_initializer: he_normal
+15/01/2018 03:50:39 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 03:50:39 AM - INFO - number: 26
+15/01/2018 04:06:26 AM - INFO - epochs: 117.0
+15/01/2018 04:06:26 AM - INFO - mae_mape: 1457.9026
+15/01/2018 04:06:26 AM - INFO - mape: 117.3054
+15/01/2018 04:06:26 AM - INFO - mae: 12.4283
+15/01/2018 04:06:26 AM - INFO - --------------------
+15/01/2018 04:06:26 AM - INFO - result: 12.4283
+15/01/2018 04:06:26 AM - INFO - --------------------
+15/01/2018 04:06:30 AM - INFO - activation: relu
+15/01/2018 04:06:30 AM - INFO - optimizer: Adam
+15/01/2018 04:06:30 AM - INFO - batch_size: 1024
+15/01/2018 04:06:30 AM - INFO - dropout: 0.3
+15/01/2018 04:06:30 AM - INFO - model_type: mae
+15/01/2018 04:06:30 AM - INFO - result: mae
+15/01/2018 04:06:30 AM - INFO - int_layer: 30
+15/01/2018 04:06:30 AM - INFO - log_y: False
+15/01/2018 04:06:30 AM - INFO - kernel_initializer: he_normal
+15/01/2018 04:06:30 AM - INFO - hidden_layers: [5]
+15/01/2018 04:06:30 AM - INFO - number: 27
+15/01/2018 04:14:27 AM - INFO - epochs: 145.0
+15/01/2018 04:14:27 AM - INFO - mae_mape: 1883.7112
+15/01/2018 04:14:27 AM - INFO - mape: 124.7573
+15/01/2018 04:14:27 AM - INFO - mae: 15.0990
+15/01/2018 04:14:27 AM - INFO - --------------------
+15/01/2018 04:14:27 AM - INFO - result: 15.0990
+15/01/2018 04:14:27 AM - INFO - --------------------
+15/01/2018 04:14:31 AM - INFO - activation: PReLU
+15/01/2018 04:14:31 AM - INFO - optimizer: Adam
+15/01/2018 04:14:31 AM - INFO - batch_size: 1024
+15/01/2018 04:14:31 AM - INFO - dropout: 0.2
+15/01/2018 04:14:31 AM - INFO - model_type: mae
+15/01/2018 04:14:31 AM - INFO - result: mae
+15/01/2018 04:14:31 AM - INFO - int_layer: 30
+15/01/2018 04:14:31 AM - INFO - log_y: False
+15/01/2018 04:14:31 AM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 04:14:31 AM - INFO - hidden_layers: [5]
+15/01/2018 04:14:31 AM - INFO - number: 28
+15/01/2018 04:26:37 AM - INFO - epochs: 154.0
+15/01/2018 04:26:37 AM - INFO - mae_mape: 1764.0841
+15/01/2018 04:26:37 AM - INFO - mape: 123.7956
+15/01/2018 04:26:37 AM - INFO - mae: 14.2500
+15/01/2018 04:26:37 AM - INFO - --------------------
+15/01/2018 04:26:37 AM - INFO - result: 14.2500
+15/01/2018 04:26:37 AM - INFO - --------------------
+15/01/2018 04:26:41 AM - INFO - activation: PReLU
+15/01/2018 04:26:41 AM - INFO - optimizer: Adam
+15/01/2018 04:26:41 AM - INFO - batch_size: 512
+15/01/2018 04:26:41 AM - INFO - dropout: 0.3
+15/01/2018 04:26:41 AM - INFO - model_type: mae
+15/01/2018 04:26:41 AM - INFO - result: mae
+15/01/2018 04:26:41 AM - INFO - int_layer: 30
+15/01/2018 04:26:41 AM - INFO - log_y: False
+15/01/2018 04:26:41 AM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 04:26:41 AM - INFO - hidden_layers: [5]
+15/01/2018 04:26:41 AM - INFO - number: 29
+15/01/2018 04:35:24 AM - INFO - epochs: 94.0
+15/01/2018 04:35:24 AM - INFO - mae_mape: 2016.1961
+15/01/2018 04:35:24 AM - INFO - mape: 129.6365
+15/01/2018 04:35:24 AM - INFO - mae: 15.5527
+15/01/2018 04:35:24 AM - INFO - --------------------
+15/01/2018 04:35:24 AM - INFO - result: 15.5527
+15/01/2018 04:35:24 AM - INFO - --------------------
+15/01/2018 04:35:24 AM - INFO - Generation average: 14.541
+15/01/2018 04:35:24 AM - INFO - Generation maximum: 18.329
+15/01/2018 04:35:24 AM - INFO - Generation minimum: 9.242
+15/01/2018 04:35:24 AM - INFO - --------------------------------------------------------------------------------
+15/01/2018 04:35:24 AM - INFO - ***Doing generation 7 of 10***
+15/01/2018 04:35:28 AM - INFO - activation: PReLU
+15/01/2018 04:35:28 AM - INFO - optimizer: Adam
+15/01/2018 04:35:28 AM - INFO - batch_size: 1024
+15/01/2018 04:35:28 AM - INFO - dropout: 0.1
+15/01/2018 04:35:28 AM - INFO - model_type: mae_mape
+15/01/2018 04:35:28 AM - INFO - result: mae
+15/01/2018 04:35:28 AM - INFO - int_layer: 30
+15/01/2018 04:35:28 AM - INFO - log_y: False
+15/01/2018 04:35:28 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 04:35:28 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 04:35:28 AM - INFO - number: 18
+15/01/2018 04:59:58 AM - INFO - epochs: 183.0
+15/01/2018 04:59:58 AM - INFO - mae_mape: 1138.5511
+15/01/2018 04:59:58 AM - INFO - mape: 81.6758
+15/01/2018 04:59:58 AM - INFO - mae: 13.9399
+15/01/2018 04:59:58 AM - INFO - --------------------
+15/01/2018 04:59:58 AM - INFO - result: 13.9399
+15/01/2018 04:59:58 AM - INFO - --------------------
+15/01/2018 05:00:02 AM - INFO - activation: relu
+15/01/2018 05:00:02 AM - INFO - optimizer: Adam
+15/01/2018 05:00:02 AM - INFO - batch_size: 1024
+15/01/2018 05:00:02 AM - INFO - dropout: 0.1
+15/01/2018 05:00:02 AM - INFO - model_type: mae_mape
+15/01/2018 05:00:02 AM - INFO - result: mae
+15/01/2018 05:00:02 AM - INFO - int_layer: 30
+15/01/2018 05:00:02 AM - INFO - log_y: True
+15/01/2018 05:00:02 AM - INFO - kernel_initializer: he_normal
+15/01/2018 05:00:02 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 05:00:02 AM - INFO - number: 19
+15/01/2018 05:21:36 AM - INFO - epochs: 213.0
+15/01/2018 05:21:36 AM - INFO - mae_mape: 1570.7741
+15/01/2018 05:21:36 AM - INFO - mape: 86.2177
+15/01/2018 05:21:36 AM - INFO - mae: 18.2187
+15/01/2018 05:21:36 AM - INFO - --------------------
+15/01/2018 05:21:36 AM - INFO - result: 18.2187
+15/01/2018 05:21:36 AM - INFO - --------------------
+15/01/2018 05:21:40 AM - INFO - activation: relu
+15/01/2018 05:21:40 AM - INFO - optimizer: Adam
+15/01/2018 05:21:40 AM - INFO - batch_size: 1024
+15/01/2018 05:21:40 AM - INFO - dropout: 0.3
+15/01/2018 05:21:40 AM - INFO - model_type: mae
+15/01/2018 05:21:40 AM - INFO - result: mae
+15/01/2018 05:21:40 AM - INFO - int_layer: 30
+15/01/2018 05:21:40 AM - INFO - log_y: False
+15/01/2018 05:21:40 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 05:21:40 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 05:21:40 AM - INFO - number: 20
+15/01/2018 05:35:53 AM - INFO - epochs: 144.0
+15/01/2018 05:35:53 AM - INFO - mae_mape: 1544.3863
+15/01/2018 05:35:53 AM - INFO - mape: 117.0207
+15/01/2018 05:35:53 AM - INFO - mae: 13.1975
+15/01/2018 05:35:53 AM - INFO - --------------------
+15/01/2018 05:35:53 AM - INFO - result: 13.1975
+15/01/2018 05:35:53 AM - INFO - --------------------
+15/01/2018 05:35:57 AM - INFO - activation: relu
+15/01/2018 05:35:57 AM - INFO - optimizer: Adam
+15/01/2018 05:35:57 AM - INFO - batch_size: 1024
+15/01/2018 05:35:57 AM - INFO - dropout: 0.1
+15/01/2018 05:35:57 AM - INFO - model_type: mae_mape
+15/01/2018 05:35:57 AM - INFO - result: mae
+15/01/2018 05:35:57 AM - INFO - int_layer: 30
+15/01/2018 05:35:57 AM - INFO - log_y: False
+15/01/2018 05:35:57 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 05:35:57 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 05:35:57 AM - INFO - number: 21
+15/01/2018 05:52:25 AM - INFO - epochs: 166.0
+15/01/2018 05:52:25 AM - INFO - mae_mape: 1029.9428
+15/01/2018 05:52:25 AM - INFO - mape: 78.4050
+15/01/2018 05:52:25 AM - INFO - mae: 13.1362
+15/01/2018 05:52:25 AM - INFO - --------------------
+15/01/2018 05:52:25 AM - INFO - result: 13.1362
+15/01/2018 05:52:25 AM - INFO - --------------------
+15/01/2018 05:52:29 AM - INFO - activation: relu
+15/01/2018 05:52:29 AM - INFO - optimizer: Adam
+15/01/2018 05:52:29 AM - INFO - batch_size: 1024
+15/01/2018 05:52:29 AM - INFO - dropout: 0.1
+15/01/2018 05:52:29 AM - INFO - model_type: mae_mape
+15/01/2018 05:52:29 AM - INFO - result: mae
+15/01/2018 05:52:29 AM - INFO - int_layer: 30
+15/01/2018 05:52:29 AM - INFO - log_y: True
+15/01/2018 05:52:29 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 05:52:29 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 05:52:29 AM - INFO - number: 22
+15/01/2018 06:07:42 AM - INFO - epochs: 153.0
+15/01/2018 06:07:42 AM - INFO - mae_mape: 1579.9324
+15/01/2018 06:07:42 AM - INFO - mape: 86.5271
+15/01/2018 06:07:42 AM - INFO - mae: 18.2594
+15/01/2018 06:07:42 AM - INFO - --------------------
+15/01/2018 06:07:42 AM - INFO - result: 18.2594
+15/01/2018 06:07:42 AM - INFO - --------------------
+15/01/2018 06:07:46 AM - INFO - activation: relu
+15/01/2018 06:07:46 AM - INFO - optimizer: Adam
+15/01/2018 06:07:46 AM - INFO - batch_size: 1024
+15/01/2018 06:07:46 AM - INFO - dropout: 0.1
+15/01/2018 06:07:46 AM - INFO - model_type: mae_mape
+15/01/2018 06:07:46 AM - INFO - result: mae
+15/01/2018 06:07:46 AM - INFO - int_layer: 30
+15/01/2018 06:07:46 AM - INFO - log_y: False
+15/01/2018 06:07:46 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 06:07:46 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 06:07:46 AM - INFO - number: 23
+15/01/2018 06:22:17 AM - INFO - epochs: 142.0
+15/01/2018 06:22:17 AM - INFO - mae_mape: 1077.2722
+15/01/2018 06:22:17 AM - INFO - mape: 79.7852
+15/01/2018 06:22:17 AM - INFO - mae: 13.5021
+15/01/2018 06:22:17 AM - INFO - --------------------
+15/01/2018 06:22:17 AM - INFO - result: 13.5021
+15/01/2018 06:22:17 AM - INFO - --------------------
+15/01/2018 06:22:22 AM - INFO - activation: relu
+15/01/2018 06:22:22 AM - INFO - optimizer: Adam
+15/01/2018 06:22:22 AM - INFO - batch_size: 1024
+15/01/2018 06:22:22 AM - INFO - dropout: 0.3
+15/01/2018 06:22:22 AM - INFO - model_type: mae
+15/01/2018 06:22:22 AM - INFO - result: mae
+15/01/2018 06:22:22 AM - INFO - int_layer: 30
+15/01/2018 06:22:22 AM - INFO - log_y: True
+15/01/2018 06:22:22 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 06:22:22 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 06:22:22 AM - INFO - number: 24
+15/01/2018 06:33:29 AM - INFO - epochs: 103.0
+15/01/2018 06:33:29 AM - INFO - mae_mape: 1788.1179
+15/01/2018 06:33:29 AM - INFO - mape: 95.4283
+15/01/2018 06:33:29 AM - INFO - mae: 18.7378
+15/01/2018 06:33:29 AM - INFO - --------------------
+15/01/2018 06:33:29 AM - INFO - result: 18.7378
+15/01/2018 06:33:29 AM - INFO - --------------------
+15/01/2018 06:33:33 AM - INFO - activation: relu
+15/01/2018 06:33:33 AM - INFO - optimizer: Adam
+15/01/2018 06:33:33 AM - INFO - batch_size: 1024
+15/01/2018 06:33:33 AM - INFO - dropout: 0.1
+15/01/2018 06:33:33 AM - INFO - model_type: mae_mape
+15/01/2018 06:33:33 AM - INFO - result: mae
+15/01/2018 06:33:33 AM - INFO - int_layer: 30
+15/01/2018 06:33:33 AM - INFO - log_y: False
+15/01/2018 06:33:33 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 06:33:33 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 06:33:33 AM - INFO - number: 25
+15/01/2018 06:49:44 AM - INFO - epochs: 146.0
+15/01/2018 06:49:44 AM - INFO - mae_mape: 1094.9590
+15/01/2018 06:49:44 AM - INFO - mape: 80.2937
+15/01/2018 06:49:44 AM - INFO - mae: 13.6369
+15/01/2018 06:49:44 AM - INFO - --------------------
+15/01/2018 06:49:44 AM - INFO - result: 13.6369
+15/01/2018 06:49:44 AM - INFO - --------------------
+15/01/2018 06:49:47 AM - INFO - activation: relu
+15/01/2018 06:49:47 AM - INFO - optimizer: Adadelta
+15/01/2018 06:49:47 AM - INFO - batch_size: 1024
+15/01/2018 06:49:47 AM - INFO - dropout: 0.3
+15/01/2018 06:49:47 AM - INFO - model_type: mae
+15/01/2018 06:49:47 AM - INFO - result: mae
+15/01/2018 06:49:47 AM - INFO - int_layer: 30
+15/01/2018 06:49:47 AM - INFO - log_y: False
+15/01/2018 06:49:47 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 06:49:47 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 06:49:47 AM - INFO - number: 26
+15/01/2018 07:06:46 AM - INFO - epochs: 128.0
+15/01/2018 07:06:46 AM - INFO - mae_mape: 1777.6918
+15/01/2018 07:06:46 AM - INFO - mape: 123.8185
+15/01/2018 07:06:46 AM - INFO - mae: 14.3572
+15/01/2018 07:06:46 AM - INFO - --------------------
+15/01/2018 07:06:46 AM - INFO - result: 14.3572
+15/01/2018 07:06:46 AM - INFO - --------------------
+15/01/2018 07:06:51 AM - INFO - activation: relu
+15/01/2018 07:06:51 AM - INFO - optimizer: Adadelta
+15/01/2018 07:06:51 AM - INFO - batch_size: 1024
+15/01/2018 07:06:51 AM - INFO - dropout: 0.3
+15/01/2018 07:06:51 AM - INFO - model_type: mae_mape
+15/01/2018 07:06:51 AM - INFO - result: mae
+15/01/2018 07:06:51 AM - INFO - int_layer: 30
+15/01/2018 07:06:51 AM - INFO - log_y: False
+15/01/2018 07:06:51 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 07:06:51 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 07:06:51 AM - INFO - number: 27
+15/01/2018 07:23:31 AM - INFO - epochs: 114.0
+15/01/2018 07:23:31 AM - INFO - mae_mape: 1551.6673
+15/01/2018 07:23:31 AM - INFO - mape: 90.8323
+15/01/2018 07:23:31 AM - INFO - mae: 17.0828
+15/01/2018 07:23:31 AM - INFO - --------------------
+15/01/2018 07:23:31 AM - INFO - result: 17.0828
+15/01/2018 07:23:31 AM - INFO - --------------------
+15/01/2018 07:23:35 AM - INFO - activation: relu
+15/01/2018 07:23:35 AM - INFO - optimizer: Adam
+15/01/2018 07:23:35 AM - INFO - batch_size: 1024
+15/01/2018 07:23:35 AM - INFO - dropout: 0.1
+15/01/2018 07:23:35 AM - INFO - model_type: mae_mape
+15/01/2018 07:23:35 AM - INFO - result: mae
+15/01/2018 07:23:35 AM - INFO - int_layer: 30
+15/01/2018 07:23:35 AM - INFO - log_y: False
+15/01/2018 07:23:35 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 07:23:35 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 07:23:35 AM - INFO - number: 28
+15/01/2018 07:46:28 AM - INFO - epochs: 153.0
+15/01/2018 07:46:28 AM - INFO - mae_mape: 1095.4072
+15/01/2018 07:46:28 AM - INFO - mape: 79.8372
+15/01/2018 07:46:28 AM - INFO - mae: 13.7205
+15/01/2018 07:46:28 AM - INFO - --------------------
+15/01/2018 07:46:28 AM - INFO - result: 13.7205
+15/01/2018 07:46:28 AM - INFO - --------------------
+15/01/2018 07:46:32 AM - INFO - activation: relu
+15/01/2018 07:46:32 AM - INFO - optimizer: Adam
+15/01/2018 07:46:32 AM - INFO - batch_size: 1024
+15/01/2018 07:46:32 AM - INFO - dropout: 0.1
+15/01/2018 07:46:32 AM - INFO - model_type: mae_mape
+15/01/2018 07:46:32 AM - INFO - result: mae
+15/01/2018 07:46:32 AM - INFO - int_layer: 30
+15/01/2018 07:46:32 AM - INFO - log_y: False
+15/01/2018 07:46:32 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 07:46:32 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 07:46:32 AM - INFO - number: 29
+15/01/2018 08:05:38 AM - INFO - epochs: 124.0
+15/01/2018 08:05:38 AM - INFO - mae_mape: 1105.9026
+15/01/2018 08:05:38 AM - INFO - mape: 80.0938
+15/01/2018 08:05:38 AM - INFO - mae: 13.8076
+15/01/2018 08:05:38 AM - INFO - --------------------
+15/01/2018 08:05:38 AM - INFO - result: 13.8076
+15/01/2018 08:05:38 AM - INFO - --------------------
+15/01/2018 08:05:38 AM - INFO - Generation average: 14.384
+15/01/2018 08:05:38 AM - INFO - Generation maximum: 18.738
+15/01/2018 08:05:38 AM - INFO - Generation minimum: 9.242
+15/01/2018 08:05:38 AM - INFO - --------------------------------------------------------------------------------
+15/01/2018 08:05:38 AM - INFO - ***Doing generation 8 of 10***
+15/01/2018 08:05:42 AM - INFO - activation: relu
+15/01/2018 08:05:42 AM - INFO - optimizer: Adam
+15/01/2018 08:05:42 AM - INFO - batch_size: 1024
+15/01/2018 08:05:42 AM - INFO - dropout: 0
+15/01/2018 08:05:42 AM - INFO - model_type: mae
+15/01/2018 08:05:42 AM - INFO - result: mae
+15/01/2018 08:05:42 AM - INFO - int_layer: 30
+15/01/2018 08:05:42 AM - INFO - log_y: False
+15/01/2018 08:05:42 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 08:05:42 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 08:05:42 AM - INFO - number: 12
+15/01/2018 08:27:11 AM - INFO - epochs: 185.0
+15/01/2018 08:27:11 AM - INFO - mae_mape: 1336.1550
+15/01/2018 08:27:11 AM - INFO - mape: 124.7611
+15/01/2018 08:27:11 AM - INFO - mae: 10.7097
+15/01/2018 08:27:11 AM - INFO - --------------------
+15/01/2018 08:27:11 AM - INFO - result: 10.7097
+15/01/2018 08:27:11 AM - INFO - --------------------
+15/01/2018 08:27:15 AM - INFO - activation: relu
+15/01/2018 08:27:15 AM - INFO - optimizer: Adam
+15/01/2018 08:27:15 AM - INFO - batch_size: 1024
+15/01/2018 08:27:15 AM - INFO - dropout: 0
+15/01/2018 08:27:15 AM - INFO - model_type: mae
+15/01/2018 08:27:15 AM - INFO - result: mae
+15/01/2018 08:27:15 AM - INFO - int_layer: 30
+15/01/2018 08:27:15 AM - INFO - log_y: False
+15/01/2018 08:27:15 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 08:27:15 AM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 08:27:15 AM - INFO - number: 13
+15/01/2018 08:54:38 AM - INFO - epochs: 234.0
+15/01/2018 08:54:38 AM - INFO - mae_mape: 1374.8476
+15/01/2018 08:54:38 AM - INFO - mape: 124.9071
+15/01/2018 08:54:38 AM - INFO - mae: 11.0070
+15/01/2018 08:54:38 AM - INFO - --------------------
+15/01/2018 08:54:38 AM - INFO - result: 11.0070
+15/01/2018 08:54:38 AM - INFO - --------------------
+15/01/2018 08:54:42 AM - INFO - activation: relu
+15/01/2018 08:54:42 AM - INFO - optimizer: Adam
+15/01/2018 08:54:42 AM - INFO - batch_size: 1024
+15/01/2018 08:54:42 AM - INFO - dropout: 0.3
+15/01/2018 08:54:42 AM - INFO - model_type: mae
+15/01/2018 08:54:42 AM - INFO - result: mae
+15/01/2018 08:54:42 AM - INFO - int_layer: 30
+15/01/2018 08:54:42 AM - INFO - log_y: False
+15/01/2018 08:54:42 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 08:54:42 AM - INFO - hidden_layers: [5, 5, 5, 5, 5]
+15/01/2018 08:54:42 AM - INFO - number: 14
+15/01/2018 10:51:10 AM - INFO - epochs: 146.0
+15/01/2018 10:51:10 AM - INFO - mae_mape: 1424.7085
+15/01/2018 10:51:10 AM - INFO - mape: 116.9119
+15/01/2018 10:51:10 AM - INFO - mae: 12.1862
+15/01/2018 10:51:10 AM - INFO - --------------------
+15/01/2018 10:51:10 AM - INFO - result: 12.1862
+15/01/2018 10:51:10 AM - INFO - --------------------
+15/01/2018 10:51:16 AM - INFO - activation: PReLU
+15/01/2018 10:51:16 AM - INFO - optimizer: Adadelta
+15/01/2018 10:51:16 AM - INFO - batch_size: 1024
+15/01/2018 10:51:16 AM - INFO - dropout: 0.3
+15/01/2018 10:51:16 AM - INFO - model_type: mae
+15/01/2018 10:51:16 AM - INFO - result: mae
+15/01/2018 10:51:16 AM - INFO - int_layer: 30
+15/01/2018 10:51:16 AM - INFO - log_y: False
+15/01/2018 10:51:16 AM - INFO - kernel_initializer: glorot_normal
+15/01/2018 10:51:16 AM - INFO - hidden_layers: [5, 5, 5, 5, 5]
+15/01/2018 10:51:16 AM - INFO - number: 15
+15/01/2018 12:59:05 PM - INFO - epochs: 118.0
+15/01/2018 12:59:05 PM - INFO - mae_mape: 1169.5402
+15/01/2018 12:59:05 PM - INFO - mape: 109.3915
+15/01/2018 12:59:05 PM - INFO - mae: 10.6913
+15/01/2018 12:59:05 PM - INFO - --------------------
+15/01/2018 12:59:05 PM - INFO - result: 10.6913
+15/01/2018 12:59:05 PM - INFO - --------------------
+15/01/2018 12:59:11 PM - INFO - activation: PReLU
+15/01/2018 12:59:11 PM - INFO - optimizer: Adam
+15/01/2018 12:59:11 PM - INFO - batch_size: 1024
+15/01/2018 12:59:11 PM - INFO - dropout: 0.3
+15/01/2018 12:59:11 PM - INFO - model_type: mae_mape
+15/01/2018 12:59:11 PM - INFO - result: mae
+15/01/2018 12:59:11 PM - INFO - int_layer: 30
+15/01/2018 12:59:11 PM - INFO - log_y: False
+15/01/2018 12:59:11 PM - INFO - kernel_initializer: he_normal
+15/01/2018 12:59:11 PM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 12:59:11 PM - INFO - number: 16
+15/01/2018 01:24:33 PM - INFO - epochs: 101.0
+15/01/2018 01:24:33 PM - INFO - mae_mape: 1463.1564
+15/01/2018 01:24:33 PM - INFO - mape: 88.4250
+15/01/2018 01:24:33 PM - INFO - mae: 16.5469
+15/01/2018 01:24:33 PM - INFO - --------------------
+15/01/2018 01:24:33 PM - INFO - result: 16.5469
+15/01/2018 01:24:33 PM - INFO - --------------------
+15/01/2018 01:24:38 PM - INFO - activation: PReLU
+15/01/2018 01:24:38 PM - INFO - optimizer: Adam
+15/01/2018 01:24:38 PM - INFO - batch_size: 1024
+15/01/2018 01:24:38 PM - INFO - dropout: 0.3
+15/01/2018 01:24:38 PM - INFO - model_type: mae_mape
+15/01/2018 01:24:38 PM - INFO - result: mae
+15/01/2018 01:24:38 PM - INFO - int_layer: 30
+15/01/2018 01:24:38 PM - INFO - log_y: False
+15/01/2018 01:24:38 PM - INFO - kernel_initializer: he_normal
+15/01/2018 01:24:38 PM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 01:24:38 PM - INFO - number: 17
+15/01/2018 01:58:26 PM - INFO - epochs: 136.0
+15/01/2018 01:58:26 PM - INFO - mae_mape: 1407.3092
+15/01/2018 01:58:26 PM - INFO - mape: 86.7784
+15/01/2018 01:58:26 PM - INFO - mae: 16.2173
+15/01/2018 01:58:26 PM - INFO - --------------------
+15/01/2018 01:58:26 PM - INFO - result: 16.2173
+15/01/2018 01:58:26 PM - INFO - --------------------
+15/01/2018 01:58:31 PM - INFO - activation: relu
+15/01/2018 01:58:31 PM - INFO - optimizer: Adam
+15/01/2018 01:58:31 PM - INFO - batch_size: 1024
+15/01/2018 01:58:31 PM - INFO - dropout: 0.1
+15/01/2018 01:58:31 PM - INFO - model_type: mae
+15/01/2018 01:58:31 PM - INFO - result: mae
+15/01/2018 01:58:31 PM - INFO - int_layer: 30
+15/01/2018 01:58:31 PM - INFO - log_y: False
+15/01/2018 01:58:31 PM - INFO - kernel_initializer: glorot_normal
+15/01/2018 01:58:31 PM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 01:58:31 PM - INFO - number: 18
+15/01/2018 02:28:42 PM - INFO - epochs: 163.0
+15/01/2018 02:28:42 PM - INFO - mae_mape: 1067.1463
+15/01/2018 02:28:42 PM - INFO - mape: 108.7255
+15/01/2018 02:28:42 PM - INFO - mae: 9.8151
+15/01/2018 02:28:42 PM - INFO - --------------------
+15/01/2018 02:28:42 PM - INFO - result: 9.8151
+15/01/2018 02:28:42 PM - INFO - --------------------
+15/01/2018 02:28:47 PM - INFO - activation: relu
+15/01/2018 02:28:47 PM - INFO - optimizer: Adam
+15/01/2018 02:28:47 PM - INFO - batch_size: 1024
+15/01/2018 02:28:47 PM - INFO - dropout: 0.1
+15/01/2018 02:28:47 PM - INFO - model_type: mae_mape
+15/01/2018 02:28:47 PM - INFO - result: mae
+15/01/2018 02:28:47 PM - INFO - int_layer: 30
+15/01/2018 02:28:47 PM - INFO - log_y: False
+15/01/2018 02:28:47 PM - INFO - kernel_initializer: glorot_normal
+15/01/2018 02:28:47 PM - INFO - hidden_layers: [3, 3, 3]
+15/01/2018 02:28:47 PM - INFO - number: 19
+15/01/2018 02:56:59 PM - INFO - epochs: 145.0
+15/01/2018 02:56:59 PM - INFO - mae_mape: 1059.8157
+15/01/2018 02:56:59 PM - INFO - mape: 79.0433
+15/01/2018 02:56:59 PM - INFO - mae: 13.4080
+15/01/2018 02:56:59 PM - INFO - --------------------
+15/01/2018 02:56:59 PM - INFO - result: 13.4080
+15/01/2018 02:56:59 PM - INFO - --------------------
+15/01/2018 02:57:03 PM - INFO - activation: PReLU
+15/01/2018 02:57:03 PM - INFO - optimizer: Adagrad
+15/01/2018 02:57:03 PM - INFO - batch_size: 1024
+15/01/2018 02:57:03 PM - INFO - dropout: 0.3
+15/01/2018 02:57:03 PM - INFO - model_type: mae
+15/01/2018 02:57:03 PM - INFO - result: mae
+15/01/2018 02:57:03 PM - INFO - int_layer: 30
+15/01/2018 02:57:03 PM - INFO - log_y: False
+15/01/2018 02:57:03 PM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 02:57:03 PM - INFO - hidden_layers: [4, 4, 4]
+15/01/2018 02:57:03 PM - INFO - number: 20
+15/01/2018 04:09:33 PM - INFO - epochs: 205.0
+15/01/2018 04:09:33 PM - INFO - mae_mape: 1777.8601
+15/01/2018 04:09:33 PM - INFO - mape: 124.9017
+15/01/2018 04:09:33 PM - INFO - mae: 14.2341
+15/01/2018 04:09:33 PM - INFO - --------------------
+15/01/2018 04:09:33 PM - INFO - result: 14.2341
+15/01/2018 04:09:33 PM - INFO - --------------------
+15/01/2018 04:09:39 PM - INFO - activation: PReLU
+15/01/2018 04:09:39 PM - INFO - optimizer: Adadelta
+15/01/2018 04:09:39 PM - INFO - batch_size: 1024
+15/01/2018 04:09:39 PM - INFO - dropout: 0.3
+15/01/2018 04:09:39 PM - INFO - model_type: mae
+15/01/2018 04:09:39 PM - INFO - result: mae
+15/01/2018 04:09:39 PM - INFO - int_layer: 30
+15/01/2018 04:09:39 PM - INFO - log_y: True
+15/01/2018 04:09:39 PM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 04:09:39 PM - INFO - hidden_layers: [4, 4, 4]
+15/01/2018 04:09:39 PM - INFO - number: 21
+15/01/2018 05:02:56 PM - INFO - epochs: 141.0
+15/01/2018 05:02:56 PM - INFO - mae_mape: 1697.1933
+15/01/2018 05:02:56 PM - INFO - mape: 91.9854
+15/01/2018 05:02:56 PM - INFO - mae: 18.4507
+15/01/2018 05:02:56 PM - INFO - --------------------
+15/01/2018 05:02:56 PM - INFO - result: 18.4507
+15/01/2018 05:02:56 PM - INFO - --------------------
+15/01/2018 05:03:01 PM - INFO - activation: PReLU
+15/01/2018 05:03:01 PM - INFO - optimizer: Adam
+15/01/2018 05:03:01 PM - INFO - batch_size: 1024
+15/01/2018 05:03:01 PM - INFO - dropout: 0.3
+15/01/2018 05:03:01 PM - INFO - model_type: mae_mape
+15/01/2018 05:03:01 PM - INFO - result: mae
+15/01/2018 05:03:01 PM - INFO - int_layer: 30
+15/01/2018 05:03:01 PM - INFO - log_y: False
+15/01/2018 05:03:01 PM - INFO - kernel_initializer: glorot_normal
+15/01/2018 05:03:01 PM - INFO - hidden_layers: [5, 5, 5, 5, 5]
+15/01/2018 05:03:01 PM - INFO - number: 22
+15/01/2018 07:17:45 PM - INFO - epochs: 110.0
+15/01/2018 07:17:45 PM - INFO - mae_mape: 1423.2610
+15/01/2018 07:17:45 PM - INFO - mape: 88.2710
+15/01/2018 07:17:45 PM - INFO - mae: 16.1238
+15/01/2018 07:17:45 PM - INFO - --------------------
+15/01/2018 07:17:45 PM - INFO - result: 16.1238
+15/01/2018 07:17:45 PM - INFO - --------------------
+15/01/2018 07:17:51 PM - INFO - activation: relu
+15/01/2018 07:17:51 PM - INFO - optimizer: Adam
+15/01/2018 07:17:51 PM - INFO - batch_size: 1024
+15/01/2018 07:17:51 PM - INFO - dropout: 0.1
+15/01/2018 07:17:51 PM - INFO - model_type: mae_mape
+15/01/2018 07:17:51 PM - INFO - result: mae
+15/01/2018 07:17:51 PM - INFO - int_layer: 30
+15/01/2018 07:17:51 PM - INFO - log_y: False
+15/01/2018 07:17:51 PM - INFO - kernel_initializer: lecun_uniform
+15/01/2018 07:17:51 PM - INFO - hidden_layers: [5, 5, 5, 5, 5]
+15/01/2018 07:17:51 PM - INFO - number: 23
